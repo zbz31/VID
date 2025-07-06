@@ -1,0 +1,414 @@
+{
+  "491: Cuerda": {
+    "order": 491,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/8abc3c03-afb3-4958-bc7f-47a337d87474/2.mp4",
+      "frame": "https://cdn.midjourney.com/258e769f-e4a6-4477-b6c9-5a8aec1f8f25/0_3.png",
+      "text": "Estás en una zona abierta con hierba alta y resistente. La madera es escasa, pero el viento trae semillas de esparto, avena y juncos.<br><br>\nSi consigues trenzarla bien, podrías hacer una cuerda de más de un metro. ¿Será suficiente para atar una lanza o colgar una carga?<br><br>\n¿Podrás trenzar hierba larga hasta crear una cuerda útil y fuerte?",
+      "options": [
+        {
+          "label": "Empezar",
+          "next": "recolectarHierbaLarga",
+          "successMsg": "Comienzas a recolectar las plantas más largas y flexibles..."
+        }
+      ]
+    },
+    "recolectarHierbaLarga": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_3.png",
+      "text": "1. Hay muchos tallos largos. ¿Cuáles eliges?",
+      "options": [
+        {
+          "label": "Hierba verde, delgada y elástica de más de 60 cm",
+          "next": "prepararTallos",
+          "successMsg": "Perfecta para torsión. No se quiebra al doblar."
+        },
+        {
+          "label": "Hierba seca y dorada al sol",
+          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente."
+        },
+        {
+          "label": "Cañas duras y gruesas",
+          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar."
+        },
+        {
+          "label": "Hierba aplastada y podrida en la base",
+          "failMsg": "Está húmeda y débil. Se deshace al tocarla."
+        }
+      ]
+    },
+    "prepararTallos": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_2.png",
+      "text": "2. ¿Cómo preparas los tallos para trenzarlos?",
+      "options": [
+        {
+          "label": "Los humedezco un poco y los aliso en haces paralelos",
+          "next": "separarFibras",
+          "successMsg": "Quedan flexibles y manejables para girar sin romperse."
+        },
+        {
+          "label": "Los dejo al sol directo para que se sequen",
+          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer."
+        },
+        {
+          "label": "Los agrupo sin orden para avanzar más rápido",
+          "failMsg": "No hay tensión interna. Se deshace con facilidad."
+        }
+      ]
+    },
+    "separarFibras": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_1.png",
+      "text": "3. Antes de trenzar, examinas las fibras. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Separas suavemente los filamentos más largos y flexibles",
+          "next": "iniciarTorsion",
+          "successMsg": "Buena decisión. Eso mejora la torsión y resistencia."
+        },
+        {
+          "label": "Trenzas todo tal como está",
+          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular."
+        },
+        {
+          "label": "Recortas los extremos desiguales con una piedra",
+          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil."
+        },
+        {
+          "label": "Enrollas los haces en sí mismos sin separar nada",
+          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión."
+        }
+      ]
+    },
+    "iniciarTorsion": {
+      "bg": "https://cdn.midjourney.com/05a87a53-1224-47a3-960e-e4e73678cfd6/0_1.png",
+      "text": "4. Tienes dos haces de hierba larga. ¿Cómo comienzas a formar la cuerda de forma segura y duradera?",
+      "options": [
+        {
+          "label": "Giras un manojo en sentido horario y otro antihorario, luego los cruzas sobre sí mismos",
+          "next": "extenderCuerda",
+          "successMsg": "La torsión opuesta crea tensión y se traba sola. Bien hecho."
+        },
+        {
+          "label": "Enrollas ambos haces en la misma dirección y los unes",
+          "failMsg": "No generan tensión. Se abren al menor esfuerzo."
+        },
+        {
+          "label": "Haces un nudo inicial y trenzas desde ahí",
+          "failMsg": "El nudo se desliza y la cuerda no se sostiene."
+        }
+      ]
+    },
+    "extenderCuerda": {
+      "bg": "https://cdn.midjourney.com/3fb3c6e5-d1d1-43a0-8dc4-7b987494c0da/0_1.png",
+      "text": "5. Ya tienes unos 40 cm. ¿Cómo la haces más larga?",
+      "options": [
+        {
+          "label": "Vas añadiendo nuevos tallos al ritmo del giro, manteniendo la tensión",
+          "next": "reforzarJuntas",
+          "successMsg": "Buena técnica. La cuerda puede crecer sin perder fuerza."
+        },
+        {
+          "label": "Alineo bien los extremos húmedos y los presiono con firmeza hasta que se adhieren",
+          "failMsg": "Parece estable, pero se separan al secarse o al tirar."
+        },
+        {
+          "label": "Los inserto sin ajustar demasiado, dejando que se mezclen solos",
+          "failMsg": "Parece funcionar, pero se deslizan con el uso."
+        }
+      ]
+    },
+    "reforzarJuntas": {
+      "bg": "https://cdn.midjourney.com/3934e7eb-6bf9-49b2-b2fc-911022214b5e/0_1.png",
+      "text": "6. ¿Cómo aseguras los puntos de unión?",
+      "options": [
+        {
+          "label": "Enrollo fibras delgadas sobre la unión mientras mantengo la torsión",
+          "next": "probarResistencia",
+          "successMsg": "Refuerzas sin aplastar. Se mantiene resistente.",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
+        },
+        {
+          "label": "Compacto las uniones con una piedra plana para que ocupen menos espacio",
+          "failMsg": "Debilitas la tracción sin querer. No es buena idea."
+        },
+        {
+          "label": "Dejo un mechón suelto por si necesito ajustar luego",
+          "failMsg": "Ese cabo se convierte en punto débil. Se desenrolla lentamente."
+        }
+      ]
+    },
+    "probarResistencia": {
+      "bg": "https://cdn.midjourney.com/7864d003-311f-49b0-a2f3-6d5dca27dc76/0_0.png",
+      "text": "7. ¿Cómo pruebas la fuerza de la cuerda?",
+      "options": [
+        {
+          "label": "Cuelgo una piedra mediana atada al extremo",
+          "next": "mejorarAgarre",
+          "successMsg": "Resiste bien. Prueba superada."
+        },
+        {
+          "label": "La uso como cinturón para probar tensión",
+          "failMsg": "Se estira y se afloja con el movimiento."
+        },
+        {
+          "label": "La arrastro por el suelo con un palo",
+          "failMsg": "Fricción constante daña las fibras. Mala prueba."
+        }
+      ]
+    },
+    "mejorarAgarre": {
+      "bg": "https://cdn.midjourney.com/cfcb3a8c-68d1-4e03-af68-fc2a868ee65b/0_2.png",
+      "text": "8. El extremo se deshace un poco. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Hago un nudo simple y lo envuelvo con más fibras secas",
+          "next": "guardarCuerda",
+          "successMsg": "Buen remate. El nudo se mantiene firme."
+        },
+        {
+          "label": "Envuelvo el extremo en hojas frescas",
+          "failMsg": "La humedad afloja las fibras. No dura mucho."
+        },
+        {
+          "label": "Lo dejo suelto para poder usarlo más adelante",
+          "failMsg": "Se empieza a deshacer sin que lo notes."
+        }
+      ]
+    },
+    "guardarCuerda": {
+      "bg": "https://cdn.midjourney.com/63a9ccd0-dd5b-4ca2-bcd7-37db70e8c2be/0_0.png",
+      "text": "9. ¿Dónde guardas la cuerda para que dure?",
+      "options": [
+        {
+          "label": "La cuelgo en un lugar seco y ventilado dentro del refugio",
+          "next": "final",
+          "successMsg": "Perfecto. Se mantiene intacta."
+        },
+        {
+          "label": "La dejo en un rincón fresco y cerrado junto a hojas húmedas",
+          "failMsg": "La humedad acumulada acelera el deterioro."
+        },
+        {
+          "label": "La dejo enrollada al aire libre toda la noche",
+          "failMsg": "La humedad nocturna la reblandece lentamente."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/2335eafd-4362-4384-86bb-52bd0fe0ebdb/0_0.png",
+      "text": "¡Éxito! Has creado una cuerda de más de un metro con hierba larga. Lista para atar, colgar o cazar. 🪢🌾",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "next": "intro",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras."
+        }
+      ]
+    }
+  },
+  "492: Espejo": {
+    "order": 492,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/8abc3c03-afb3-4958-bc7f-47a337d87474/2.mp4",
+      "frame": "https://cdn.midjourney.com/258e769f-e4a6-4477-b6c9-5a8aec1f8f25/0_3.png",
+      "text": "Estás en una zona abierta con hierba alta y resistente. La madera es escasa, pero el viento trae semillas de esparto, avena y juncos.<br><br>\nSi consigues trenzarla bien, podrías hacer una cuerda de más de un metro. ¿Será suficiente para atar una lanza o colgar una carga?<br><br>\n¿Podrás trenzar hierba larga hasta crear una cuerda útil y fuerte?",
+      "options": [
+        {
+          "label": "Empezar",
+          "next": "recolectarHierbaLarga",
+          "successMsg": "Comienzas a recolectar las plantas más largas y flexibles..."
+        }
+      ]
+    },
+    "recolectarHierbaLarga": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_3.png",
+      "text": "1. Hay muchos tallos largos. ¿Cuáles eliges?",
+      "options": [
+        {
+          "label": "Hierba verde, delgada y elástica de más de 60 cm",
+          "next": "prepararTallos",
+          "successMsg": "Perfecta para torsión. No se quiebra al doblar."
+        },
+        {
+          "label": "Hierba seca y dorada al sol",
+          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente."
+        },
+        {
+          "label": "Cañas duras y gruesas",
+          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar."
+        },
+        {
+          "label": "Hierba aplastada y podrida en la base",
+          "failMsg": "Está húmeda y débil. Se deshace al tocarla."
+        }
+      ]
+    },
+    "prepararTallos": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_2.png",
+      "text": "2. ¿Cómo preparas los tallos para trenzarlos?",
+      "options": [
+        {
+          "label": "Los humedezco un poco y los aliso en haces paralelos",
+          "next": "separarFibras",
+          "successMsg": "Quedan flexibles y manejables para girar sin romperse."
+        },
+        {
+          "label": "Los dejo al sol directo para que se sequen",
+          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer."
+        },
+        {
+          "label": "Los agrupo sin orden para avanzar más rápido",
+          "failMsg": "No hay tensión interna. Se deshace con facilidad."
+        }
+      ]
+    },
+    "separarFibras": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_1.png",
+      "text": "3. Antes de trenzar, examinas las fibras. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Separas suavemente los filamentos más largos y flexibles",
+          "next": "iniciarTorsion",
+          "successMsg": "Buena decisión. Eso mejora la torsión y resistencia."
+        },
+        {
+          "label": "Trenzas todo tal como está",
+          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular."
+        },
+        {
+          "label": "Recortas los extremos desiguales con una piedra",
+          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil."
+        },
+        {
+          "label": "Enrollas los haces en sí mismos sin separar nada",
+          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión."
+        }
+      ]
+    },
+    "iniciarTorsion": {
+      "bg": "https://cdn.midjourney.com/05a87a53-1224-47a3-960e-e4e73678cfd6/0_1.png",
+      "text": "4. Tienes dos haces de hierba larga. ¿Cómo comienzas a formar la cuerda de forma segura y duradera?",
+      "options": [
+        {
+          "label": "Giras un manojo en sentido horario y otro antihorario, luego los cruzas sobre sí mismos",
+          "next": "extenderCuerda",
+          "successMsg": "La torsión opuesta crea tensión y se traba sola. Bien hecho."
+        },
+        {
+          "label": "Enrollas ambos haces en la misma dirección y los unes",
+          "failMsg": "No generan tensión. Se abren al menor esfuerzo."
+        },
+        {
+          "label": "Haces un nudo inicial y trenzas desde ahí",
+          "failMsg": "El nudo se desliza y la cuerda no se sostiene."
+        }
+      ]
+    },
+    "extenderCuerda": {
+      "bg": "https://cdn.midjourney.com/3fb3c6e5-d1d1-43a0-8dc4-7b987494c0da/0_1.png",
+      "text": "5. Ya tienes unos 40 cm. ¿Cómo la haces más larga?",
+      "options": [
+        {
+          "label": "Vas añadiendo nuevos tallos al ritmo del giro, manteniendo la tensión",
+          "next": "reforzarJuntas",
+          "successMsg": "Buena técnica. La cuerda puede crecer sin perder fuerza."
+        },
+        {
+          "label": "Alineo bien los extremos húmedos y los presiono con firmeza hasta que se adhieren",
+          "failMsg": "Parece estable, pero se separan al secarse o al tirar."
+        },
+        {
+          "label": "Los inserto sin ajustar demasiado, dejando que se mezclen solos",
+          "failMsg": "Parece funcionar, pero se deslizan con el uso."
+        }
+      ]
+    },
+    "reforzarJuntas": {
+      "bg": "https://cdn.midjourney.com/3934e7eb-6bf9-49b2-b2fc-911022214b5e/0_1.png",
+      "text": "6. ¿Cómo aseguras los puntos de unión?",
+      "options": [
+        {
+          "label": "Enrollo fibras delgadas sobre la unión mientras mantengo la torsión",
+          "next": "probarResistencia",
+          "successMsg": "Refuerzas sin aplastar. Se mantiene resistente.",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
+        },
+        {
+          "label": "Compacto las uniones con una piedra plana para que ocupen menos espacio",
+          "failMsg": "Debilitas la tracción sin querer. No es buena idea."
+        },
+        {
+          "label": "Dejo un mechón suelto por si necesito ajustar luego",
+          "failMsg": "Ese cabo se convierte en punto débil. Se desenrolla lentamente."
+        }
+      ]
+    },
+    "probarResistencia": {
+      "bg": "https://cdn.midjourney.com/7864d003-311f-49b0-a2f3-6d5dca27dc76/0_0.png",
+      "text": "7. ¿Cómo pruebas la fuerza de la cuerda?",
+      "options": [
+        {
+          "label": "Cuelgo una piedra mediana atada al extremo",
+          "next": "mejorarAgarre",
+          "successMsg": "Resiste bien. Prueba superada."
+        },
+        {
+          "label": "La uso como cinturón para probar tensión",
+          "failMsg": "Se estira y se afloja con el movimiento."
+        },
+        {
+          "label": "La arrastro por el suelo con un palo",
+          "failMsg": "Fricción constante daña las fibras. Mala prueba."
+        }
+      ]
+    },
+    "mejorarAgarre": {
+      "bg": "https://cdn.midjourney.com/cfcb3a8c-68d1-4e03-af68-fc2a868ee65b/0_2.png",
+      "text": "8. El extremo se deshace un poco. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Hago un nudo simple y lo envuelvo con más fibras secas",
+          "next": "guardarCuerda",
+          "successMsg": "Buen remate. El nudo se mantiene firme."
+        },
+        {
+          "label": "Envuelvo el extremo en hojas frescas",
+          "failMsg": "La humedad afloja las fibras. No dura mucho."
+        },
+        {
+          "label": "Lo dejo suelto para poder usarlo más adelante",
+          "failMsg": "Se empieza a deshacer sin que lo notes."
+        }
+      ]
+    },
+    "guardarCuerda": {
+      "bg": "https://cdn.midjourney.com/63a9ccd0-dd5b-4ca2-bcd7-37db70e8c2be/0_0.png",
+      "text": "9. ¿Dónde guardas la cuerda para que dure?",
+      "options": [
+        {
+          "label": "La cuelgo en un lugar seco y ventilado dentro del refugio",
+          "next": "final",
+          "successMsg": "Perfecto. Se mantiene intacta."
+        },
+        {
+          "label": "La dejo en un rincón fresco y cerrado junto a hojas húmedas",
+          "failMsg": "La humedad acumulada acelera el deterioro."
+        },
+        {
+          "label": "La dejo enrollada al aire libre toda la noche",
+          "failMsg": "La humedad nocturna la reblandece lentamente."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/2335eafd-4362-4384-86bb-52bd0fe0ebdb/0_0.png",
+      "text": "¡Éxito! Has creado una cuerda de más de un metro con hierba larga. Lista para atar, colgar o cazar. 🪢🌾",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "next": "intro",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras."
+        }
+      ]
+    }
+  }
+}
