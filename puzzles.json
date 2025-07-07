@@ -433,6 +433,7 @@
         },
         {
           "label": "Barro húmedo",
+                    "next": "prepararPigmentos",
                     "successMsg": "Negro intenso para detalles."
         }
       ]
