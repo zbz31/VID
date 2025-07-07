@@ -24,18 +24,15 @@
         },
         {
           "label": "Hierba seca y dorada al sol",
-          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente.",
-          "next": "prepararTallos"
+          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente."
         },
         {
           "label": "Cañas duras y gruesas",
-          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar.",
-          "next": "prepararTallos"
+          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar."
         },
         {
           "label": "Hierba aplastada y podrida en la base",
-          "failMsg": "Está húmeda y débil. Se deshace al tocarla.",
-          "next": "prepararTallos"
+          "failMsg": "Está húmeda y débil. Se deshace al tocarla."
         }
       ]
     },
@@ -50,13 +47,11 @@
         },
         {
           "label": "Los dejo al sol directo para que se sequen",
-          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer.",
-          "next": "separarFibras"
+          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer."
         },
         {
           "label": "Los agrupo sin orden para avanzar más rápido",
-          "failMsg": "No hay tensión interna. Se deshace con facilidad.",
-          "next": "separarFibras"
+          "failMsg": "No hay tensión interna. Se deshace con facilidad."
         }
       ]
     },
@@ -71,18 +66,15 @@
         },
         {
           "label": "Trenzas todo tal como está",
-          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular.",
-          "next": "iniciarTorsion"
+          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular."
         },
         {
           "label": "Recortas los extremos desiguales con una piedra",
-          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil.",
-          "next": "iniciarTorsion"
+          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil."
         },
         {
           "label": "Enrollas los haces en sí mismos sin separar nada",
-          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión.",
-          "next": "iniciarTorsion"
+          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión."
         }
       ]
     },
@@ -97,13 +89,11 @@
         },
         {
           "label": "Enrollas ambos haces en la misma dirección y los unes",
-          "failMsg": "No generan tensión. Se abren al menor esfuerzo.",
-          "next": "extenderCuerda"
+          "failMsg": "No generan tensión. Se abren al menor esfuerzo."
         },
         {
           "label": "Haces un nudo inicial y trenzas desde ahí",
-          "failMsg": "El nudo se desliza y la cuerda no se sostiene.",
-          "next": "extenderCuerda"
+          "failMsg": "El nudo se desliza y la cuerda no se sostiene."
         }
       ]
     },
@@ -118,13 +108,11 @@
         },
         {
           "label": "Alineo bien los extremos húmedos y los presiono con firmeza hasta que se adhieren",
-          "failMsg": "Parece estable, pero se separan al secarse o al tirar.",
-          "next": "reforzarJuntas"
+          "failMsg": "Parece estable, pero se separan al secarse o al tirar."
         },
         {
           "label": "Los inserto sin ajustar demasiado, dejando que se mezclen solos",
-          "failMsg": "Parece funcionar, pero se deslizan con el uso.",
-          "next": "reforzarJuntas"
+          "failMsg": "Parece funcionar, pero se deslizan con el uso."
         }
       ]
     },
@@ -141,13 +129,11 @@
         {
           "label": "Compacto las uniones con una piedra plana para que ocupen menos espacio",
           "failMsg": "Debilitas la tracción sin querer. No es buena idea.",
-          "next": "probarResistencia",
           "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
         },
         {
           "label": "Dejo un mechón suelto por si necesito ajustar luego",
           "failMsg": "Ese cabo se convierte en punto débil. Se desenrolla lentamente.",
-          "next": "probarResistencia",
           "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
         }
       ]
@@ -163,13 +149,11 @@
         },
         {
           "label": "La uso como cinturón para probar tensión",
-          "failMsg": "Se estira y se afloja con el movimiento.",
-          "next": "mejorarAgarre"
+          "failMsg": "Se estira y se afloja con el movimiento."
         },
         {
           "label": "La arrastro por el suelo con un palo",
-          "failMsg": "Fricción constante daña las fibras. Mala prueba.",
-          "next": "mejorarAgarre"
+          "failMsg": "Fricción constante daña las fibras. Mala prueba."
         }
       ]
     },
@@ -184,13 +168,11 @@
         },
         {
           "label": "Envuelvo el extremo en hojas frescas",
-          "failMsg": "La humedad afloja las fibras. No dura mucho.",
-          "next": "guardarCuerda"
+          "failMsg": "La humedad afloja las fibras. No dura mucho."
         },
         {
           "label": "Lo dejo suelto para poder usarlo más adelante",
-          "failMsg": "Se empieza a deshacer sin que lo notes.",
-          "next": "guardarCuerda"
+          "failMsg": "Se empieza a deshacer sin que lo notes."
         }
       ]
     },
@@ -205,13 +187,11 @@
         },
         {
           "label": "La dejo en un rincón fresco y cerrado junto a hojas húmedas",
-          "failMsg": "La humedad acumulada acelera el deterioro.",
-          "next": "final"
+          "failMsg": "La humedad acumulada acelera el deterioro."
         },
         {
           "label": "La dejo enrollada al aire libre toda la noche",
-          "failMsg": "La humedad nocturna la reblandece lentamente.",
-          "next": "final"
+          "failMsg": "La humedad nocturna la reblandece lentamente."
         }
       ]
     },
@@ -254,13 +234,11 @@
         {
           "label": "Granito",
           "failMsg": "Es rugoso y opaco. No sirve para reflejar.",
-          "next": "fragmentar",
           "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         },
         {
           "label": "Caliza blanca",
           "failMsg": "Demasiado clara y porosa. Refleja mal.",
-          "next": "fragmentar",
           "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         }
       ]
@@ -278,7 +256,6 @@
         {
           "label": "Frotándolo contra el suelo",
           "failMsg": "No funciona. No se rompe adecuadamente.",
-          "next": "seleccionarFragmento",
           "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
         }
       ]
@@ -294,13 +271,11 @@
         },
         {
           "label": "El más brillante pero curvo",
-          "failMsg": "Distorsiona la imagen. Mala elección.",
-          "next": "prepararArena"
+          "failMsg": "Distorsiona la imagen. Mala elección."
         },
         {
           "label": "Uno con vetas blancas",
-          "failMsg": "Interfiere con el reflejo.",
-          "next": "prepararArena"
+          "failMsg": "Interfiere con el reflejo."
         }
       ]
     },
@@ -315,13 +290,11 @@
         },
         {
           "label": "Ceniza y barro",
-          "failMsg": "Esa mezcla ensucia, no pule.",
-          "next": "elegirSuperficie"
+          "failMsg": "Esa mezcla ensucia, no pule."
         },
         {
           "label": "Polvo de madera",
-          "failMsg": "No tiene poder abrasivo.",
-          "next": "elegirSuperficie"
+          "failMsg": "No tiene poder abrasivo."
         }
       ]
     },
@@ -336,13 +309,11 @@
         },
         {
           "label": "Sobre una hoja grande",
-          "failMsg": "Demasiado frágil. No soporta la fricción.",
-          "next": "tecnicaPulido"
+          "failMsg": "Demasiado frágil. No soporta la fricción."
         },
         {
           "label": "En la palma de tu mano",
-          "failMsg": "Dañino y poco eficaz.",
-          "next": "tecnicaPulido"
+          "failMsg": "Dañino y poco eficaz."
         }
       ]
     },
@@ -357,13 +328,11 @@
         },
         {
           "label": "Golpearlo repetidamente",
-          "failMsg": "Se rompe. Ya no sirve.",
-          "next": "proteger"
+          "failMsg": "Se rompe. Ya no sirve."
         },
         {
           "label": "Frotar muy suave sin presión",
-          "failMsg": "Insuficiente para pulir.",
-          "next": "proteger"
+          "failMsg": "Insuficiente para pulir."
         }
       ]
     },
@@ -378,13 +347,11 @@
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin.",
-          "next": "proteger2"
+          "failMsg": "El calor lo fractura. Fin."
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin.",
-          "next": "proteger2"
+          "failMsg": "Se llena de polvo y se raya. Fin."
         }
       ]
     },
@@ -404,8 +371,7 @@
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin.",
-          "next": "proteger3"
+          "failMsg": "Se llena de polvo y se raya. Fin."
         }
       ]
     },
@@ -420,13 +386,11 @@
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin.",
-          "next": "final"
+          "failMsg": "El calor lo fractura. Fin."
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin.",
-          "next": "final"
+          "failMsg": "Se llena de polvo y se raya. Fin."
         }
       ]
     },
@@ -469,13 +433,11 @@
         {
           "label": "Granito",
           "failMsg": "Es rugoso y opaco. No sirve para reflejar.",
-          "next": "fragmentar",
           "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         },
         {
           "label": "Caliza blanca",
           "failMsg": "Demasiado clara y porosa. Refleja mal.",
-          "next": "fragmentar",
           "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         }
       ]
@@ -493,7 +455,6 @@
         {
           "label": "Frotándolo contra el suelo",
           "failMsg": "No funciona. No se rompe adecuadamente.",
-          "next": "seleccionarFragmento",
           "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
         }
       ]
@@ -509,13 +470,11 @@
         },
         {
           "label": "El más brillante pero curvo",
-          "failMsg": "Distorsiona la imagen. Mala elección.",
-          "next": "prepararArena"
+          "failMsg": "Distorsiona la imagen. Mala elección."
         },
         {
           "label": "Uno con vetas blancas",
-          "failMsg": "Interfiere con el reflejo.",
-          "next": "prepararArena"
+          "failMsg": "Interfiere con el reflejo."
         }
       ]
     },
@@ -530,13 +489,11 @@
         },
         {
           "label": "Ceniza y barro",
-          "failMsg": "Esa mezcla ensucia, no pule.",
-          "next": "elegirSuperficie"
+          "failMsg": "Esa mezcla ensucia, no pule."
         },
         {
           "label": "Polvo de madera",
-          "failMsg": "No tiene poder abrasivo.",
-          "next": "elegirSuperficie"
+          "failMsg": "No tiene poder abrasivo."
         }
       ]
     },
@@ -551,13 +508,11 @@
         },
         {
           "label": "Sobre una hoja grande",
-          "failMsg": "Demasiado frágil. No soporta la fricción.",
-          "next": "tecnicaPulido"
+          "failMsg": "Demasiado frágil. No soporta la fricción."
         },
         {
           "label": "En la palma de tu mano",
-          "failMsg": "Dañino y poco eficaz.",
-          "next": "tecnicaPulido"
+          "failMsg": "Dañino y poco eficaz."
         }
       ]
     },
@@ -572,13 +527,11 @@
         },
         {
           "label": "Golpearlo repetidamente",
-          "failMsg": "Se rompe. Ya no sirve.",
-          "next": "proteger"
+          "failMsg": "Se rompe. Ya no sirve."
         },
         {
           "label": "Frotar muy suave sin presión",
-          "failMsg": "Insuficiente para pulir.",
-          "next": "proteger"
+          "failMsg": "Insuficiente para pulir."
         }
       ]
     },
@@ -593,13 +546,11 @@
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin.",
-          "next": "proteger2"
+          "failMsg": "El calor lo fractura. Fin."
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin.",
-          "next": "proteger2"
+          "failMsg": "Se llena de polvo y se raya. Fin."
         }
       ]
     },
@@ -614,13 +565,11 @@
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin.",
-          "next": "proteger3"
+          "failMsg": "El calor lo fractura. Fin."
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin.",
-          "next": "proteger3"
+          "failMsg": "Se llena de polvo y se raya. Fin."
         }
       ]
     },
@@ -635,13 +584,11 @@
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin.",
-          "next": "final"
+          "failMsg": "El calor lo fractura. Fin."
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin.",
-          "next": "final"
+          "failMsg": "Se llena de polvo y se raya. Fin."
         }
       ]
     },
