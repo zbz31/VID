@@ -420,185 +420,205 @@
         }
       ]
     },
-    "elegirMaterial": {
-      "bg": "https://cdn.midjourney.com/4752aa53-dda4-469b-a736-adfb459d364b/0_0.png",
-      "text": "1. Encuentras varios tipos de piedra. ¿Cuál eliges para el espejo?",
+    "buscarPigmentos": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "1. ¿Dónde buscas pigmentos naturales?",
       "options": [
         {
-          "label": "Obsidiana",
-          "successMsg": "Es naturalmente brillante. Ideal si se pule bien.",
-          "next": "fragmentar",
-          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
+          "label": "Arcillas rojizas cerca del río",
+          "successMsg": "El ocre rojo es abundante y duradero.",
+          "next": "prepararPigmentos"
         },
         {
-          "label": "Granito",
-          "failMsg": "Es rugoso y opaco. No sirve para reflejar.",
-          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
+          "label": "Arena amarilla de la llanura",
+          "failMsg": "No tiene color suficiente para pintar."
         },
         {
-          "label": "Caliza blanca",
-          "failMsg": "Demasiado clara y porosa. Refleja mal.",
-          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
+          "label": "Barro húmedo",
+          "failMsg": "No seca ni fija bien."
+        },
+        {
+          "label": "Ceniza",
+          "failMsg": "No se adhiere a la roca."
         }
       ]
     },
-    "fragmentar": {
-      "bg": "https://cdn.midjourney.com/7c76cdf5-212d-47f2-8a5a-8b9c54629841/0_3.png",
-      "text": "2. Tienes un trozo de obsidiana. ¿Cómo lo fragmentas?",
+    "prepararPigmento": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "2. ¿Cómo preparas el pigmento para pintar?",
       "options": [
         {
-          "label": "Golpeándolo con una piedra más dura",
-          "successMsg": "Obtienes fragmentos afilados y planos. Perfecto.",
-          "next": "seleccionarFragmento",
-          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
+          "label": "Molido fino",
+          "successMsg": "Buena mezcla para aplicar en piedra.",
+          "next": "agenteAdherente"
         },
         {
-          "label": "Frotándolo contra el suelo",
-          "failMsg": "No funciona. No se rompe adecuadamente.",
-          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
+          "label": "Molido grueso",
+          "failMsg": "No se adhiere bien ni pinta uniformemente."
+        },
+        {
+          "label": "Mezclado con barro húmedo",
+          "failMsg": "No es adecuado, mancha y se despega."
         }
       ]
     },
-    "seleccionarFragmento": {
-      "bg": "https://cdn.midjourney.com/08978d23-69a5-4ba4-abd9-17af309e32b5/0_1.png",
-      "text": "3. Tienes varios fragmentos de obsidiana. ¿Cuál eliges para pulir?",
+    "mezclarAgente": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "3. ¿Qué agente mezclas con el pigmento para que se adhiera mejor?",
       "options": [
         {
-          "label": "El más plano y oscuro",
-          "successMsg": "Es el más adecuado para reflejar bien con pulido.",
-          "next": "prepararArena"
-        },
-        {
-          "label": "El más brillante pero curvo",
-          "failMsg": "Distorsiona la imagen. Mala elección."
-        },
-        {
-          "label": "Uno con vetas blancas",
-          "failMsg": "Interfiere con el reflejo."
-        }
-      ]
-    },
-    "prepararArena": {
-      "bg": "https://cdn.midjourney.com/104b4cc5-39bb-4247-9cdb-1d57a9429f5b/0_3.png",
-      "text": "4. Necesitas un abrasivo para el pulido. ¿Qué usas?",
-      "options": [
-        {
-          "label": "Arena fina mezclada con agua",
-          "successMsg": "Has creado una pasta abrasiva perfecta.",
+          "label": "Agua del río",
+          "successMsg": "Pintura fluida pero menos duradera.",
           "next": "elegirSuperficie"
         },
         {
-          "label": "Ceniza y barro",
-          "failMsg": "Esa mezcla ensucia, no pule."
+          "label": "Grasa de animal",
+          "successMsg": "Pintura resistente y duradera.",
+          "next": "elegirSuperficie"
         },
         {
-          "label": "Polvo de madera",
-          "failMsg": "No tiene poder abrasivo."
+          "label": "Saliva",
+          "failMsg": "Poco adherente, se desprende rápido."
         }
       ]
     },
     "elegirSuperficie": {
-      "bg": "https://cdn.midjourney.com/9a9c30f0-ef1d-428f-9358-b7a9ef7d9787/0_1.png",
-      "text": "5. ¿Dónde aplicarás la arena para pulir?",
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "4. ¿Dónde pintarás tu dibujo?",
       "options": [
         {
-          "label": "Sobre una piedra plana",
-          "successMsg": "Muy bien. Funciona como mesa de pulido natural.",
-          "next": "tecnicaPulido"
+          "label": "Pared de piedra caliza",
+          "successMsg": "Perfecta para que el pigmento se adhiera.",
+          "next": "limpiarSuperficie"
         },
         {
-          "label": "Sobre una hoja grande",
-          "failMsg": "Demasiado frágil. No soporta la fricción."
+          "label": "Roca rugosa y porosa",
+          "failMsg": "Se pierde el dibujo por la textura."
         },
         {
-          "label": "En la palma de tu mano",
-          "failMsg": "Dañino y poco eficaz."
+          "label": "Piedra con musgo",
+          "failMsg": "No se adhiere bien y se desgasta rápido."
+        },
+        {
+          "label": "Pared de arena compactada",
+          "failMsg": "Se deshace con facilidad."
         }
       ]
     },
-    "tecnicaPulido": {
-      "bg": "https://cdn.midjourney.com/07f11347-f64e-40b8-8938-83b263dee59c/0_3.png",
-      "text": "6. Has puesto arena sobre la piedra. ¿Cómo pulirás el fragmento?",
+    "limpiarSuperficie": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "5. ¿Cómo preparas la superficie para pintar?",
       "options": [
         {
-          "label": "Frotar en círculos con presión constante",
-          "successMsg": "Desgasta lentamente la superficie. Bien hecho.",
+          "label": "Limpiar con hojas secas",
+          "successMsg": "Superficie lista y limpia.",
+          "next": "pintar"
+        },
+        {
+          "label": "Frotar con arena",
+          "successMsg": "Elimina polvo y suciedad.",
+          "next": "pintar"
+        },
+        {
+          "label": "Raspar con piedra",
+          "failMsg": "Riesgo de dañar la superficie."
+        }
+      ]
+    },
+    "pintar": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "6. ¿Qué técnica usas para pintar?",
+      "options": [
+        {
+          "label": "Pintar con los dedos",
+          "successMsg": "Permite control y detalle.",
+          "next": "secado"
+        },
+        {
+          "label": "Usar un pincel de ramitas",
+          "successMsg": "Más precisión en detalles.",
+          "next": "secado"
+        },
+        {
+          "label": "Lanzar pigmento en seco",
+          "failMsg": "Se pierde y no se fija."
+        }
+      ]
+    },
+    "secado": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "7. ¿Dónde dejas secar tu pintura?",
+      "options": [
+        {
+          "label": "En sombra, sin viento",
+          "successMsg": "Secado lento, evita agrietarse.",
           "next": "proteger"
         },
         {
-          "label": "Golpearlo repetidamente",
-          "failMsg": "Se rompe. Ya no sirve."
+          "label": "Al sol directo",
+          "failMsg": "Se agrieta y pierde color."
         },
         {
-          "label": "Frotar muy suave sin presión",
-          "failMsg": "Insuficiente para pulir."
+          "label": "En lugar húmedo",
+          "failMsg": "Se moja y pierde pigmento."
+        },
+        {
+          "label": "En la oscuridad total",
+          "failMsg": "No seca correctamente."
         }
       ]
     },
     "proteger": {
-      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
-      "text": "7. Has creado tu espejo. ¿Cómo lo proteges?",
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "8. ¿Cómo proteges la pintura ya seca?",
       "options": [
         {
-          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
-          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
-          "next": "proteger2"
+          "label": "Cubrir con hojas secas",
+          "successMsg": "Protección natural contra lluvia y polvo.",
+          "next": "revisarEstado"
         },
         {
-          "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin."
+          "label": "Rociar con grasa animal",
+          "successMsg": "Impermeabiliza y conserva el color.",
+          "next": "revisarEstado"
         },
         {
-          "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin."
+          "label": "Cubrir con barro húmedo",
+          "failMsg": "Arruina la pintura."
+        },
+        {
+          "label": "Frotar con piedra",
+          "failMsg": "Se desgasta y borra el dibujo."
         }
       ]
     },
-    "proteger2": {
-      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
-      "text": "8. Has creado tu espejo. ¿Cómo lo proteges?",
+    "explorarOtrosColores": {
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "9. Quieres añadir más colores al dibujo para hacerlo más vistoso. ¿Dónde buscas y cómo preparas otros pigmentos?",
       "options": [
         {
-          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
-          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
-          "next": "proteger3"
-        },
-        {
-          "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin."
-        },
-        {
-          "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin."
-        }
-      ]
-    },
-    "proteger3": {
-      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
-      "text": "9. Has creado tu espejo. ¿Cómo lo proteges?",
-      "options": [
-        {
-          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
-          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "label": "Usar plantas y bayas trituradas para crear pigmentos",
+          "successMsg": "Las bayas aportan colores vivos, pero son menos duraderas.",
           "next": "final"
         },
         {
-          "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin."
+          "label": "Carbón de ramas quemadas",
+          "successMsg": "Negro intenso para detalles.",
+          "next": "final"
         },
         {
-          "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin."
+          "label": "Probar con cenizas mezcladas con barro",
+          "failMsg": "El resultado es grisáceo y poco vistoso."
         }
       ]
     },
     "final": {
-      "bg": "https://cdn.midjourney.com/aa339282-7af9-4040-bab7-e2d9f32bd43d/0_3.png",
-      "text": "¡Éxito! Has fabricado un espejo pulido con arena y piedra. Por primera vez, ves tu reflejo nítido. 🪞",
+      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "¡Éxito! Has creado un dibujo de piedra con varios pigmentos naturales que perdura en el tiempo.<br><br>Tu arte puede contar historias para las futuras generaciones.",
       "options": [
         {
           "label": "Volver a empezar",
-          "successMsg": "Puedes reiniciar el proceso cuando quieras.",
+          "successMsg": "Puedes intentar otro método cuando quieras.",
           "next": "intro"
         }
       ]
