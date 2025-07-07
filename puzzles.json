@@ -1,6 +1,6 @@
 ﻿{
-  "3: Cuerda": {
-    "order": 3,
+  "491: Cuerda": {
+    "order": 491,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/8abc3c03-afb3-4958-bc7f-47a337d87474/2.mp4",
       "frame": "https://cdn.midjourney.com/258e769f-e4a6-4477-b6c9-5a8aec1f8f25/0_3.png",
@@ -8,8 +8,8 @@
       "options": [
         {
           "label": "Empezar",
-          "next": "recolectarHierbaLarga",
-          "successMsg": "Comienzas a recolectar las plantas más largas y flexibles..."
+          "successMsg": "Comienzas a recolectar las plantas más largas y flexibles...",
+          "next": "recolectarHierbaLarga"
         }
       ]
     },
@@ -19,20 +19,23 @@
       "options": [
         {
           "label": "Hierba verde, delgada y elástica de más de 60 cm",
-          "next": "prepararTallos",
-          "successMsg": "Perfecta para torsión. No se quiebra al doblar."
+          "successMsg": "Perfecta para torsión. No se quiebra al doblar.",
+          "next": "prepararTallos"
         },
         {
           "label": "Hierba seca y dorada al sol",
-          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente."
+          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente.",
+          "next": "prepararTallos"
         },
         {
           "label": "Cañas duras y gruesas",
-          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar."
+          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar.",
+          "next": "prepararTallos"
         },
         {
           "label": "Hierba aplastada y podrida en la base",
-          "failMsg": "Está húmeda y débil. Se deshace al tocarla."
+          "failMsg": "Está húmeda y débil. Se deshace al tocarla.",
+          "next": "prepararTallos"
         }
       ]
     },
@@ -42,16 +45,18 @@
       "options": [
         {
           "label": "Los humedezco un poco y los aliso en haces paralelos",
-          "next": "separarFibras",
-          "successMsg": "Quedan flexibles y manejables para girar sin romperse."
+          "successMsg": "Quedan flexibles y manejables para girar sin romperse.",
+          "next": "separarFibras"
         },
         {
           "label": "Los dejo al sol directo para que se sequen",
-          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer."
+          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer.",
+          "next": "separarFibras"
         },
         {
           "label": "Los agrupo sin orden para avanzar más rápido",
-          "failMsg": "No hay tensión interna. Se deshace con facilidad."
+          "failMsg": "No hay tensión interna. Se deshace con facilidad.",
+          "next": "separarFibras"
         }
       ]
     },
@@ -61,20 +66,23 @@
       "options": [
         {
           "label": "Separas suavemente los filamentos más largos y flexibles",
-          "next": "iniciarTorsion",
-          "successMsg": "Buena decisión. Eso mejora la torsión y resistencia."
+          "successMsg": "Buena decisión. Eso mejora la torsión y resistencia.",
+          "next": "iniciarTorsion"
         },
         {
           "label": "Trenzas todo tal como está",
-          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular."
+          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular.",
+          "next": "iniciarTorsion"
         },
         {
           "label": "Recortas los extremos desiguales con una piedra",
-          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil."
+          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil.",
+          "next": "iniciarTorsion"
         },
         {
           "label": "Enrollas los haces en sí mismos sin separar nada",
-          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión."
+          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión.",
+          "next": "iniciarTorsion"
         }
       ]
     },
@@ -84,16 +92,18 @@
       "options": [
         {
           "label": "Giras un manojo en sentido horario y otro antihorario, luego los cruzas sobre sí mismos",
-          "next": "extenderCuerda",
-          "successMsg": "La torsión opuesta crea tensión y se traba sola. Bien hecho."
+          "successMsg": "La torsión opuesta crea tensión y se traba sola. Bien hecho.",
+          "next": "extenderCuerda"
         },
         {
           "label": "Enrollas ambos haces en la misma dirección y los unes",
-          "failMsg": "No generan tensión. Se abren al menor esfuerzo."
+          "failMsg": "No generan tensión. Se abren al menor esfuerzo.",
+          "next": "extenderCuerda"
         },
         {
           "label": "Haces un nudo inicial y trenzas desde ahí",
-          "failMsg": "El nudo se desliza y la cuerda no se sostiene."
+          "failMsg": "El nudo se desliza y la cuerda no se sostiene.",
+          "next": "extenderCuerda"
         }
       ]
     },
@@ -103,16 +113,18 @@
       "options": [
         {
           "label": "Vas añadiendo nuevos tallos al ritmo del giro, manteniendo la tensión",
-          "next": "reforzarJuntas",
-          "successMsg": "Buena técnica. La cuerda puede crecer sin perder fuerza."
+          "successMsg": "Buena técnica. La cuerda puede crecer sin perder fuerza.",
+          "next": "reforzarJuntas"
         },
         {
           "label": "Alineo bien los extremos húmedos y los presiono con firmeza hasta que se adhieren",
-          "failMsg": "Parece estable, pero se separan al secarse o al tirar."
+          "failMsg": "Parece estable, pero se separan al secarse o al tirar.",
+          "next": "reforzarJuntas"
         },
         {
           "label": "Los inserto sin ajustar demasiado, dejando que se mezclen solos",
-          "failMsg": "Parece funcionar, pero se deslizan con el uso."
+          "failMsg": "Parece funcionar, pero se deslizan con el uso.",
+          "next": "reforzarJuntas"
         }
       ]
     },
@@ -122,17 +134,21 @@
       "options": [
         {
           "label": "Enrollo fibras delgadas sobre la unión mientras mantengo la torsión",
-          "next": "probarResistencia",
           "successMsg": "Refuerzas sin aplastar. Se mantiene resistente.",
+          "next": "probarResistencia",
           "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
         },
         {
           "label": "Compacto las uniones con una piedra plana para que ocupen menos espacio",
-          "failMsg": "Debilitas la tracción sin querer. No es buena idea."
+          "failMsg": "Debilitas la tracción sin querer. No es buena idea.",
+          "next": "probarResistencia",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
         },
         {
           "label": "Dejo un mechón suelto por si necesito ajustar luego",
-          "failMsg": "Ese cabo se convierte en punto débil. Se desenrolla lentamente."
+          "failMsg": "Ese cabo se convierte en punto débil. Se desenrolla lentamente.",
+          "next": "probarResistencia",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
         }
       ]
     },
@@ -142,16 +158,18 @@
       "options": [
         {
           "label": "Cuelgo una piedra mediana atada al extremo",
-          "next": "mejorarAgarre",
-          "successMsg": "Resiste bien. Prueba superada."
+          "successMsg": "Resiste bien. Prueba superada.",
+          "next": "mejorarAgarre"
         },
         {
           "label": "La uso como cinturón para probar tensión",
-          "failMsg": "Se estira y se afloja con el movimiento."
+          "failMsg": "Se estira y se afloja con el movimiento.",
+          "next": "mejorarAgarre"
         },
         {
           "label": "La arrastro por el suelo con un palo",
-          "failMsg": "Fricción constante daña las fibras. Mala prueba."
+          "failMsg": "Fricción constante daña las fibras. Mala prueba.",
+          "next": "mejorarAgarre"
         }
       ]
     },
@@ -161,16 +179,18 @@
       "options": [
         {
           "label": "Hago un nudo simple y lo envuelvo con más fibras secas",
-          "next": "guardarCuerda",
-          "successMsg": "Buen remate. El nudo se mantiene firme."
+          "successMsg": "Buen remate. El nudo se mantiene firme.",
+          "next": "guardarCuerda"
         },
         {
           "label": "Envuelvo el extremo en hojas frescas",
-          "failMsg": "La humedad afloja las fibras. No dura mucho."
+          "failMsg": "La humedad afloja las fibras. No dura mucho.",
+          "next": "guardarCuerda"
         },
         {
           "label": "Lo dejo suelto para poder usarlo más adelante",
-          "failMsg": "Se empieza a deshacer sin que lo notes."
+          "failMsg": "Se empieza a deshacer sin que lo notes.",
+          "next": "guardarCuerda"
         }
       ]
     },
@@ -180,16 +200,18 @@
       "options": [
         {
           "label": "La cuelgo en un lugar seco y ventilado dentro del refugio",
-          "next": "final",
-          "successMsg": "Perfecto. Se mantiene intacta."
+          "successMsg": "Perfecto. Se mantiene intacta.",
+          "next": "final"
         },
         {
           "label": "La dejo en un rincón fresco y cerrado junto a hojas húmedas",
-          "failMsg": "La humedad acumulada acelera el deterioro."
+          "failMsg": "La humedad acumulada acelera el deterioro.",
+          "next": "final"
         },
         {
           "label": "La dejo enrollada al aire libre toda la noche",
-          "failMsg": "La humedad nocturna la reblandece lentamente."
+          "failMsg": "La humedad nocturna la reblandece lentamente.",
+          "next": "final"
         }
       ]
     },
@@ -199,14 +221,14 @@
       "options": [
         {
           "label": "Volver a empezar",
-          "next": "intro",
-          "successMsg": "Puedes intentarlo de nuevo cuando quieras."
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
+          "next": "intro"
         }
       ]
     }
   },
-  "10: Espejo": {
-    "order": 10,
+  "483: Espejo": {
+    "order": 483,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -214,8 +236,8 @@
       "options": [
         {
           "label": "Empezar",
-          "next": "elegirMaterial",
-          "successMsg": "Empiezas la búsqueda del material ideal..."
+          "successMsg": "Empiezas la búsqueda del material ideal...",
+          "next": "elegirMaterial"
         }
       ]
     },
@@ -225,17 +247,21 @@
       "options": [
         {
           "label": "Obsidiana",
-          "next": "fragmentar",
           "successMsg": "Es naturalmente brillante. Ideal si se pule bien.",
+          "next": "fragmentar",
           "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         },
         {
           "label": "Granito",
-          "failMsg": "Es rugoso y opaco. No sirve para reflejar."
+          "failMsg": "Es rugoso y opaco. No sirve para reflejar.",
+          "next": "fragmentar",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         },
         {
           "label": "Caliza blanca",
-          "failMsg": "Demasiado clara y porosa. Refleja mal."
+          "failMsg": "Demasiado clara y porosa. Refleja mal.",
+          "next": "fragmentar",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         }
       ]
     },
@@ -245,13 +271,15 @@
       "options": [
         {
           "label": "Golpeándolo con una piedra más dura",
-          "next": "seleccionarFragmento",
           "successMsg": "Obtienes fragmentos afilados y planos. Perfecto.",
+          "next": "seleccionarFragmento",
           "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
         },
         {
           "label": "Frotándolo contra el suelo",
-          "failMsg": "No funciona. No se rompe adecuadamente."
+          "failMsg": "No funciona. No se rompe adecuadamente.",
+          "next": "seleccionarFragmento",
+          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
         }
       ]
     },
@@ -261,16 +289,18 @@
       "options": [
         {
           "label": "El más plano y oscuro",
-          "next": "prepararArena",
-          "successMsg": "Es el más adecuado para reflejar bien con pulido."
+          "successMsg": "Es el más adecuado para reflejar bien con pulido.",
+          "next": "prepararArena"
         },
         {
           "label": "El más brillante pero curvo",
-          "failMsg": "Distorsiona la imagen. Mala elección."
+          "failMsg": "Distorsiona la imagen. Mala elección.",
+          "next": "prepararArena"
         },
         {
           "label": "Uno con vetas blancas",
-          "failMsg": "Interfiere con el reflejo."
+          "failMsg": "Interfiere con el reflejo.",
+          "next": "prepararArena"
         }
       ]
     },
@@ -280,16 +310,18 @@
       "options": [
         {
           "label": "Arena fina mezclada con agua",
-          "next": "elegirSuperficie",
-          "successMsg": "Has creado una pasta abrasiva perfecta."
+          "successMsg": "Has creado una pasta abrasiva perfecta.",
+          "next": "elegirSuperficie"
         },
         {
           "label": "Ceniza y barro",
-          "failMsg": "Esa mezcla ensucia, no pule."
+          "failMsg": "Esa mezcla ensucia, no pule.",
+          "next": "elegirSuperficie"
         },
         {
           "label": "Polvo de madera",
-          "failMsg": "No tiene poder abrasivo."
+          "failMsg": "No tiene poder abrasivo.",
+          "next": "elegirSuperficie"
         }
       ]
     },
@@ -299,16 +331,18 @@
       "options": [
         {
           "label": "Sobre una piedra plana",
-          "next": "tecnicaPulido",
-          "successMsg": "Muy bien. Funciona como mesa de pulido natural."
+          "successMsg": "Muy bien. Funciona como mesa de pulido natural.",
+          "next": "tecnicaPulido"
         },
         {
           "label": "Sobre una hoja grande",
-          "failMsg": "Demasiado frágil. No soporta la fricción."
+          "failMsg": "Demasiado frágil. No soporta la fricción.",
+          "next": "tecnicaPulido"
         },
         {
           "label": "En la palma de tu mano",
-          "failMsg": "Dañino y poco eficaz."
+          "failMsg": "Dañino y poco eficaz.",
+          "next": "tecnicaPulido"
         }
       ]
     },
@@ -318,16 +352,18 @@
       "options": [
         {
           "label": "Frotar en círculos con presión constante",
-          "next": "proteger",
-          "successMsg": "Desgasta lentamente la superficie. Bien hecho."
+          "successMsg": "Desgasta lentamente la superficie. Bien hecho.",
+          "next": "proteger"
         },
         {
           "label": "Golpearlo repetidamente",
-          "failMsg": "Se rompe. Ya no sirve."
+          "failMsg": "Se rompe. Ya no sirve.",
+          "next": "proteger"
         },
         {
           "label": "Frotar muy suave sin presión",
-          "failMsg": "Insuficiente para pulir."
+          "failMsg": "Insuficiente para pulir.",
+          "next": "proteger"
         }
       ]
     },
@@ -337,16 +373,18 @@
       "options": [
         {
           "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
-          "next": "proteger2",
-          "successMsg": "Perfecto. Así evitarás roturas o rayaduras."
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "proteger2"
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin."
+          "failMsg": "El calor lo fractura. Fin.",
+          "next": "proteger2"
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin."
+          "failMsg": "Se llena de polvo y se raya. Fin.",
+          "next": "proteger2"
         }
       ]
     },
@@ -356,16 +394,18 @@
       "options": [
         {
           "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
-          "next": "proteger3",
-          "successMsg": "Perfecto. Así evitarás roturas o rayaduras."
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "proteger3"
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin."
+          "successMsg": "Bingo",
+          "next": "proteger3"
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin."
+          "failMsg": "Se llena de polvo y se raya. Fin.",
+          "next": "proteger3"
         }
       ]
     },
@@ -375,16 +415,18 @@
       "options": [
         {
           "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
-          "next": "final",
-          "successMsg": "Perfecto. Así evitarás roturas o rayaduras."
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "final"
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "failMsg": "El calor lo fractura. Fin."
+          "failMsg": "El calor lo fractura. Fin.",
+          "next": "final"
         },
         {
           "label": "Lo entierras",
-          "failMsg": "Se llena de polvo y se raya. Fin."
+          "failMsg": "Se llena de polvo y se raya. Fin.",
+          "next": "final"
         }
       ]
     },
@@ -394,14 +436,14 @@
       "options": [
         {
           "label": "Volver a empezar",
-          "next": "intro",
-          "successMsg": "Puedes reiniciar el proceso cuando quieras."
+          "successMsg": "Puedes reiniciar el proceso cuando quieras.",
+          "next": "intro"
         }
       ]
     }
   },
-  "11: Pinturas": {
-    "order": 11,
+  "499: Pinturas": {
+    "order": 499,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -409,194 +451,208 @@
       "options": [
         {
           "label": "Empezar",
-          "next": "elegirPigmento",
-          "successMsg": "Comienzas la búsqueda del pigmento adecuado..."
+          "successMsg": "Comienzas la búsqueda del pigmento adecuado...",
+          "next": "elegirPigmento"
         }
       ]
     },
-    "buscarPigmentos": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "1. ¿Dónde buscas pigmentos naturales?",
+    "elegirMaterial": {
+      "bg": "https://cdn.midjourney.com/4752aa53-dda4-469b-a736-adfb459d364b/0_0.png",
+      "text": "1. Encuentras varios tipos de piedra. ¿Cuál eliges para el espejo?",
       "options": [
         {
-          "label": "Arcillas rojizas cerca del río",
-          "next": "prepararPigmentos",
-          "successMsg": "Negro intenso para detalles."
+          "label": "Obsidiana",
+          "successMsg": "Es naturalmente brillante. Ideal si se pule bien.",
+          "next": "fragmentar",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         },
         {
-          "label": "Carbón de ramas quemadas",
-          "failMsg": "No tiene color suficiente para pintar."
+          "label": "Granito",
+          "failMsg": "Es rugoso y opaco. No sirve para reflejar.",
+          "next": "fragmentar",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         },
         {
-          "label": "Arena amarilla de la llanura",
-          "failMsg": "No seca ni fija bien."
-        },
-        {
-          "label": "Barro húmedo"
+          "label": "Caliza blanca",
+          "failMsg": "Demasiado clara y porosa. Refleja mal.",
+          "next": "fragmentar",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
         }
       ]
     },
-    "prepararPigmento": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "2. ¿Cómo preparas el pigmento para pintar?",
+    "fragmentar": {
+      "bg": "https://cdn.midjourney.com/7c76cdf5-212d-47f2-8a5a-8b9c54629841/0_3.png",
+      "text": "2. Tienes un trozo de obsidiana. ¿Cómo lo fragmentas?",
       "options": [
         {
-          "label": "Molido fino y mezclado con agua",
-          "next": "agenteAdherente",
-          "successMsg": "Mejora la adherencia y durabilidad."
+          "label": "Golpeándolo con una piedra más dura",
+          "successMsg": "Obtienes fragmentos afilados y planos. Perfecto.",
+          "next": "seleccionarFragmento",
+          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
         },
         {
-          "label": "Molido grueso y seco",
-          "failMsg": "No se adhiere bien ni pinta uniformemente."
-        },
-        {
-          "label": "Mezclado con grasa animal",
-          "failMsg": "Se caerá fácilmente."
-        },
-        {
-          "label": "Simplemente aplicado en polvo"
+          "label": "Frotándolo contra el suelo",
+          "failMsg": "No funciona. No se rompe adecuadamente.",
+          "next": "seleccionarFragmento",
+          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
         }
       ]
     },
-    "agenteAdherente": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "3. ¿Qué agente usas para que el pigmento se adhiera mejor?",
+    "seleccionarFragmento": {
+      "bg": "https://cdn.midjourney.com/08978d23-69a5-4ba4-abd9-17af309e32b5/0_1.png",
+      "text": "3. Tienes varios fragmentos de obsidiana. ¿Cuál eliges para pulir?",
       "options": [
         {
-          "label": "Agua mezclada con saliva",
-          "next": "aplicarPigmento",
-          "successMsg": "Excelente adhesivo natural."
+          "label": "El más plano y oscuro",
+          "successMsg": "Es el más adecuado para reflejar bien con pulido.",
+          "next": "prepararArena"
         },
         {
-          "label": "Grasa animal",
-          "failMsg": "La pintura se caerá pronto."
+          "label": "El más brillante pero curvo",
+          "failMsg": "Distorsiona la imagen. Mala elección.",
+          "next": "prepararArena"
         },
         {
-          "label": "Resina vegetal"
-        },
-        {
-          "label": "Nada"
+          "label": "Uno con vetas blancas",
+          "failMsg": "Interfiere con el reflejo.",
+          "next": "prepararArena"
         }
       ]
     },
-    "aplicarPigmento": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "4. ¿Cómo aplicas el pigmento preparado sobre la piedra?",
+    "prepararArena": {
+      "bg": "https://cdn.midjourney.com/104b4cc5-39bb-4247-9cdb-1d57a9429f5b/0_3.png",
+      "text": "4. Necesitas un abrasivo para el pulido. ¿Qué usas?",
       "options": [
         {
-          "label": "Con un dedo limpio",
-          "next": "secado",
-          "successMsg": "Suave y útil para difuminar."
+          "label": "Arena fina mezclada con agua",
+          "successMsg": "Has creado una pasta abrasiva perfecta.",
+          "next": "elegirSuperficie"
         },
         {
-          "label": "Con un palo o ramita",
-          "failMsg": "Difícil controlar el dibujo, queda borroso."
+          "label": "Ceniza y barro",
+          "failMsg": "Esa mezcla ensucia, no pule.",
+          "next": "elegirSuperficie"
         },
         {
-          "label": "Con la mano llena de pigmento"
-        },
-        {
-          "label": "Con un trozo de piel"
+          "label": "Polvo de madera",
+          "failMsg": "No tiene poder abrasivo.",
+          "next": "elegirSuperficie"
         }
       ]
     },
-    "secado": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "5. La pintura está fresca. ¿Dónde dejas secar el dibujo?",
+    "elegirSuperficie": {
+      "bg": "https://cdn.midjourney.com/9a9c30f0-ef1d-428f-9358-b7a9ef7d9787/0_1.png",
+      "text": "5. ¿Dónde aplicarás la arena para pulir?",
       "options": [
         {
-          "label": "A la sombra y ventilado",
-          "next": "proteger",
-          "successMsg": "Seca lentamente y sin grietas."
+          "label": "Sobre una piedra plana",
+          "successMsg": "Muy bien. Funciona como mesa de pulido natural.",
+          "next": "tecnicaPulido"
         },
         {
-          "label": "Al sol directo",
-          "failMsg": "Se seca rápido pero puede agrietarse."
+          "label": "Sobre una hoja grande",
+          "failMsg": "Demasiado frágil. No soporta la fricción.",
+          "next": "tecnicaPulido"
         },
         {
-          "label": "En un lugar húmedo",
-          "failMsg": "Se puede estropear por humedad."
+          "label": "En la palma de tu mano",
+          "failMsg": "Dañino y poco eficaz.",
+          "next": "tecnicaPulido"
+        }
+      ]
+    },
+    "tecnicaPulido": {
+      "bg": "https://cdn.midjourney.com/07f11347-f64e-40b8-8938-83b263dee59c/0_3.png",
+      "text": "6. Has puesto arena sobre la piedra. ¿Cómo pulirás el fragmento?",
+      "options": [
+        {
+          "label": "Frotar en círculos con presión constante",
+          "successMsg": "Desgasta lentamente la superficie. Bien hecho.",
+          "next": "proteger"
         },
         {
-          "label": "Cubierto con hojas",
-          "failMsg": "No seca bien y se mancha."
+          "label": "Golpearlo repetidamente",
+          "failMsg": "Se rompe. Ya no sirve.",
+          "next": "proteger"
+        },
+        {
+          "label": "Frotar muy suave sin presión",
+          "failMsg": "Insuficiente para pulir.",
+          "next": "proteger"
         }
       ]
     },
     "proteger": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "6. ¿Cómo proteges la pintura ya seca?",
+      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
+      "text": "7. Has creado tu espejo. ¿Cómo lo proteges?",
       "options": [
         {
-          "label": "Cubrir con hojas secas",
-          "next": "revisarEstado",
-          "successMsg": "Impermeabiliza y conserva el color."
+          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "proteger2"
         },
         {
-          "label": "Rociar con grasa animal",
-          "failMsg": "La pintura se deteriora rápido."
+          "label": "Lo dejas sobre una roca al sol",
+          "failMsg": "El calor lo fractura. Fin.",
+          "next": "proteger2"
         },
         {
-          "label": "No hacer nada",
-          "failMsg": "Arruina la pintura."
-        },
-        {
-          "label": "Cubrir con barro húmedo"
+          "label": "Lo entierras",
+          "failMsg": "Se llena de polvo y se raya. Fin.",
+          "next": "proteger2"
         }
       ]
     },
-    "revisarEstado": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "7. Tras unas semanas, revisas la pintura. ¿Qué observas?",
+    "proteger2": {
+      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
+      "text": "8. Has creado tu espejo. ¿Cómo lo proteges?",
       "options": [
         {
-          "label": "Colores vivos y dibujo intacto",
-          "next": "explorarOtrosColores",
-          "successMsg": "¡Gran trabajo! La pintura ha resistido el tiempo."
+          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "proteger3"
         },
         {
-          "label": "Pigmento desvanecido",
-          "failMsg": "Probablemente no usaste bien el agente para adherir."
+          "label": "Lo dejas sobre una roca al sol",
+          "failMsg": "El calor lo fractura. Fin.",
+          "next": "proteger3"
         },
         {
-          "label": "Manchas y grietas en la pintura",
-          "failMsg": "Secaste demasiado rápido o pintaste en mala superficie."
-        },
-        {
-          "label": "Dibujo parcialmente borrado",
-          "failMsg": "La protección fue insuficiente."
+          "label": "Lo entierras",
+          "failMsg": "Se llena de polvo y se raya. Fin.",
+          "next": "proteger3"
         }
       ]
     },
-    "explorarOtrosColores": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "8. Quieres añadir más colores al dibujo para hacerlo más vistoso. ¿Dónde buscas y cómo preparas otros pigmentos?",
+    "proteger3": {
+      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
+      "text": "9. Has creado tu espejo. ¿Cómo lo proteges?",
       "options": [
         {
-          "label": "Buscar arcillas de diferentes tonos y mezclarlas con agua",
-          "next": "final",
-          "successMsg": "Los insectos pueden dar colores intensos, aunque su recolección es laboriosa."
+          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "final"
         },
         {
-          "label": "Usar plantas y bayas trituradas para crear pigmentos",
-          "failMsg": "El resultado es grisáceo y poco vistoso."
+          "label": "Lo dejas sobre una roca al sol",
+          "failMsg": "El calor lo fractura. Fin.",
+          "next": "final"
         },
         {
-          "label": "Obtener pigmento de insectos machacados"
-        },
-        {
-          "label": "Probar con cenizas mezcladas con barro"
+          "label": "Lo entierras",
+          "failMsg": "Se llena de polvo y se raya. Fin.",
+          "next": "final"
         }
       ]
     },
     "final": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "¡Éxito! Has creado un dibujo de piedra con varios pigmentos naturales que perdura en el tiempo.<br><br>Tu arte puede contar historias para las futuras generaciones.",
+      "bg": "https://cdn.midjourney.com/aa339282-7af9-4040-bab7-e2d9f32bd43d/0_3.png",
+      "text": "¡Éxito! Has fabricado un espejo pulido con arena y piedra. Por primera vez, ves tu reflejo nítido. 🪞",
       "options": [
         {
           "label": "Volver a empezar",
-          "next": "intro",
-          "successMsg": "Puedes intentar otro método cuando quieras."
+          "successMsg": "Puedes reiniciar el proceso cuando quieras.",
+          "next": "intro"
         }
       ]
     }
