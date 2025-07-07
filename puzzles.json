@@ -1,4 +1,4 @@
-{
+﻿{
   "491: Cuerda": {
     "order": 491,
     "intro": {
@@ -205,8 +205,8 @@
       ]
     }
   },
-  "483: Espejo": {
-    "order": 483,
+  "492: Espejo": {
+    "order": 492,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
