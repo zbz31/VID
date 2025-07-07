@@ -432,7 +432,8 @@
           "failMsg": "No seca ni fija bien."
         },
         {
-          "label": "Barro húmedo"
+          "label": "Barro húmedo",
+                    "successMsg": "Negro intenso para detalles."
         }
       ]
     },
