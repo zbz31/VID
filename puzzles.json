@@ -1,6 +1,6 @@
 ﻿{
-  "491: Cuerda": {
-    "order": 491,
+  "3: Cuerda": {
+    "order": 3,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/8abc3c03-afb3-4958-bc7f-47a337d87474/2.mp4",
       "frame": "https://cdn.midjourney.com/258e769f-e4a6-4477-b6c9-5a8aec1f8f25/0_3.png",
@@ -205,8 +205,8 @@
       ]
     }
   },
-  "492: Espejo": {
-    "order": 492,
+  "10: Espejo": {
+    "order": 10,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -396,6 +396,207 @@
           "label": "Volver a empezar",
           "next": "intro",
           "successMsg": "Puedes reiniciar el proceso cuando quieras."
+        }
+      ]
+    }
+  },
+  "11: Pinturas": {
+    "order": 11,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
+      "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "Has encontrado un buen soporte para pintar en piedra y quieres decorarlo con pigmentos naturales.<br><br>\n  Para lograr colores vistosos y duraderos, necesitas buscar y preparar bien los materiales.<br><br>\n  ¿Podrás crear un dibujo que resista el paso del tiempo?",
+      "options": [
+        {
+          "label": "Empezar",
+          "next": "elegirPigmento",
+          "successMsg": "Comienzas la búsqueda del pigmento adecuado..."
+        }
+      ]
+    },
+    "buscarPigmentos": {
+      "bg": "https://cdn.midjourney.com/castilla-pigments-1.png",
+      "text": "1. ¿Dónde buscas pigmentos naturales?",
+      "options": [
+        {
+          "label": "Arcillas rojizas cerca del río",
+          "next": "prepararPigmentos",
+          "successMsg": "Negro intenso para detalles."
+        },
+        {
+          "label": "Carbón de ramas quemadas",
+          "failMsg": "No tiene color suficiente para pintar."
+        },
+        {
+          "label": "Arena amarilla de la llanura",
+          "failMsg": "No seca ni fija bien."
+        },
+        {
+          "label": "Barro húmedo"
+        }
+      ]
+    },
+    "prepararPigmento": {
+      "bg": "https://cdn.midjourney.com/castilla-grinding-pigment.png",
+      "text": "2. ¿Cómo preparas el pigmento para pintar?",
+      "options": [
+        {
+          "label": "Molido fino y mezclado con agua",
+          "next": "agenteAdherente",
+          "successMsg": "Mejora la adherencia y durabilidad."
+        },
+        {
+          "label": "Molido grueso y seco",
+          "failMsg": "No se adhiere bien ni pinta uniformemente."
+        },
+        {
+          "label": "Mezclado con grasa animal",
+          "failMsg": "Se caerá fácilmente."
+        },
+        {
+          "label": "Simplemente aplicado en polvo"
+        }
+      ]
+    },
+    "agenteAdherente": {
+      "bg": "https://cdn.midjourney.com/castilla-binding-agent.png",
+      "text": "3. ¿Qué agente usas para que el pigmento se adhiera mejor?",
+      "options": [
+        {
+          "label": "Agua mezclada con saliva",
+          "next": "aplicarPigmento",
+          "successMsg": "Excelente adhesivo natural."
+        },
+        {
+          "label": "Grasa animal",
+          "failMsg": "La pintura se caerá pronto."
+        },
+        {
+          "label": "Resina vegetal"
+        },
+        {
+          "label": "Nada"
+        }
+      ]
+    },
+    "aplicarPigmento": {
+      "bg": "https://cdn.midjourney.com/castilla-applying-paint.png",
+      "text": "4. ¿Cómo aplicas el pigmento preparado sobre la piedra?",
+      "options": [
+        {
+          "label": "Con un dedo limpio",
+          "next": "secado",
+          "successMsg": "Suave y útil para difuminar."
+        },
+        {
+          "label": "Con un palo o ramita",
+          "failMsg": "Difícil controlar el dibujo, queda borroso."
+        },
+        {
+          "label": "Con la mano llena de pigmento"
+        },
+        {
+          "label": "Con un trozo de piel"
+        }
+      ]
+    },
+    "secado": {
+      "bg": "https://cdn.midjourney.com/castilla-drying-paint.png",
+      "text": "5. La pintura está fresca. ¿Dónde dejas secar el dibujo?",
+      "options": [
+        {
+          "label": "A la sombra y ventilado",
+          "next": "proteger",
+          "successMsg": "Seca lentamente y sin grietas."
+        },
+        {
+          "label": "Al sol directo",
+          "failMsg": "Se seca rápido pero puede agrietarse."
+        },
+        {
+          "label": "En un lugar húmedo",
+          "failMsg": "Se puede estropear por humedad."
+        },
+        {
+          "label": "Cubierto con hojas",
+          "failMsg": "No seca bien y se mancha."
+        }
+      ]
+    },
+    "proteger": {
+      "bg": "https://cdn.midjourney.com/castilla-protecting-paint.png",
+      "text": "6. ¿Cómo proteges la pintura ya seca?",
+      "options": [
+        {
+          "label": "Cubrir con hojas secas",
+          "next": "revisarEstado",
+          "successMsg": "Impermeabiliza y conserva el color."
+        },
+        {
+          "label": "Rociar con grasa animal",
+          "failMsg": "La pintura se deteriora rápido."
+        },
+        {
+          "label": "No hacer nada",
+          "failMsg": "Arruina la pintura."
+        },
+        {
+          "label": "Cubrir con barro húmedo"
+        }
+      ]
+    },
+    "revisarEstado": {
+      "bg": "https://cdn.midjourney.com/castilla-check-paint.png",
+      "text": "7. Tras unas semanas, revisas la pintura. ¿Qué observas?",
+      "options": [
+        {
+          "label": "Colores vivos y dibujo intacto",
+          "next": "explorarOtrosColores",
+          "successMsg": "¡Gran trabajo! La pintura ha resistido el tiempo."
+        },
+        {
+          "label": "Pigmento desvanecido",
+          "failMsg": "Probablemente no usaste bien el agente para adherir."
+        },
+        {
+          "label": "Manchas y grietas en la pintura",
+          "failMsg": "Secaste demasiado rápido o pintaste en mala superficie."
+        },
+        {
+          "label": "Dibujo parcialmente borrado",
+          "failMsg": "La protección fue insuficiente."
+        }
+      ]
+    },
+    "explorarOtrosColores": {
+      "bg": "https://cdn.midjourney.com/castilla-paint-colors.png",
+      "text": "8. Quieres añadir más colores al dibujo para hacerlo más vistoso. ¿Dónde buscas y cómo preparas otros pigmentos?",
+      "options": [
+        {
+          "label": "Buscar arcillas de diferentes tonos y mezclarlas con agua",
+          "next": "final",
+          "successMsg": "Los insectos pueden dar colores intensos, aunque su recolección es laboriosa."
+        },
+        {
+          "label": "Usar plantas y bayas trituradas para crear pigmentos",
+          "failMsg": "El resultado es grisáceo y poco vistoso."
+        },
+        {
+          "label": "Obtener pigmento de insectos machacados"
+        },
+        {
+          "label": "Probar con cenizas mezcladas con barro"
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/castilla-finished-paint.png",
+      "text": "¡Éxito! Has creado un dibujo de piedra con varios pigmentos naturales que perdura en el tiempo.<br><br>Tu arte puede contar historias para las futuras generaciones.",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "next": "intro",
+          "successMsg": "Puedes intentar otro método cuando quieras."
         }
       ]
     }
