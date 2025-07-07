@@ -9,18 +9,18 @@
         {
           "label": "Empezar",
           "successMsg": "Comienzas a recolectar las plantas más largas y flexibles...",
-          "next": "recolectarHierbaLarga"
+          "next": "e1"
         }
       ]
     },
-    "recolectarHierbaLarga": {
+    "e1": {
       "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_3.png",
       "text": "1. Hay muchos tallos largos. ¿Cuáles eliges?",
       "options": [
         {
           "label": "Hierba verde, delgada y elástica de más de 60 cm",
           "successMsg": "Perfecta para torsión. No se quiebra al doblar.",
-          "next": "prepararTallos"
+          "next": "e2"
         },
         {
           "label": "Hierba seca y dorada al sol",
@@ -36,14 +36,14 @@
         }
       ]
     },
-    "prepararTallos": {
+    "e2": {
       "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_2.png",
       "text": "2. ¿Cómo preparas los tallos para trenzarlos?",
       "options": [
         {
           "label": "Los humedezco un poco y los aliso en haces paralelos",
           "successMsg": "Quedan flexibles y manejables para girar sin romperse.",
-          "next": "separarFibras"
+          "next": "e3"
         },
         {
           "label": "Los dejo al sol directo para que se sequen",
@@ -55,14 +55,14 @@
         }
       ]
     },
-    "separarFibras": {
+    "e3": {
       "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_1.png",
       "text": "3. Antes de trenzar, examinas las fibras. ¿Qué haces?",
       "options": [
         {
           "label": "Separas suavemente los filamentos más largos y flexibles",
           "successMsg": "Buena decisión. Eso mejora la torsión y resistencia.",
-          "next": "iniciarTorsion"
+          "next": "e4"
         },
         {
           "label": "Trenzas todo tal como está",
@@ -78,14 +78,14 @@
         }
       ]
     },
-    "iniciarTorsion": {
+    "e4": {
       "bg": "https://cdn.midjourney.com/05a87a53-1224-47a3-960e-e4e73678cfd6/0_1.png",
       "text": "4. Tienes dos haces de hierba larga. ¿Cómo comienzas a formar la cuerda de forma segura y duradera?",
       "options": [
         {
           "label": "Giras un manojo en sentido horario y otro antihorario, luego los cruzas sobre sí mismos",
           "successMsg": "La torsión opuesta crea tensión y se traba sola. Bien hecho.",
-          "next": "extenderCuerda"
+          "next": "e5"
         },
         {
           "label": "Enrollas ambos haces en la misma dirección y los unes",
@@ -97,14 +97,14 @@
         }
       ]
     },
-    "extenderCuerda": {
+    "e5": {
       "bg": "https://cdn.midjourney.com/3fb3c6e5-d1d1-43a0-8dc4-7b987494c0da/0_1.png",
       "text": "5. Ya tienes unos 40 cm. ¿Cómo la haces más larga?",
       "options": [
         {
           "label": "Vas añadiendo nuevos tallos al ritmo del giro, manteniendo la tensión",
           "successMsg": "Buena técnica. La cuerda puede crecer sin perder fuerza.",
-          "next": "reforzarJuntas"
+          "next": "e6"
         },
         {
           "label": "Alineo bien los extremos húmedos y los presiono con firmeza hasta que se adhieren",
@@ -116,14 +116,14 @@
         }
       ]
     },
-    "reforzarJuntas": {
+    "e6": {
       "bg": "https://cdn.midjourney.com/3934e7eb-6bf9-49b2-b2fc-911022214b5e/0_1.png",
       "text": "6. ¿Cómo aseguras los puntos de unión?",
       "options": [
         {
           "label": "Enrollo fibras delgadas sobre la unión mientras mantengo la torsión",
           "successMsg": "Refuerzas sin aplastar. Se mantiene resistente.",
-          "next": "probarResistencia",
+          "next": "e7",
           "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
         },
         {
@@ -138,14 +138,14 @@
         }
       ]
     },
-    "probarResistencia": {
+    "e7": {
       "bg": "https://cdn.midjourney.com/7864d003-311f-49b0-a2f3-6d5dca27dc76/0_0.png",
       "text": "7. ¿Cómo pruebas la fuerza de la cuerda?",
       "options": [
         {
           "label": "Cuelgo una piedra mediana atada al extremo",
           "successMsg": "Resiste bien. Prueba superada.",
-          "next": "mejorarAgarre"
+          "next": "e8"
         },
         {
           "label": "La uso como cinturón para probar tensión",
@@ -157,14 +157,14 @@
         }
       ]
     },
-    "mejorarAgarre": {
+    "e8": {
       "bg": "https://cdn.midjourney.com/cfcb3a8c-68d1-4e03-af68-fc2a868ee65b/0_2.png",
       "text": "8. El extremo se deshace un poco. ¿Qué haces?",
       "options": [
         {
           "label": "Hago un nudo simple y lo envuelvo con más fibras secas",
           "successMsg": "Buen remate. El nudo se mantiene firme.",
-          "next": "guardarCuerda"
+          "next": "e9"
         },
         {
           "label": "Envuelvo el extremo en hojas frescas",
@@ -176,7 +176,7 @@
         }
       ]
     },
-    "guardarCuerda": {
+    "e9": {
       "bg": "https://cdn.midjourney.com/63a9ccd0-dd5b-4ca2-bcd7-37db70e8c2be/0_0.png",
       "text": "9. ¿Dónde guardas la cuerda para que dure?",
       "options": [
@@ -416,18 +416,18 @@
         {
           "label": "Empezar",
           "successMsg": "Comienzas la búsqueda del pigmento adecuado...",
-          "next": "elegirPigmento"
+          "next": "e1"
         }
       ]
     },
-    "buscarPigmentos": {
+    "e1": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "1. ¿Dónde buscas pigmentos naturales?",
       "options": [
         {
           "label": "Arcillas rojizas cerca del río",
           "successMsg": "El ocre rojo es abundante y duradero.",
-          "next": "prepararPigmentos"
+          "next": "e2"
         },
         {
           "label": "Arena amarilla de la llanura",
@@ -443,14 +443,14 @@
         }
       ]
     },
-    "prepararPigmento": {
+    "e2": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "2. ¿Cómo preparas el pigmento para pintar?",
       "options": [
         {
           "label": "Molido fino",
           "successMsg": "Buena mezcla para aplicar en piedra.",
-          "next": "agenteAdherente"
+          "next": "e3"
         },
         {
           "label": "Molido grueso",
@@ -462,19 +462,19 @@
         }
       ]
     },
-    "mezclarAgente": {
+    "e3": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "3. ¿Qué agente mezclas con el pigmento para que se adhiera mejor?",
       "options": [
         {
           "label": "Agua del río",
           "successMsg": "Pintura fluida pero menos duradera.",
-          "next": "elegirSuperficie"
+          "next": "e4"
         },
         {
           "label": "Grasa de animal",
           "successMsg": "Pintura resistente y duradera.",
-          "next": "elegirSuperficie"
+          "next": "e4"
         },
         {
           "label": "Saliva",
@@ -482,14 +482,14 @@
         }
       ]
     },
-    "elegirSuperficie": {
+    "e4": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "4. ¿Dónde pintarás tu dibujo?",
       "options": [
         {
           "label": "Pared de piedra caliza",
           "successMsg": "Perfecta para que el pigmento se adhiera.",
-          "next": "limpiarSuperficie"
+          "next": "e5"
         },
         {
           "label": "Roca rugosa y porosa",
@@ -505,19 +505,19 @@
         }
       ]
     },
-    "limpiarSuperficie": {
+    "e5": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "5. ¿Cómo preparas la superficie para pintar?",
       "options": [
         {
           "label": "Limpiar con hojas secas",
           "successMsg": "Superficie lista y limpia.",
-          "next": "pintar"
+          "next": "e6"
         },
         {
           "label": "Frotar con arena",
           "successMsg": "Elimina polvo y suciedad.",
-          "next": "pintar"
+          "next": "e6"
         },
         {
           "label": "Raspar con piedra",
@@ -525,19 +525,19 @@
         }
       ]
     },
-    "pintar": {
+    "e6": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "6. ¿Qué técnica usas para pintar?",
       "options": [
         {
           "label": "Pintar con los dedos",
           "successMsg": "Permite control y detalle.",
-          "next": "secado"
+          "next": "e7"
         },
         {
           "label": "Usar un pincel de ramitas",
           "successMsg": "Más precisión en detalles.",
-          "next": "secado"
+          "next": "e7"
         },
         {
           "label": "Lanzar pigmento en seco",
@@ -545,14 +545,14 @@
         }
       ]
     },
-    "secado": {
+    "e7": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "7. ¿Dónde dejas secar tu pintura?",
       "options": [
         {
           "label": "En sombra, sin viento",
           "successMsg": "Secado lento, evita agrietarse.",
-          "next": "proteger"
+          "next": "e8"
         },
         {
           "label": "Al sol directo",
@@ -568,19 +568,19 @@
         }
       ]
     },
-    "proteger": {
+    "e8": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "8. ¿Cómo proteges la pintura ya seca?",
       "options": [
         {
           "label": "Cubrir con hojas secas",
           "successMsg": "Protección natural contra lluvia y polvo.",
-          "next": "revisarEstado"
+          "next": "e9"
         },
         {
           "label": "Rociar con grasa animal",
           "successMsg": "Impermeabiliza y conserva el color.",
-          "next": "revisarEstado"
+          "next": "e9"
         },
         {
           "label": "Cubrir con barro húmedo",
@@ -592,7 +592,7 @@
         }
       ]
     },
-    "explorarOtrosColores": {
+    "e9": {
       "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
       "text": "9. Quieres añadir más colores al dibujo para hacerlo más vistoso. ¿Dónde buscas y cómo preparas otros pigmentos?",
       "options": [
