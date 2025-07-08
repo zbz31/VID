@@ -557,7 +557,8 @@
         },
         {
           "label": "Un libro abierto con páginas y líneas indicativas de texto",
-          "successMsg": "Un símbolo claro de sabiduría y aprendizaje que perdurará."
+          "successMsg": "Un símbolo claro de sabiduría y aprendizaje que perdurará.",
+          "next": "e8"
         }
       ]
     },
