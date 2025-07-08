@@ -409,8 +409,7 @@
   "409: Pinturas": {
     "order": 409,
     "intro": {
-      "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
-      "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
       "text": "Has encontrado un buen soporte para pintar en piedra y quieres decorarlo con pigmentos naturales.<br><br>\n  Para lograr colores vistosos y duraderos, necesitas buscar y preparar bien los materiales.<br><br>\n  ¿Podrás crear un dibujo que resista el paso del tiempo?",
       "options": [
         {
@@ -421,17 +420,13 @@
       ]
     },
     "e1": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://images.pexels.com/photos/14457232/pexels-photo-14457232.jpeg",
       "text": "1. ¿Dónde buscas pigmentos naturales?",
       "options": [
         {
-          "label": "Arcillas rojizas cerca del río",
-          "successMsg": "El ocre rojo es abundante y duradero.",
+          "label": "Arcilla",
+          "successMsg": "El ocre rojo es abundante y duradero cerca del río.",
           "next": "e2"
-        },
-        {
-          "label": "Arena amarilla de la llanura",
-          "failMsg": "No tiene color suficiente para pintar."
         },
         {
           "label": "Barro húmedo",
@@ -444,7 +439,7 @@
       ]
     },
     "e2": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://cdn.midjourney.com/aa380e55-14ca-49f0-8f7f-2cb6db1bb9f4/0_0.png",
       "text": "2. ¿Cómo preparas el pigmento para pintar?",
       "options": [
         {
@@ -457,46 +452,46 @@
           "failMsg": "No se adhiere bien ni pinta uniformemente."
         },
         {
-          "label": "Mezclado con barro húmedo",
+          "label": "Mezclado con tierra",
           "failMsg": "No es adecuado, mancha y se despega."
         }
       ]
     },
     "e3": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://cdn.midjourney.com/9fd54995-876b-4a86-a013-5e7831b9126b/0_1.png",
       "text": "3. ¿Qué agente mezclas con el pigmento para que se adhiera mejor?",
       "options": [
         {
-          "label": "Agua del río",
+          "label": "Agua del río en cuencos de barro junto a pigmentos naturales",
           "successMsg": "Pintura fluida pero menos duradera.",
           "next": "e4"
         },
         {
-          "label": "Grasa de animal",
+          "label": "Grasa de animal almacenada en recipientes rústicos",
           "successMsg": "Pintura resistente y duradera.",
           "next": "e4"
         },
         {
-          "label": "Saliva",
+          "label": "Saliva fresca recogida en cuencos simples",
           "failMsg": "Poco adherente, se desprende rápido."
         }
       ]
     },
     "e4": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_2.png",
       "text": "4. ¿Dónde pintarás tu dibujo?",
       "options": [
         {
-          "label": "Pared de piedra caliza",
+          "label": "Pared de piedra caliza lisa y vertical",
           "successMsg": "Perfecta para que el pigmento se adhiera.",
           "next": "e5"
         },
         {
-          "label": "Roca rugosa y porosa",
+          "label": "Roca rugosa y porosa con grietas",
           "failMsg": "Se pierde el dibujo por la textura."
         },
         {
-          "label": "Piedra con musgo",
+          "label": "Piedra con musgo húmedo",
           "failMsg": "No se adhiere bien y se desgasta rápido."
         },
         {
@@ -506,103 +501,97 @@
       ]
     },
     "e5": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "5. ¿Cómo preparas la superficie para pintar?",
+      "bg": "https://cdn.midjourney.com/da676559-fa8c-4f61-a5bc-f6f794357236/0_2.png",
+      "text": "5. ¿Qué técnica usas para pintar?",
       "options": [
         {
-          "label": "Limpiar con hojas secas",
-          "successMsg": "Superficie lista y limpia.",
-          "next": "e6"
-        },
-        {
-          "label": "Frotar con arena",
-          "successMsg": "Elimina polvo y suciedad.",
-          "next": "e6"
-        },
-        {
-          "label": "Raspar con piedra",
-          "failMsg": "Riesgo de dañar la superficie."
-        }
-      ]
-    },
-    "e6": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "6. ¿Qué técnica usas para pintar?",
-      "options": [
-        {
-          "label": "Pintar con los dedos",
+          "label": "Pintar con los dedos manchados de pigmento",
           "successMsg": "Permite control y detalle.",
-          "next": "e7"
+          "next": "e6pintar"
         },
         {
-          "label": "Usar un pincel de ramitas",
+          "label": "Usar un pincel rudimentario hecho con ramitas",
           "successMsg": "Más precisión en detalles.",
-          "next": "e7"
+          "next": "e6pintar"
         },
         {
-          "label": "Lanzar pigmento en seco",
+          "label": "Lanzar pigmento seco con la mano",
           "failMsg": "Se pierde y no se fija."
         }
       ]
     },
-    "e7": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "7. ¿Dónde dejas secar tu pintura?",
+    "e6pintar": {
+      "bg": "https://images.pexels.com/photos/22944292/pexels-photo-22944292.jpeg",
+      "text": "6. Te dispones a pintar.",
       "options": [
         {
-          "label": "En sombra, sin viento",
-          "successMsg": "Secado lento, evita agrietarse.",
-          "next": "e8"
+          "label": "Limpiar la superficie con hojas secas",
+          "successMsg": "Superficie lista y limpia.",
+          "next": "e7"
         },
         {
-          "label": "Al sol directo",
-          "failMsg": "Se agrieta y pierde color."
+          "label": "Frotar con arena fina para eliminar polvo",
+          "successMsg": "Elimina polvo y suciedad.",
+          "next": "e7"
         },
         {
-          "label": "En lugar húmedo",
-          "failMsg": "Se moja y pierde pigmento."
+          "label": "Raspar con una piedra afilada",
+          "failMsg": "Riesgo de dañar la superficie."
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://cdn.midjourney.com/236fbafa-6b23-4184-b68b-f452711c1d04/0_1.png",
+      "text": "7. ¿Qué mensaje concreto pintas para que otros viajeros del tiempo puedan entender de dónde vienes?",
+      "options": [
+        {
+          "label": "Un reloj de arena simple con granos visibles marcando el paso del tiempo",
+          "failMsg": "No todos entenderán su significado correctamente, no es una invención tan moderna."
         },
         {
-          "label": "En la oscuridad total",
-          "failMsg": "No seca correctamente."
+          "label": "Una brújula estilizada con direcciones claras grabadas",
+          "failMsg": "Se malinterpreta con una rueda o un dibujo normal."
+        },
+        {
+          "label": "Una representación esquemática de un edificio con ventanas y puerta",
+          "failMsg": "El símbolo puede confundirse o no ser reconocido en este contexto."
+        },
+        {
+          "label": "Un libro abierto con páginas y líneas indicativas de texto",
+          "successMsg": "Un símbolo claro de sabiduría y aprendizaje que perdurará."
         }
       ]
     },
     "e8": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
-      "text": "8. ¿Cómo proteges la pintura ya seca?",
+      "bg": "https://images.pexels.com/photos/4557935/pexels-photo-4557935.jpeg",
+      "text": "8. ¿Cómo evitas que el color de tu pintura se degrade por el paso del tiempo?",
       "options": [
         {
-          "label": "Cubrir con hojas secas",
-          "successMsg": "Protección natural contra lluvia y polvo.",
+          "label": "Aplicando aceite natural para sellar el pigmento",
+          "successMsg": "Conserva la intensidad y brillo por más tiempo.",
           "next": "e9"
         },
         {
-          "label": "Rociar con grasa animal",
-          "successMsg": "Impermeabiliza y conserva el color.",
-          "next": "e9"
+          "label": "Cubriendo con barro húmedo para proteger",
+          "failMsg": "Daña y opaca los colores naturales."
         },
         {
-          "label": "Cubrir con barro húmedo",
-          "failMsg": "Arruina la pintura."
-        },
-        {
-          "label": "Frotar con piedra",
-          "failMsg": "Se desgasta y borra el dibujo."
+          "label": "Frotando con piedras para limpiar la superficie",
+          "failMsg": "Borra y daña la pintura."
         }
       ]
     },
     "e9": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://cdn.midjourney.com/a68b7461-d9e1-4e8e-964a-e0bccd7ddac5/0_0.png",
       "text": "9. Quieres añadir más colores al dibujo para hacerlo más vistoso. ¿Dónde buscas y cómo preparas otros pigmentos?",
       "options": [
         {
-          "label": "Usar plantas y bayas trituradas para crear pigmentos",
+          "label": "Bayas trituradas para crear pigmentos vivos",
           "successMsg": "Las bayas aportan colores vivos, pero son menos duraderas.",
           "next": "final"
         },
         {
-          "label": "Carbón de ramas quemadas",
+          "label": "Carbón de ramas quemadas para detalles oscuros",
           "successMsg": "Negro intenso para detalles.",
           "next": "final"
         },
@@ -613,7 +602,7 @@
       ]
     },
     "final": {
-      "bg": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "bg": "https://images.pexels.com/photos/21633187/pexels-photo-21633187.jpeg",
       "text": "¡Éxito! Has creado un dibujo de piedra con varios pigmentos naturales que perdura en el tiempo.<br><br>Tu arte puede contar historias para las futuras generaciones.",
       "options": [
         {
