@@ -678,11 +678,11 @@
       "options": [
         {
           "label": "20% agua y 80% barro",
+          "successMsg": "Correcto, esta proporción crea una mezcla suficientemente húmeda para moldear pero estable al secar, ideal para las paredes del horno.",
           "next": "e2"
         },
         {
           "label": "20% barro y 80% agua",
-          "successMsg": "Correcto, esta proporción crea una mezcla suficientemente húmeda para moldear pero estable al secar, ideal para las paredes del horno.",
           "failMsg": "Demasiado líquida, no sirve para construir paredes.",
           "next": "e2"
         },
@@ -760,14 +760,17 @@
       "options": [
         {
           "label": "Dejas que cada capa se vaya secando lentamente",
+          "successMsg": "Secar cada capa lentamente ayuda a evitar grietas y deformaciones.",
           "next": "e6"
         },
         {
           "label": "Añades arcilla de forma constante",
+          "failMsg": "Añadir arcilla sin secar puede arruinar la estructura.",
           "next": "e6"
         },
         {
           "label": "Golpeas para compactar",
+          "failMsg": "No, golpear demasiado puede romper la vasija antes de secar.",
           "next": "e6"
         }
       ]
@@ -804,14 +807,17 @@
       "options": [
         {
           "label": "Sostienen el combustible levantado para que el aire circule por debajo.",
+          "successMsg": "La rejilla permite una buena circulación de aire, manteniendo el fuego encendido y mejorando eficiencia del combustible.",
           "next": "e8"
         },
         {
           "label": "Bloquean la entrada para mantener el calor dentro.",
+          "failMsg": "Incorrecto, bloquear la entrada impediría la entrada de oxígeno y apagaría el fuego.",
           "next": "e8"
         },
         {
           "label": "Sostienen la vasija para que no toque el suelo.",
+          "failMsg": "No, la función principal de la rejilla es levantar el combustible para la circulación de aire.",
           "next": "e8"
         }
       ]
@@ -822,18 +828,22 @@
       "options": [
         {
           "label": "Abres tras 4 horas de enfriamiento",
+          "successMsg": "Correcto, abrir el horno después de un buen enfriamiento evita que la vasija se agriete.",
           "next": "e9"
         },
         {
           "label": "Abres tras 2h el horno para evitar roturas.",
+          "failMsg": "No es recomendable abrir el horno tan pronto, la vasija puede romperse por el cambio brusco de temperatura.",
           "next": "e9"
         },
         {
           "label": "Rompes el horno para sacar la vasija.",
+          "failMsg": "¡No! Romper el horno no es una buena idea y puede dañar la vasija.",
           "next": "e9"
         },
         {
           "label": "Dejas la puerta abierta antes de acabar para ventilar.",
+          "failMsg": "Dejar la puerta abierta antes de tiempo puede causar un enfriamiento irregular y dañar la vasija.",
           "next": "e9"
         }
       ]
