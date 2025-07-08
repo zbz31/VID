@@ -366,8 +366,7 @@
         },
         {
           "label": "Lo dejas sobre una roca al sol",
-          "successMsg": "Bingo",
-          "next": "proteger3"
+          "failMsg": "El calor lo fractura. Fin."
         },
         {
           "label": "Lo entierras",
@@ -462,17 +461,17 @@
       "text": "3. ¿Qué agente mezclas con el pigmento para que se adhiera mejor?",
       "options": [
         {
-          "label": "Agua del río en cuencos de barro junto a pigmentos naturales",
+          "label": "Agua",
           "successMsg": "Pintura fluida pero menos duradera.",
           "next": "e4"
         },
         {
-          "label": "Grasa de animal almacenada en recipientes rústicos",
+          "label": "Grasa animal",
           "successMsg": "Pintura resistente y duradera.",
           "next": "e4"
         },
         {
-          "label": "Saliva fresca recogida en cuencos simples",
+          "label": "Saliva",
           "failMsg": "Poco adherente, se desprende rápido."
         }
       ]
