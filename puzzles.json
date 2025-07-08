@@ -669,11 +669,18 @@
   "481: Vasija": {
     "order": 481,
     "intro": {
-      "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
-      "text": "Si dominas la cerámica, podrás crear vasijas y recipientes ideales para almacenar agua y otros objetos.<br><br>Ahora que ya sabes controlar el fuego, es momento de construir un horno.<br><br>Con la arcilla que has conseguido para modelar, podrás empezar a fabricar tu propia vasija."
+      "bg": "https://cdn.midjourney.com/44f25e73-496f-4ef4-85b2-b3c575423d3f/0_3.png",
+      "text": "Si dominas la cerámica, podrás crear vasijas y recipientes ideales para almacenar agua y otros objetos.<br><br>Ahora que ya sabes controlar el fuego, es momento de construir un horno.<br><br>Con la arcilla que has conseguido para modelar, podrás empezar a fabricar tu propia vasija.",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Empiezas diseñando el horno…",
+          "next": "e1"
+        }
+      ]
     },
     "e1": {
-      "bg": "https://images.pexels.com/photos/14457232/pexels-photo-14457232.jpeg",
+      "bg": "https://cdn.midjourney.com/bdd60c2a-a5e5-4adf-ab5d-b7d17bbe78d4/0_1.png",
       "text": "Para construir las paredes del horno, ¿qué mezcla de materiales es la correcta?",
       "options": [
         {
@@ -694,7 +701,7 @@
       ]
     },
     "e2": {
-      "bg": "https://cdn.midjourney.com/aa380e55-14ca-49f0-8f7f-2cb6db1bb9f4/0_0.png",
+      "bg": "https://cdn.midjourney.com/e150c92a-e84a-43c9-958e-9dde9f00cf01/0_0.png",
       "text": "¿Qué forma tendrá el tejado?",
       "options": [
         {
@@ -715,7 +722,7 @@
       ]
     },
     "e3mezcla": {
-      "bg": "https://cdn.midjourney.com/aa380e55-14ca-49f0-8f7f-2cb6db1bb9f4/0_0.png",
+      "bg": "https://cdn.midjourney.com/e150c92a-e84a-43c9-958e-9dde9f00cf01/0_3.png",
       "text": "Apilas varias capas de barro para las paredes.",
       "options": [
         {
@@ -734,7 +741,7 @@
       ]
     },
     "e4": {
-      "bg": "https://cdn.midjourney.com/aa380e55-14ca-49f0-8f7f-2cb6db1bb9f4/0_0.png",
+      "bg": "https://cdn.midjourney.com/09087652-7669-453e-a4bc-09799138b3b7/0_2.png",
       "text": "¿Para qué construyes la chimenea?",
       "options": [
         {
@@ -755,23 +762,26 @@
       ]
     },
     "e5": {
-      "bg": "https://cdn.midjourney.com/da676559-fa8c-4f61-a5bc-f6f794357236/0_2.png",
+      "bg": "https://cdn.midjourney.com/bb7e9d84-1a9b-42b8-ae35-800917ce100d/0_0.png",
       "text": "¿Cómo se debe construir la vasija? Empiezas a añadir capas de arcilla",
       "options": [
         {
           "label": "Dejas que cada capa se vaya secando lentamente",
           "successMsg": "Secar cada capa lentamente ayuda a evitar grietas y deformaciones.",
-          "next": "e6"
+          "next": "e6",
+          "video": "https://cdn.midjourney.com/video/8b158648-5dd0-4258-8415-1d609b461b7e/3.mp4"
         },
         {
           "label": "Añades arcilla de forma constante",
           "failMsg": "Añadir arcilla sin secar puede arruinar la estructura.",
-          "next": "e6"
+          "next": "e6",
+          "video": "https://cdn.midjourney.com/video/8b158648-5dd0-4258-8415-1d609b461b7e/3.mp4"
         },
         {
           "label": "Golpeas para compactar",
           "failMsg": "No, golpear demasiado puede romper la vasija antes de secar.",
-          "next": "e6"
+          "next": "e6",
+          "video": "https://cdn.midjourney.com/video/8b158648-5dd0-4258-8415-1d609b461b7e/3.mp4"
         }
       ]
     },
@@ -802,7 +812,7 @@
       ]
     },
     "e7": {
-      "bg": "https://cdn.midjourney.com/236fbafa-6b23-4184-b68b-f452711c1d04/0_1.png",
+      "bg": "https://cdn.midjourney.com/44109d0d-f345-4c28-b7a4-e0b2f395ec67/0_1.png",
       "text": "Prendes fuego en unas ramas y metes la vasija. ¿Para qué añades una rejilla?",
       "options": [
         {
@@ -823,7 +833,7 @@
       ]
     },
     "e8": {
-      "bg": "https://images.pexels.com/photos/4557935/pexels-photo-4557935.jpeg",
+      "bg": "https://cdn.midjourney.com/09087652-7669-453e-a4bc-09799138b3b7/0_0.png",
       "text": "Es hora de abrir el horno",
       "options": [
         {
@@ -849,7 +859,7 @@
       ]
     },
     "e9": {
-      "bg": "https://cdn.midjourney.com/a68b7461-d9e1-4e8e-964a-e0bccd7ddac5/0_0.png",
+      "bg": "https://cdn.midjourney.com/1fe87f0a-edf8-489e-b5f4-65ad7c2f3abd/0_2.png",
       "text": "¿Cómo sabes que la vasija está bien cocida?",
       "options": [
         {
@@ -870,8 +880,15 @@
       ]
     },
     "final": {
-      "bg": "https://images.pexels.com/photos/21633187/pexels-photo-21633187.jpeg",
-      "text": "Enhorabuena! Tu vasija ha sido cocida correctamente y puede almacenar agua sin filtraciones."
+      "bg": "https://cdn.midjourney.com/b57117ad-3d3a-45c7-abe4-475fad548ac8/0_1.png",
+      "text": "Enhorabuena! Tu vasija ha sido cocida correctamente y puede almacenar agua sin filtraciones.",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
+          "next": "intro"
+        }
+      ]
     }
   }
 }
