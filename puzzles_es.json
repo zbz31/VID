@@ -1,0 +1,821 @@
+﻿{
+  "484: Cuerda": {
+    "order": 484,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/8abc3c03-afb3-4958-bc7f-47a337d87474/2.mp4",
+      "frame": "https://cdn.midjourney.com/258e769f-e4a6-4477-b6c9-5a8aec1f8f25/0_3.png",
+      "text": "Estás en una zona abierta con hierba alta y resistente. La madera es escasa, pero el viento trae semillas de esparto, avena y juncos.<br><br>\nSi consigues trenzarla bien, podrías hacer una cuerda de más de un metro. ¿Será suficiente para atar una lanza o colgar una carga?<br><br>\n¿Podrás trenzar hierba larga hasta crear una cuerda útil y fuerte?",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Comienzas a recolectar las plantas más largas y flexibles...",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_3.png",
+      "text": "1. Hay muchos tallos largos. ¿Cuáles eliges?",
+      "options": [
+        {
+          "label": "Hierba verde, delgada y elástica de más de 60 cm",
+          "successMsg": "Perfecta para torsión. No se quiebra al doblar.",
+          "next": "e2"
+        },
+        {
+          "label": "Hierba seca y dorada al sol",
+          "failMsg": "Se parte fácilmente. No sirve para cuerda resistente."
+        },
+        {
+          "label": "Cañas duras y gruesas",
+          "failMsg": "Muy rígidas. No se pueden doblar ni trenzar."
+        },
+        {
+          "label": "Hierba aplastada y podrida en la base",
+          "failMsg": "Está húmeda y débil. Se deshace al tocarla."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_2.png",
+      "text": "2. ¿Cómo preparas los tallos para trenzarlos?",
+      "options": [
+        {
+          "label": "Los humedezco un poco y los aliso en haces paralelos",
+          "successMsg": "Quedan flexibles y manejables para girar sin romperse.",
+          "next": "e3"
+        },
+        {
+          "label": "Los dejo al sol directo para que se sequen",
+          "failMsg": "Se vuelven quebradizos. Ya no sirven para torcer."
+        },
+        {
+          "label": "Los agrupo sin orden para avanzar más rápido",
+          "failMsg": "No hay tensión interna. Se deshace con facilidad."
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_1.png",
+      "text": "3. Antes de trenzar, examinas las fibras. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Separas suavemente los filamentos más largos y flexibles",
+          "successMsg": "Buena decisión. Eso mejora la torsión y resistencia.",
+          "next": "e4"
+        },
+        {
+          "label": "Trenzas todo tal como está",
+          "failMsg": "Hay fibras gruesas que estorban. La cuerda queda irregular."
+        },
+        {
+          "label": "Recortas los extremos desiguales con una piedra",
+          "failMsg": "Los tallos pierden longitud. La cuerda será más corta y débil."
+        },
+        {
+          "label": "Enrollas los haces en sí mismos sin separar nada",
+          "failMsg": "Se enredan mal. Cuesta mantener el ritmo de torsión."
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://cdn.midjourney.com/05a87a53-1224-47a3-960e-e4e73678cfd6/0_1.png",
+      "text": "4. Tienes dos haces de hierba larga. ¿Cómo comienzas a formar la cuerda de forma segura y duradera?",
+      "options": [
+        {
+          "label": "Giras un manojo en sentido horario y otro antihorario, luego los cruzas sobre sí mismos",
+          "successMsg": "La torsión opuesta crea tensión y se traba sola. Bien hecho.",
+          "next": "e5"
+        },
+        {
+          "label": "Enrollas ambos haces en la misma dirección y los unes",
+          "failMsg": "No generan tensión. Se abren al menor esfuerzo."
+        },
+        {
+          "label": "Haces un nudo inicial y trenzas desde ahí",
+          "failMsg": "El nudo se desliza y la cuerda no se sostiene."
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://cdn.midjourney.com/3fb3c6e5-d1d1-43a0-8dc4-7b987494c0da/0_1.png",
+      "text": "5. Ya tienes unos 40 cm. ¿Cómo la haces más larga?",
+      "options": [
+        {
+          "label": "Vas añadiendo nuevos tallos al ritmo del giro, manteniendo la tensión",
+          "successMsg": "Buena técnica. La cuerda puede crecer sin perder fuerza.",
+          "next": "e6"
+        },
+        {
+          "label": "Alineo bien los extremos húmedos y los presiono con firmeza hasta que se adhieren",
+          "failMsg": "Parece estable, pero se separan al secarse o al tirar."
+        },
+        {
+          "label": "Los inserto sin ajustar demasiado, dejando que se mezclen solos",
+          "failMsg": "Parece funcionar, pero se deslizan con el uso."
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://cdn.midjourney.com/3934e7eb-6bf9-49b2-b2fc-911022214b5e/0_1.png",
+      "text": "6. ¿Cómo aseguras los puntos de unión?",
+      "options": [
+        {
+          "label": "Enrollo fibras delgadas sobre la unión mientras mantengo la torsión",
+          "successMsg": "Refuerzas sin aplastar. Se mantiene resistente.",
+          "next": "e7",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
+        },
+        {
+          "label": "Compacto las uniones con una piedra plana para que ocupen menos espacio",
+          "failMsg": "Debilitas la tracción sin querer. No es buena idea.",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
+        },
+        {
+          "label": "Dejo un mechón suelto por si necesito ajustar luego",
+          "failMsg": "Ese cabo se convierte en punto débil. Se desenrolla lentamente.",
+          "video": "https://cdn.midjourney.com/video/e73f67b5-c4f1-49d6-b1c4-519c00335a93/3.mp4"
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://cdn.midjourney.com/7864d003-311f-49b0-a2f3-6d5dca27dc76/0_0.png",
+      "text": "7. ¿Cómo pruebas la fuerza de la cuerda?",
+      "options": [
+        {
+          "label": "Cuelgo una piedra mediana atada al extremo",
+          "successMsg": "Resiste bien. Prueba superada.",
+          "next": "e8"
+        },
+        {
+          "label": "La uso como cinturón para probar tensión",
+          "failMsg": "Se estira y se afloja con el movimiento."
+        },
+        {
+          "label": "La arrastro por el suelo con un palo",
+          "failMsg": "Fricción constante daña las fibras. Mala prueba."
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://cdn.midjourney.com/cfcb3a8c-68d1-4e03-af68-fc2a868ee65b/0_2.png",
+      "text": "8. El extremo se deshace un poco. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Hago un nudo simple y lo envuelvo con más fibras secas",
+          "successMsg": "Buen remate. El nudo se mantiene firme.",
+          "next": "e9"
+        },
+        {
+          "label": "Envuelvo el extremo en hojas frescas",
+          "failMsg": "La humedad afloja las fibras. No dura mucho."
+        },
+        {
+          "label": "Lo dejo suelto para poder usarlo más adelante",
+          "failMsg": "Se empieza a deshacer sin que lo notes."
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://cdn.midjourney.com/63a9ccd0-dd5b-4ca2-bcd7-37db70e8c2be/0_0.png",
+      "text": "9. ¿Dónde guardas la cuerda para que dure?",
+      "options": [
+        {
+          "label": "La cuelgo en un lugar seco y ventilado dentro del refugio",
+          "successMsg": "Perfecto. Se mantiene intacta.",
+          "next": "final"
+        },
+        {
+          "label": "La dejo en un rincón fresco y cerrado junto a hojas húmedas",
+          "failMsg": "La humedad acumulada acelera el deterioro."
+        },
+        {
+          "label": "La dejo enrollada al aire libre toda la noche",
+          "failMsg": "La humedad nocturna la reblandece lentamente."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/2335eafd-4362-4384-86bb-52bd0fe0ebdb/0_0.png",
+      "text": "¡Éxito! Has creado una cuerda de más de un metro con hierba larga. Lista para atar, colgar o cazar. 🪢🌾",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "483: Espejo": {
+    "order": 483,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
+      "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
+      "text": "Has oído historias de piedras que reflejan. Quieres lograr algo impensable para tu 'época': verte a ti mismo.<br><br>\n  Para fabricar un espejo prehistórico, deberás encontrar la piedra adecuada, trabajarla con precisión y paciencia, y pulirla con una mezcla abrasiva.<br><br>\n  ¿Podrás crear una superficie capaz de devolver tu imagen?",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Empiezas la búsqueda del material ideal...",
+          "next": "elegirMaterial"
+        }
+      ]
+    },
+    "elegirMaterial": {
+      "bg": "https://cdn.midjourney.com/4752aa53-dda4-469b-a736-adfb459d364b/0_0.png",
+      "text": "1. Encuentras varios tipos de piedra. ¿Cuál eliges para el espejo?",
+      "options": [
+        {
+          "label": "Obsidiana",
+          "successMsg": "Es naturalmente brillante. Ideal si se pule bien.",
+          "next": "fragmentar",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
+        },
+        {
+          "label": "Granito",
+          "failMsg": "Es rugoso y opaco. No sirve para reflejar.",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
+        },
+        {
+          "label": "Caliza blanca",
+          "failMsg": "Demasiado clara y porosa. Refleja mal.",
+          "video": "https://cdn.midjourney.com/video/67a59854-e106-4e60-9c22-31eb2df959a9/0.mp4"
+        }
+      ]
+    },
+    "fragmentar": {
+      "bg": "https://cdn.midjourney.com/7c76cdf5-212d-47f2-8a5a-8b9c54629841/0_3.png",
+      "text": "2. Tienes un trozo de obsidiana. ¿Cómo lo fragmentas?",
+      "options": [
+        {
+          "label": "Golpeándolo con una piedra más dura",
+          "successMsg": "Obtienes fragmentos afilados y planos. Perfecto.",
+          "next": "seleccionarFragmento",
+          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
+        },
+        {
+          "label": "Frotándolo contra el suelo",
+          "failMsg": "No funciona. No se rompe adecuadamente.",
+          "video": "https://cdn.midjourney.com/video/a67ede68-6470-4eb0-9cd0-91126b62830a/2.mp4"
+        }
+      ]
+    },
+    "seleccionarFragmento": {
+      "bg": "https://cdn.midjourney.com/08978d23-69a5-4ba4-abd9-17af309e32b5/0_1.png",
+      "text": "3. Tienes varios fragmentos de obsidiana. ¿Cuál eliges para pulir?",
+      "options": [
+        {
+          "label": "El más plano y oscuro",
+          "successMsg": "Es el más adecuado para reflejar bien con pulido.",
+          "next": "prepararArena"
+        },
+        {
+          "label": "El más brillante pero curvo",
+          "failMsg": "Distorsiona la imagen. Mala elección."
+        },
+        {
+          "label": "Uno con vetas blancas",
+          "failMsg": "Interfiere con el reflejo."
+        }
+      ]
+    },
+    "prepararArena": {
+      "bg": "https://cdn.midjourney.com/104b4cc5-39bb-4247-9cdb-1d57a9429f5b/0_3.png",
+      "text": "4. Necesitas un abrasivo para el pulido. ¿Qué usas?",
+      "options": [
+        {
+          "label": "Arena fina mezclada con agua",
+          "successMsg": "Has creado una pasta abrasiva perfecta.",
+          "next": "elegirSuperficie"
+        },
+        {
+          "label": "Ceniza y barro",
+          "failMsg": "Esa mezcla ensucia, no pule."
+        },
+        {
+          "label": "Polvo de madera",
+          "failMsg": "No tiene poder abrasivo."
+        }
+      ]
+    },
+    "elegirSuperficie": {
+      "bg": "https://cdn.midjourney.com/9a9c30f0-ef1d-428f-9358-b7a9ef7d9787/0_1.png",
+      "text": "5. ¿Dónde aplicarás la arena para pulir?",
+      "options": [
+        {
+          "label": "Sobre una piedra plana",
+          "successMsg": "Muy bien. Funciona como mesa de pulido natural.",
+          "next": "tecnicaPulido"
+        },
+        {
+          "label": "Sobre una hoja grande",
+          "failMsg": "Demasiado frágil. No soporta la fricción."
+        },
+        {
+          "label": "En la palma de tu mano",
+          "failMsg": "Dañino y poco eficaz."
+        }
+      ]
+    },
+    "tecnicaPulido": {
+      "bg": "https://cdn.midjourney.com/07f11347-f64e-40b8-8938-83b263dee59c/0_3.png",
+      "text": "6. Has puesto arena sobre la piedra. ¿Cómo pulirás el fragmento?",
+      "options": [
+        {
+          "label": "Frotar en círculos con presión constante",
+          "successMsg": "Desgasta lentamente la superficie. Bien hecho.",
+          "next": "proteger"
+        },
+        {
+          "label": "Golpearlo repetidamente",
+          "failMsg": "Se rompe. Ya no sirve."
+        },
+        {
+          "label": "Frotar muy suave sin presión",
+          "failMsg": "Insuficiente para pulir."
+        }
+      ]
+    },
+    "proteger": {
+      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
+      "text": "7. Has creado tu espejo. ¿Cómo lo proteges?",
+      "options": [
+        {
+          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "proteger2"
+        },
+        {
+          "label": "Lo dejas sobre una roca al sol",
+          "failMsg": "El calor lo fractura. Fin."
+        },
+        {
+          "label": "Lo entierras",
+          "failMsg": "Se llena de polvo y se raya. Fin."
+        }
+      ]
+    },
+    "proteger2": {
+      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
+      "text": "8. Has creado tu espejo. ¿Cómo lo proteges?",
+      "options": [
+        {
+          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "proteger3"
+        },
+        {
+          "label": "Lo dejas sobre una roca al sol",
+          "failMsg": "El calor lo fractura. Fin."
+        },
+        {
+          "label": "Lo entierras",
+          "failMsg": "Se llena de polvo y se raya. Fin."
+        }
+      ]
+    },
+    "proteger3": {
+      "bg": "https://cdn.midjourney.com/9149baef-f39b-4f80-8ac5-61d737cc9db8/0_3.png",
+      "text": "9. Has creado tu espejo. ¿Cómo lo proteges?",
+      "options": [
+        {
+          "label": "Lo envuelvo en hojas y lo guardo en un hueco seco",
+          "successMsg": "Perfecto. Así evitarás roturas o rayaduras.",
+          "next": "final"
+        },
+        {
+          "label": "Lo dejas sobre una roca al sol",
+          "failMsg": "El calor lo fractura. Fin."
+        },
+        {
+          "label": "Lo entierras",
+          "failMsg": "Se llena de polvo y se raya. Fin."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/aa339282-7af9-4040-bab7-e2d9f32bd43d/0_3.png",
+      "text": "¡Éxito! Has fabricado un espejo pulido con arena y piedra. Por primera vez, ves tu reflejo nítido. 🪞",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes reiniciar el proceso cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "482: Pinturas": {
+    "order": 482,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
+      "text": "Has encontrado un buen soporte para pintar en piedra y quieres decorarlo con pigmentos naturales.<br><br>\n  Para lograr colores vistosos y duraderos, necesitas buscar y preparar bien los materiales.<br><br>\n  ¿Podrás crear un dibujo que resista el paso del tiempo?",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Comienzas la búsqueda del pigmento adecuado...",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://images.pexels.com/photos/14457232/pexels-photo-14457232.jpeg",
+      "text": "1. ¿Qué usas como pigmentos naturales?",
+      "options": [
+        {
+          "label": "Arcilla",
+          "successMsg": "El ocre rojo es abundante y duradero cerca del río.",
+          "next": "e2"
+        },
+        {
+          "label": "Barro húmedo",
+          "failMsg": "No seca ni fija bien."
+        },
+        {
+          "label": "Ceniza",
+          "failMsg": "No se adhiere a la roca."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://cdn.midjourney.com/aa380e55-14ca-49f0-8f7f-2cb6db1bb9f4/0_0.png",
+      "text": "2. ¿Cómo preparas el pigmento para pintar?",
+      "options": [
+        {
+          "label": "Molido fino",
+          "successMsg": "Buena mezcla para aplicar en piedra.",
+          "next": "e3"
+        },
+        {
+          "label": "Molido grueso",
+          "failMsg": "No se adhiere bien ni pinta uniformemente."
+        },
+        {
+          "label": "Mezclado con tierra",
+          "failMsg": "No es adecuado, mancha y se despega."
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://cdn.midjourney.com/9fd54995-876b-4a86-a013-5e7831b9126b/0_1.png",
+      "text": "3. ¿Qué agente mezclas con el pigmento para que se adhiera mejor?",
+      "options": [
+        {
+          "label": "Agua",
+          "successMsg": "Pintura fluida pero menos duradera.",
+          "next": "e4"
+        },
+        {
+          "label": "Grasa animal",
+          "successMsg": "Pintura resistente y duradera.",
+          "next": "e4"
+        },
+        {
+          "label": "Saliva",
+          "failMsg": "Poco adherente, se desprende rápido."
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_2.png",
+      "text": "4. ¿Dónde pintarás tu dibujo?",
+      "options": [
+        {
+          "label": "Pared de piedra caliza lisa y vertical",
+          "successMsg": "Perfecta para que el pigmento se adhiera.",
+          "next": "e5"
+        },
+        {
+          "label": "Roca rugosa y porosa con grietas",
+          "failMsg": "Se pierde el dibujo por la textura."
+        },
+        {
+          "label": "Piedra con musgo húmedo",
+          "failMsg": "No se adhiere bien y se desgasta rápido."
+        },
+        {
+          "label": "Pared de arena compactada",
+          "failMsg": "Se deshace con facilidad."
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://cdn.midjourney.com/da676559-fa8c-4f61-a5bc-f6f794357236/0_2.png",
+      "text": "5. ¿Qué técnica usas para pintar?",
+      "options": [
+        {
+          "label": "Pintar con los dedos manchados de pigmento",
+          "successMsg": "Permite control y detalle.",
+          "next": "e6pintar"
+        },
+        {
+          "label": "Usar un pincel rudimentario hecho con ramitas",
+          "successMsg": "Más precisión en detalles.",
+          "next": "e6pintar"
+        },
+        {
+          "label": "Lanzar pigmento seco con la mano",
+          "failMsg": "Se pierde y no se fija."
+        }
+      ]
+    },
+    "e6pintar": {
+      "bg": "https://images.pexels.com/photos/22944292/pexels-photo-22944292.jpeg",
+      "text": "6. Te dispones a pintar.",
+      "options": [
+        {
+          "label": "Limpiar la superficie con hojas secas",
+          "successMsg": "Superficie lista y limpia.",
+          "next": "e7"
+        },
+        {
+          "label": "Frotar con arena fina para eliminar polvo",
+          "successMsg": "Elimina polvo y suciedad.",
+          "next": "e7"
+        },
+        {
+          "label": "Raspar con una piedra afilada",
+          "failMsg": "Riesgo de dañar la superficie."
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://cdn.midjourney.com/236fbafa-6b23-4184-b68b-f452711c1d04/0_1.png",
+      "text": "7. ¿Qué mensaje concreto pintas para que otros viajeros del tiempo puedan entender de dónde vienes?",
+      "options": [
+        {
+          "label": "Un reloj de arena simple con granos visibles marcando el paso del tiempo",
+          "failMsg": "No todos entenderán su significado correctamente, no es una invención tan moderna."
+        },
+        {
+          "label": "Una brújula estilizada con direcciones claras grabadas",
+          "failMsg": "Se malinterpreta con una rueda o un dibujo normal."
+        },
+        {
+          "label": "Una representación esquemática de un edificio con ventanas y puerta",
+          "failMsg": "El símbolo puede confundirse o no ser reconocido en este contexto."
+        },
+        {
+          "label": "Un libro abierto con páginas y líneas indicativas de texto",
+          "successMsg": "Un símbolo claro de sabiduría y aprendizaje que perdurará.",
+          "next": "e8"
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://images.pexels.com/photos/4557935/pexels-photo-4557935.jpeg",
+      "text": "8. ¿Cómo evitas que el color de tu pintura se degrade por el paso del tiempo?",
+      "options": [
+        {
+          "label": "Aplicando aceite natural para sellar el pigmento",
+          "successMsg": "Conserva la intensidad y brillo por más tiempo.",
+          "next": "e9"
+        },
+        {
+          "label": "Cubriendo con barro húmedo para proteger",
+          "failMsg": "Daña y opaca los colores naturales."
+        },
+        {
+          "label": "Frotando con piedras para limpiar la superficie",
+          "failMsg": "Borra y daña la pintura."
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://cdn.midjourney.com/a68b7461-d9e1-4e8e-964a-e0bccd7ddac5/0_0.png",
+      "text": "9. Quieres añadir más colores al dibujo para hacerlo más vistoso. ¿Dónde buscas y cómo preparas otros pigmentos?",
+      "options": [
+        {
+          "label": "Bayas trituradas para crear pigmentos vivos",
+          "successMsg": "Las bayas aportan colores vivos, pero son menos duraderas.",
+          "next": "final"
+        },
+        {
+          "label": "Carbón de ramas quemadas para detalles oscuros",
+          "successMsg": "Negro intenso para detalles.",
+          "next": "final"
+        },
+        {
+          "label": "Probar con cenizas mezcladas con barro",
+          "failMsg": "El resultado es grisáceo y poco vistoso."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://images.pexels.com/photos/21633187/pexels-photo-21633187.jpeg",
+      "text": "¡Éxito! Has creado un dibujo de piedra con varios pigmentos naturales que perdura en el tiempo.<br><br>Tu arte puede contar historias para las futuras generaciones.",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes intentar otro método cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "481: Vasija": {
+    "order": 481,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/44f25e73-496f-4ef4-85b2-b3c575423d3f/0_3.png",
+      "text": "Si dominas la cerámica, podrás crear vasijas y recipientes ideales para almacenar agua y otros objetos.<br><br>Ahora que ya sabes controlar el fuego, es momento de construir un horno.<br><br>Con la arcilla que has conseguido para modelar, podrás empezar a fabricar tu propia vasija.",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Empiezas diseñando el horno…",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://cdn.midjourney.com/bdd60c2a-a5e5-4adf-ab5d-b7d17bbe78d4/0_1.png",
+      "text": "1. Para construir las paredes del horno, ¿qué mezcla de materiales es la correcta?",
+      "options": [
+        {
+          "label": "20% agua y 80% barro",
+          "successMsg": "Correcto, esta proporción crea una mezcla suficientemente húmeda para moldear pero estable al secar, ideal para las paredes del horno.",
+          "next": "e2"
+        },
+        {
+          "label": "20% barro y 80% agua",
+          "failMsg": "Demasiado líquida, no sirve para construir paredes."
+        },
+        {
+          "label": "Barro sin agua",
+          "failMsg": "El barro seco no se puede moldear ni unir bien; necesita agua para cohesión y moldeabilidad."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://cdn.midjourney.com/e150c92a-e84a-43c9-958e-9dde9f00cf01/0_0.png",
+      "text": "2. ¿Qué forma tendrá el tejado?",
+      "options": [
+        {
+          "label": "Ovalada, curvado de adelante hacia atrás.",
+          "successMsg": "Correcto, al curvar las paredes en forma de arco, el barro del techo se apoya mejor y es menos probable que colapse antes de secarse, incluso con ayuda de ramas.",
+          "next": "e3mezcla"
+        },
+        {
+          "label": "Plana",
+          "failMsg": "Las paredes rectas no ayudan a sostener el techo, lo que aumenta el riesgo de que se hunda antes de secarse."
+        },
+        {
+          "label": "Forma de pico",
+          "failMsg": "Una forma abierta deja un hueco más amplio, difícil de cubrir sin que el techo colapse."
+        }
+      ]
+    },
+    "e3mezcla": {
+      "bg": "https://cdn.midjourney.com/e150c92a-e84a-43c9-958e-9dde9f00cf01/0_3.png",
+      "text": "3. Apilas varias capas de barro para las paredes.",
+      "options": [
+        {
+          "label": "Apilas barro con forma de U",
+          "successMsg": "Completado",
+          "next": "e4"
+        },
+        {
+          "label": "Decorar el horno para que sea más visible."
+        },
+        {
+          "label": "Refrigerar la estructura del horno."
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://cdn.midjourney.com/09087652-7669-453e-a4bc-09799138b3b7/0_2.png",
+      "text": "4. ¿Para qué construyes la chimenea?",
+      "options": [
+        {
+          "label": "Extraer el humo y avivar el fuego",
+          "successMsg": "Exacto, la chimenea ayuda a mejorar la circulación del aire y la combustión.",
+          "next": "e5"
+        },
+        {
+          "label": "Decorar el horno para que sea más visible.",
+          "failMsg": "La chimenea tiene una función técnica, no decorativa."
+        },
+        {
+          "label": "Refrigerar la estructura del horno.",
+          "failMsg": "La chimenea no sirve para enfriar, sino para ventilar."
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://cdn.midjourney.com/bb7e9d84-1a9b-42b8-ae35-800917ce100d/0_0.png",
+      "text": "5. ¿Cómo se debe construir la vasija? Empiezas a añadir capas de arcilla",
+      "options": [
+        {
+          "label": "Dejas que cada capa se vaya secando lentamente",
+          "successMsg": "Secar cada capa lentamente ayuda a evitar grietas y deformaciones.",
+          "next": "e6",
+          "video": "https://cdn.midjourney.com/video/8b158648-5dd0-4258-8415-1d609b461b7e/3.mp4"
+        },
+        {
+          "label": "Añades arcilla de forma constante",
+          "failMsg": "Añadir arcilla sin secar puede arruinar la estructura.",
+          "video": "https://cdn.midjourney.com/video/8b158648-5dd0-4258-8415-1d609b461b7e/3.mp4"
+        },
+        {
+          "label": "Golpeas para compactar",
+          "failMsg": "No, golpear demasiado puede romper la vasija antes de secar.",
+          "video": "https://cdn.midjourney.com/video/8b158648-5dd0-4258-8415-1d609b461b7e/3.mp4"
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_2.png",
+      "text": "6. ¿Qué grosor deben tener las paredes de la vasija?",
+      "options": [
+        {
+          "label": "Entre 1 y 2 cm.",
+          "successMsg": "Suficiente para darle resistencia sin que sea demasiado pesado o propenso a agrietarse.",
+          "next": "e7"
+        },
+        {
+          "label": "Menos de 0.5 cm",
+          "failMsg": "Muy delgadas, las paredes pueden romperse fácilmente durante la cocción o manipulación."
+        },
+        {
+          "label": "Más de 5 cm",
+          "failMsg": "Paredes demasiado gruesas tardan en secar y pueden agrietarse o deformarse."
+        },
+        {
+          "label": "Cualquier grosor, no importa.",
+          "failMsg": "El grosor afecta directamente la resistencia y la calidad de la vasija."
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://cdn.midjourney.com/44109d0d-f345-4c28-b7a4-e0b2f395ec67/0_1.png",
+      "text": "7. Prendes fuego en unas ramas y metes la vasija. ¿Para qué añades una rejilla?",
+      "options": [
+        {
+          "label": "Sostienen el combustible levantado para que el aire circule por debajo.",
+          "successMsg": "La rejilla permite una buena circulación de aire, manteniendo el fuego encendido y mejorando eficiencia del combustible.",
+          "next": "e8"
+        },
+        {
+          "label": "Bloquean la entrada para mantener el calor dentro.",
+          "failMsg": "Incorrecto, bloquear la entrada impediría la entrada de oxígeno y apagaría el fuego."
+        },
+        {
+          "label": "Sostienen la vasija para que no toque el suelo.",
+          "failMsg": "No, la función principal de la rejilla es levantar el combustible para la circulación de aire."
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://cdn.midjourney.com/09087652-7669-453e-a4bc-09799138b3b7/0_0.png",
+      "text": "8. Es hora de abrir el horno",
+      "options": [
+        {
+          "label": "Abres tras 4 horas de enfriamiento",
+          "successMsg": "Correcto, abrir el horno después de un buen enfriamiento evita que la vasija se agriete.",
+          "next": "e9"
+        },
+        {
+          "label": "Abres tras 2h el horno para evitar roturas.",
+          "failMsg": "No es recomendable abrir el horno tan pronto, la vasija puede romperse por el cambio brusco de temperatura."
+        },
+        {
+          "label": "Rompes el horno para sacar la vasija.",
+          "failMsg": "¡No! Romper el horno no es una buena idea y puede dañar la vasija."
+        },
+        {
+          "label": "Dejas la puerta abierta antes de acabar para ventilar.",
+          "failMsg": "Dejar la puerta abierta antes de tiempo puede causar un enfriamiento irregular y dañar la vasija."
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://cdn.midjourney.com/1fe87f0a-edf8-489e-b5f4-65ad7c2f3abd/0_2.png",
+      "text": "9. ¿Cómo sabes que la vasija está bien cocida?",
+      "options": [
+        {
+          "label": "Sumergirla en agua para comprobar que mantiene líquidos.",
+          "successMsg": "Exacto, así verificas que la vasija está bien cocida y funcional.",
+          "next": "final"
+        },
+        {
+          "label": "Rompiendo un trozo para revisar el color y textura.",
+          "failMsg": "Romper la vasija no es necesario ni deseable para evaluarla."
+        },
+        {
+          "label": "Cubriéndola con barro húmedo para evitar que se agriete.",
+          "failMsg": "Cubrir con barro húmedo puede causar daños o humedad interna."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/b57117ad-3d3a-45c7-abe4-475fad548ac8/0_1.png",
+      "text": "Enhorabuena! Tu vasija ha sido cocida correctamente y puede almacenar agua sin filtraciones.",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  }
+}
