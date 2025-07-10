@@ -207,8 +207,8 @@
       ]
     }
   },
-  "6: Espejo": {
-    "order": 6,
+  "9: Espejo": {
+    "order": 9,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -1041,7 +1041,7 @@
   "5: Pegamento": {
     "order": 5,
     "intro": {
-      "bg": "https://cdn.midjourney.com/video/birch_intro.mp4",
+      "bg": "https://i.ibb.co/zVm7Hmvg/c9cf091c8584.webp",
       "frame": "https://cdn.midjourney.com/birch_intro.png",
       "text": "Has tallado una piedra afilada y cortado un mango de madera.<br><br>Ahora necesitas unirlos para crear una herramienta útil.Los antiguos usaban una brea negra y pegajosa.<br><br> ¿Podrás seguir sus pasos y fabricar tu propio adhesivo?",
       "options": [
@@ -1053,7 +1053,7 @@
       ]
     },
     "e1": {
-      "bg": "https://i.ibb.co/birch1.webp",
+      "bg": "https://i.ibb.co/kgtSp65z/96032997bfd5.webp",
       "text": "1. ¿Cuál es el material base para hacer brea?",
       "options": [
         {
@@ -1076,7 +1076,7 @@
       ]
     },
     "e2": {
-      "bg": "https://i.ibb.co/birch2.webp",
+      "bg": "https://i.ibb.co/fYq1nwZv/788b68f75ecd.webp",
       "text": "2. ¿Cómo recolectas correctamente la corteza?",
       "options": [
         {
@@ -1099,7 +1099,7 @@
       ]
     },
     "e3": {
-      "bg": "https://i.ibb.co/birch3.webp",
+      "bg": "https://i.ibb.co/jvM9v90m/cfaf65acf286.webp",
       "text": "3. ¿Qué estructura debes construir para destilar la corteza?",
       "options": [
         {
@@ -1122,7 +1122,7 @@
       ]
     },
     "e4": {
-      "bg": "https://i.ibb.co/birch4.webp",
+      "bg": "https://i.ibb.co/VYcwKJYB/5e573c06286b.webp",
       "text": "4. ¿Cómo preparas el recipiente para extraer la brea?",
       "options": [
         {
@@ -1145,7 +1145,7 @@
       ]
     },
     "e5": {
-      "bg": "https://i.ibb.co/birch5.webp",
+      "bg": "https://i.ibb.co/HfFNmyZJ/171bd8aa9975.webp",
       "text": "5. ¿Cómo inicias el proceso?",
       "options": [
         {
@@ -1168,7 +1168,7 @@
       ]
     },
     "e6": {
-      "bg": "https://i.ibb.co/birch6.webp",
+      "bg": "https://i.ibb.co/mCgVbPs8/f65773c4f288.webp",
       "text": "6. ¿Cuánto tiempo debes calentarla?",
       "options": [
         {
@@ -1191,7 +1191,7 @@
       ]
     },
     "e7": {
-      "bg": "https://i.ibb.co/birch7.webp",
+      "bg": "https://i.ibb.co/wfP4BXV/9afebd4be198.webp",
       "text": "7. ¿Cómo sabes que la brea está lista?",
       "options": [
         {
@@ -1214,7 +1214,7 @@
       ]
     },
     "e8": {
-      "bg": "https://i.ibb.co/bond1.webp",
+      "bg": "https://i.ibb.co/QjcZcXcy/3894e27dd60c.webp",
       "text": "8. ¿Cómo unes la piedra al palo?",
       "options": [
         {
@@ -1232,11 +1232,11 @@
       ]
     },
     "e9": {
-      "bg": "https://i.ibb.co/bond2.webp",
+      "bg": "https://i.ibb.co/KjJQynpZ/ef18ee67d288.webp",
       "text": "9. ¿Cómo aseguras que la unión se solidifique bien?",
       "options": [
         {
-          "label": "Dejas que enfríe lentamente y atas con tendón",
+          "label": "Dejas que enfríe lentamente y atas con cuerda",
           "successMsg": "El enfriamiento lento y el atado la hacen firme y duradera.",
           "failMsg": "El agua arruina el pegamento",
           "next": "final"
@@ -1255,12 +1255,240 @@
       ]
     },
     "final": {
-      "bg": "https://i.ibb.co/birchfinal.webp",
+      "bg": "https://i.ibb.co/KjChsy76/cf4cd81d18f6.webp",
       "text": "\"Has creado una herramienta sólida: una piedra bien unida a un palo con brea natural y tendón. Como tus ancestros, ahora tienes una tecnología poderosa en tus manos. 🪓\"",
       "options": [
         {
           "label": "Empezar de nuevo",
           "successMsg": "Puedes intentarlo otra vez cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "6: Zumo": {
+    "order": 6,
+    "intro": {
+      "bg": "https://i.ibb.co/gMqP08vG/118fcbda0816.webp",
+      "text": "\"En tiempos prehistóricos, no toda fruta era segura. Algunas parecían deliciosas... pero eran peligrosas. Estás frente a arbustos llenos de bayas maduras. ¿Puedes elegir con sabiduría y preparar un jugo nutritivo y seguro?\"",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Observas el bosque con atención, buscando pistas...",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://i.ibb.co/ZzDfzRQt/c402bf6507e1.webp",
+      "text": "1. Ves cuatro tipos de bayas. ¿Cuáles eliges primero?",
+      "options": [
+        {
+          "label": "Pequeñas, rojas o morado oscuro, en racimos sueltos, piel opaca, sin espinas",
+          "successMsg": "Estas señales físicas son comunes en bayas comestibles: piel mate, en racimos, sin cera.",
+          "next": "e2"
+        },
+        {
+          "label": "Bayas blancas, brillantes, con piel cerosa en racimos apretados",
+          "failMsg": "Blanco + cera = rasgo común de bayas tóxicas como el muérdago."
+        },
+        {
+          "label": "Bayas azul-negras con savia blanca al cortar y hojas afiladas",
+          "failMsg": "Savia blanca es defensa. Probablemente tóxicas."
+        },
+        {
+          "label": "Bayas naranjas en enredaderas con cáliz en forma de estrella y tallos curvados",
+          "failMsg": "Forma estrellada típica de plantas tóxicas como la belladona."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://i.ibb.co/jv66Rbkq/1a59b6b83923.webp",
+      "text": "2. ¿Qué haces antes de comer?",
+      "options": [
+        {
+          "label": "Froto el jugo en mi muñeca y espero",
+          "successMsg": "Buena técnica. Si no hay irritación, puedes seguir.",
+          "next": "e3"
+        },
+        {
+          "label": "Lo muerdo de inmediato",
+          "failMsg": "Demasiado arriesgado."
+        },
+        {
+          "label": "Solo lo huelo",
+          "failMsg": "Oler no revela toxinas."
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://i.ibb.co/CpkWs5V2/aa1caaff01fb.webp",
+      "text": "3. No hay reacción en la piel. ¿Ahora qué?",
+      "options": [
+        {
+          "label": "Froto en los labios y espero",
+          "successMsg": "Los labios son sensibles. Buen siguiente paso.",
+          "next": "e4"
+        },
+        {
+          "label": "Como media baya",
+          "failMsg": "Aún no sabes si es segura."
+        },
+        {
+          "label": "Mezclo con agua de inmediato",
+          "failMsg": "El agua no neutraliza toxinas."
+        },
+        {
+          "label": "Froto debajo del labio en la encía",
+          "failMsg": "Absorción rápida. Peligroso."
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://i.ibb.co/VcYpvJhv/241993cbe60c.webp",
+      "text": "4. El sabor es ligeramente ácido. ¿Qué verificas?",
+      "options": [
+        {
+          "label": "Observo si aves o monos comen del mismo arbusto",
+          "successMsg": "Buena idea. Muchas culturas imitan a las aves.",
+          "next": "e5"
+        },
+        {
+          "label": "Busco marcas de mordidas de animales grandes",
+          "failMsg": "Animales grandes pueden comer cosas tóxicas."
+        },
+        {
+          "label": "Veo si hay hormigas en las bayas caídas",
+          "failMsg": "Los insectos no indican seguridad para humanos."
+        },
+        {
+          "label": "Abro una para ver si tiene gusanos",
+          "failMsg": "Tener gusanos no garantiza que sea segura."
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://i.ibb.co/LzJxbWPt/5ebe64da99cb.webp",
+      "text": "5. Confías en que es segura. ¿Cómo la trituras?",
+      "options": [
+        {
+          "label": "Con una piedra plana y una cuenca (mortero y yunque)",
+          "successMsg": "Técnica antigua y eficaz. Muy bien.",
+          "next": "e6"
+        },
+        {
+          "label": "Las exprimo con las manos y las paso por un filtro",
+          "failMsg": "Tus manos pueden contaminar."
+        },
+        {
+          "label": "Las machaco en corteza cerca del fuego",
+          "failMsg": "La madera puede tener resinas."
+        },
+        {
+          "label": "Las muerdo una por una y escupo el jugo",
+          "failMsg": "Poco higiénico."
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://i.ibb.co/39wf9mdM/c28a6b1d11a5.webp",
+      "text": "6. ¿Cómo filtras la mezcla?",
+      "options": [
+        {
+          "label": "Uso una malla de fibras trenzadas",
+          "successMsg": "Ideal. Filtra sólidos, conserva nutrientes.",
+          "next": "e7"
+        },
+        {
+          "label": "Presiono con fibra de corteza masticada",
+          "failMsg": "Puede aportar taninos o hongos."
+        },
+        {
+          "label": "Filtro con piel de animal limpia",
+          "failMsg": "Puede contaminar o cambiar el sabor."
+        },
+        {
+          "label": "No la filtro para aprovechar la fibra",
+          "failMsg": "Las semillas pueden ser tóxicas."
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://i.ibb.co/69Js02d/885b865f9cc2.webp",
+      "text": "7. Encuentras algunas plantas cerca. ¿Qué le agregas al jugo para mejorarlo?",
+      "options": [
+        {
+          "label": "Unas hojas con olor a menta que ya has usado antes",
+          "successMsg": "Buena elección. Las hojas aromáticas ayudan al sabor y a la digestión.",
+          "next": "e8"
+        },
+        {
+          "label": "Corteza de un árbol amargo que huele a resina",
+          "failMsg": "La resina puede ser tóxica o muy fuerte."
+        },
+        {
+          "label": "Raíces con un aroma fuerte y desconocido",
+          "failMsg": "Las raíces desconocidas pueden irritar el estómago."
+        },
+        {
+          "label": "Nada. Mejor no arriesgarse",
+          "failMsg": "Perdiste la oportunidad de mejorarlo de forma segura."
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://i.ibb.co/PzFn4kFL/69d5e9defb94.webp",
+      "text": "8. Hay un poco de espuma. ¿Qué haces?",
+      "options": [
+        {
+          "label": "Huelo y descarto si huele agrio",
+          "successMsg": "Correcto. Fermentación = posible riesgo.",
+          "next": "e9"
+        },
+        {
+          "label": "Pruebo un poco para confirmar",
+          "failMsg": "Puede estar fermentada o echada a perder."
+        },
+        {
+          "label": "Agrego agua y vuelvo a sellar",
+          "failMsg": "Diluir no purifica."
+        },
+        {
+          "label": "La agito y me la tomo rápido",
+          "failMsg": "Muy riesgoso. Puede estar dañada."
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://i.ibb.co/cj9xgmh/4166199d9d4c.webp",
+      "text": "9. El jugo está listo, pero tal vez no lo bebas todo ahora. ¿Cuánto tiempo crees que se mantendrá bien?",
+      "options": [
+        {
+          "label": "Solo unas pocas horas si lo mantienes fresco y cubierto",
+          "successMsg": "Correcto. Sin fermentar, el jugo se daña rápido.",
+          "next": "final"
+        },
+        {
+          "label": "Hasta la mañana siguiente si hace frío de noche",
+          "failMsg": "Incluso con frío nocturno, puede fermentar."
+        },
+        {
+          "label": "Casi todo el día si lo dejas a la sombra",
+          "failMsg": "La sombra no basta por mucho tiempo."
+        },
+        {
+          "label": "Mientras no huela mal, está bien",
+          "failMsg": "El olor engaña cuando ya comenzó a fermentar."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://i.ibb.co/p6sG0gh4/06db052f6356.webp",
+      "text": "¡Éxito! Elegiste bayas no tóxicas usando pistas de animales, pruebas en la piel y filtrado tradicional. El jugo es seguro, ácido y refrescante. 🧃🌿",
+      "options": [
+        {
+          "label": "Reintentar",
+          "successMsg": "Puedes volver a intentarlo cuando quieras.",
           "next": "intro"
         }
       ]
