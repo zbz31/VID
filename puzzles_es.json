@@ -1,6 +1,6 @@
 ﻿{
-  "484: Cuerda": {
-    "order": 484,
+  "3: Cuerda": {
+    "order": 3,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/8abc3c03-afb3-4958-bc7f-47a337d87474/2.mp4",
       "frame": "https://cdn.midjourney.com/258e769f-e4a6-4477-b6c9-5a8aec1f8f25/0_3.png",
@@ -14,7 +14,7 @@
       ]
     },
     "e1": {
-      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_3.png",
+      "bg": "https://i.ibb.co/twfDVY02/1c2ca50f75b0.webp",
       "text": "1. Hay muchos tallos largos. ¿Cuáles eliges?",
       "options": [
         {
@@ -37,7 +37,7 @@
       ]
     },
     "e2": {
-      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_2.png",
+      "bg": "https://i.ibb.co/5h87KQVP/be13b208821d.webp",
       "text": "2. ¿Cómo preparas los tallos para trenzarlos?",
       "options": [
         {
@@ -56,7 +56,7 @@
       ]
     },
     "e3": {
-      "bg": "https://cdn.midjourney.com/3bf5731c-0db6-4b31-95ab-de6afd9c9c55/0_1.png",
+      "bg": "https://i.ibb.co/3Y7kSJr2/80ee7d9020c2.webp",
       "text": "3. Antes de trenzar, examinas las fibras. ¿Qué haces?",
       "options": [
         {
@@ -79,7 +79,7 @@
       ]
     },
     "e4": {
-      "bg": "https://cdn.midjourney.com/05a87a53-1224-47a3-960e-e4e73678cfd6/0_1.png",
+      "bg": "https://i.ibb.co/Pv8t51tk/8150b3b667a4.webp",
       "text": "4. Tienes dos haces de hierba larga. ¿Cómo comienzas a formar la cuerda de forma segura y duradera?",
       "options": [
         {
@@ -98,7 +98,7 @@
       ]
     },
     "e5": {
-      "bg": "https://cdn.midjourney.com/3fb3c6e5-d1d1-43a0-8dc4-7b987494c0da/0_1.png",
+      "bg": "https://i.ibb.co/MDY3TY5b/0709fe2f8e30.webp",
       "text": "5. Ya tienes unos 40 cm. ¿Cómo la haces más larga?",
       "options": [
         {
@@ -117,7 +117,7 @@
       ]
     },
     "e6": {
-      "bg": "https://cdn.midjourney.com/3934e7eb-6bf9-49b2-b2fc-911022214b5e/0_1.png",
+      "bg": "https://i.ibb.co/7JhkQxb1/9d98708c1022.webp",
       "text": "6. ¿Cómo aseguras los puntos de unión?",
       "options": [
         {
@@ -139,7 +139,7 @@
       ]
     },
     "e7": {
-      "bg": "https://cdn.midjourney.com/7864d003-311f-49b0-a2f3-6d5dca27dc76/0_0.png",
+      "bg": "https://i.ibb.co/99n1MbbS/b6c23bef6c13.webp",
       "text": "7. ¿Cómo pruebas la fuerza de la cuerda?",
       "options": [
         {
@@ -158,7 +158,7 @@
       ]
     },
     "e8": {
-      "bg": "https://cdn.midjourney.com/cfcb3a8c-68d1-4e03-af68-fc2a868ee65b/0_2.png",
+      "bg": "https://i.ibb.co/0VQz7LFH/56bdec6910d4.webp",
       "text": "8. El extremo se deshace un poco. ¿Qué haces?",
       "options": [
         {
@@ -177,7 +177,7 @@
       ]
     },
     "e9": {
-      "bg": "https://cdn.midjourney.com/63a9ccd0-dd5b-4ca2-bcd7-37db70e8c2be/0_0.png",
+      "bg": "https://i.ibb.co/wNjRrVNH/9c66a2798a64.webp",
       "text": "9. ¿Dónde guardas la cuerda para que dure?",
       "options": [
         {
@@ -196,7 +196,7 @@
       ]
     },
     "final": {
-      "bg": "https://cdn.midjourney.com/2335eafd-4362-4384-86bb-52bd0fe0ebdb/0_0.png",
+      "bg": "https://i.ibb.co/VcW6jj9F/fc85482eebbc.webp",
       "text": "¡Éxito! Has creado una cuerda de más de un metro con hierba larga. Lista para atar, colgar o cazar. 🪢🌾",
       "options": [
         {
@@ -616,7 +616,7 @@
   "481: Vasija": {
     "order": 481,
     "intro": {
-      "bg": "https://cdn.midjourney.com/44f25e73-496f-4ef4-85b2-b3c575423d3f/0_3.png",
+      "bg": "https://i.ibb.co/mVyZjVhG/525f94a68e4d.webp",
       "text": "Si dominas la cerámica, podrás crear vasijas y recipientes ideales para almacenar agua y otros objetos.<br><br>Ahora que ya sabes controlar el fuego, es momento de construir un horno.<br><br>Con la arcilla que has conseguido para modelar, podrás empezar a fabricar tu propia vasija.",
       "options": [
         {
@@ -627,7 +627,7 @@
       ]
     },
     "e1": {
-      "bg": "https://cdn.midjourney.com/bdd60c2a-a5e5-4adf-ab5d-b7d17bbe78d4/0_1.png",
+      "bg": "https://i.ibb.co/8nwKqsDs/126629b8da30.webp",
       "text": "1. Para construir las paredes del horno, ¿qué mezcla de materiales es la correcta?",
       "options": [
         {
@@ -646,7 +646,7 @@
       ]
     },
     "e2": {
-      "bg": "https://cdn.midjourney.com/e150c92a-e84a-43c9-958e-9dde9f00cf01/0_0.png",
+      "bg": "https://i.ibb.co/LzmhyCwf/afcd106369c0.webp",
       "text": "2. ¿Qué forma tendrá el tejado?",
       "options": [
         {
@@ -682,7 +682,7 @@
       ]
     },
     "e4": {
-      "bg": "https://cdn.midjourney.com/09087652-7669-453e-a4bc-09799138b3b7/0_2.png",
+      "bg": "https://i.ibb.co/B2vkB5nb/5bd67bde40be.webp",
       "text": "4. ¿Para qué construyes la chimenea?",
       "options": [
         {
@@ -701,7 +701,7 @@
       ]
     },
     "e5": {
-      "bg": "https://cdn.midjourney.com/bb7e9d84-1a9b-42b8-ae35-800917ce100d/0_0.png",
+      "bg": "https://i.ibb.co/20VhTwSr/50ac3b33ac4a.webp",
       "text": "5. ¿Cómo se debe construir la vasija? Empiezas a añadir capas de arcilla",
       "options": [
         {
@@ -746,7 +746,7 @@
       ]
     },
     "e7": {
-      "bg": "https://cdn.midjourney.com/44109d0d-f345-4c28-b7a4-e0b2f395ec67/0_1.png",
+      "bg": "https://i.ibb.co/LDXX3BWH/9347ed6d0832.webp",
       "text": "7. Prendes fuego en unas ramas y metes la vasija. ¿Para qué añades una rejilla?",
       "options": [
         {
@@ -765,7 +765,7 @@
       ]
     },
     "e8": {
-      "bg": "https://cdn.midjourney.com/09087652-7669-453e-a4bc-09799138b3b7/0_0.png",
+      "bg": "https://i.ibb.co/dwRd5PxD/8f43fbc14bb8.webp",
       "text": "8. Es hora de abrir el horno",
       "options": [
         {
@@ -788,7 +788,7 @@
       ]
     },
     "e9": {
-      "bg": "https://cdn.midjourney.com/1fe87f0a-edf8-489e-b5f4-65ad7c2f3abd/0_2.png",
+      "bg": "https://i.ibb.co/8D4GF54h/369993023e59.webp",
       "text": "9. ¿Cómo sabes que la vasija está bien cocida?",
       "options": [
         {
@@ -807,8 +807,241 @@
       ]
     },
     "final": {
-      "bg": "https://cdn.midjourney.com/b57117ad-3d3a-45c7-abe4-475fad548ac8/0_1.png",
+      "bg": "https://i.ibb.co/wFKqHpPM/aa4306df876a.webp",
       "text": "Enhorabuena! Tu vasija ha sido cocida correctamente y puede almacenar agua sin filtraciones.",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "480: Jabón": {
+    "order": 480,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/soap_intro.mp4",
+      "frame": "https://cdn.midjourney.com/soap_intro.png",
+      "text": "\"Estás junto a un arroyo. Hay grasa animal de una caza reciente, y ves cenizas de madera quemada.¿Podrás fabricar jabón como tus antepasados, para limpiar pieles y herramientas?Usa tu conocimiento y elige bien para crear un jabón natural útil.\"",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Reúnes los ingredientes y te preparas para tu alquimia primitiva.",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://i.ibb.co/example1.webp",
+      "text": "1. ¿Qué necesitas para hacer lejía?",
+      "options": [
+        {
+          "label": "Quemar madera dura y recoger la ceniza blanca",
+          "successMsg": "La ceniza de madera dura contiene potasio. Es la base de la lejía.",
+          "next": "e2"
+        },
+        {
+          "label": "Hervir hierba hasta que se ennegrezca",
+          "failMsg": "La hierba no genera lejía. No hay alcalinidad."
+        },
+        {
+          "label": "Triturar piedra caliza",
+          "failMsg": "La caliza no se disuelve. No sirve para jabón."
+        },
+        {
+          "label": "Usar solo agua de manantial",
+          "failMsg": "El agua sola no limpia profundamente."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://i.ibb.co/example2.webp",
+      "text": "2. ¿Cómo extraes la lejía?",
+      "options": [
+        {
+          "label": "Echas agua caliente sobre las cenizas y la dejas gotear lentamente",
+          "successMsg": "La percolación lenta genera un líquido alcalino fuerte",
+          "next": "e3"
+        },
+        {
+          "label": "Mezclas ceniza con grasa y calientas todo",
+          "failMsg": "Calentar la grasa con ceniza arruina ambos"
+        },
+        {
+          "label": "Secas la ceniza y la guardas",
+          "failMsg": "Ceniza seca no sirve sola"
+        },
+        {
+          "label": "La filtras con arena y musgo",
+          "failMsg": "La arena no extrae alcalinidad"
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://i.ibb.co/example3.webp",
+      "text": "3. Ya tienes lejía. ¿Qué haces ahora?",
+      "options": [
+        {
+          "label": "Calientas la grasa animal hasta que se derrita por completo",
+          "successMsg": "La grasa fundida permite la saponificación",
+          "next": "e4"
+        },
+        {
+          "label": "Añades agua a la grasa y revuelves fuerte",
+          "failMsg": "Trozos fríos no se mezclan"
+        },
+        {
+          "label": "Cortas la grasa en trozos y la mezclas en frío",
+          "failMsg": "El agua diluye demasiado pronto"
+        },
+        {
+          "label": "Mezclas la lejía con bayas trituradas",
+          "failMsg": "Las bayas pueden colorear, pero no hay jabón"
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://i.ibb.co/example4.webp",
+      "text": "4. ¿Cómo combinas los ingredientes?",
+      "options": [
+        {
+          "label": "Agregas la lejía poco a poco mientras revuelves la grasa caliente",
+          "successMsg": "Añadir poco a poco controla la reacción",
+          "next": "e5"
+        },
+        {
+          "label": "Viertes toda la lejía de golpe y tapas",
+          "failMsg": "Echar todo de golpe rompe la mezcla"
+        },
+        {
+          "label": "Mezclas todo en frío en un cuenco de madera",
+          "failMsg": "Sin calor no hay reacción"
+        },
+        {
+          "label": "Los dejas reposar sin mover",
+          "failMsg": "Reposar sin mezclar no sirve"
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://i.ibb.co/example5.webp",
+      "text": "5. Se está espesando. ¿Qué haces ahora?",
+      "options": [
+        {
+          "label": "Sigues removiendo hasta que espese como miel",
+          "successMsg": "Remover mantiene todo homogéneo",
+          "next": "e6"
+        },
+        {
+          "label": "Lo enfrías rápidamente con agua del río",
+          "failMsg": "Enfriar corta el proceso"
+        },
+        {
+          "label": "Añades arena para que endurezca",
+          "failMsg": "La arena lo deja áspero"
+        },
+        {
+          "label": "Espolvoreas hojas para que huela bien",
+          "failMsg": "Las hojas interfieren antes de tiempo"
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://i.ibb.co/example6.webp",
+      "text": "6. ¿Cómo lo dejas endurecer?",
+      "options": [
+        {
+          "label": "Lo viertes en moldes de corteza o piedra",
+          "successMsg": "Moldes naturales lo dejan endurecer bien",
+          "next": "e7"
+        },
+        {
+          "label": "Lo dejas secar en el cuenco",
+          "failMsg": "Se pega y se rompe"
+        },
+        {
+          "label": "Lo congelas durante la noche",
+          "failMsg": "Congelar arruina el jabón"
+        },
+        {
+          "label": "Lo envuelves fuertemente en hojas",
+          "failMsg": "Las hojas lo mantienen húmedo"
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://i.ibb.co/example7.webp",
+      "text": "7. Está listo. ¿Cómo lo pruebas?",
+      "options": [
+        {
+          "label": "Frotas un pedazo con agua en la mano",
+          "successMsg": "Si hace espuma suave, ¡funciona!",
+          "next": "e8"
+        },
+        {
+          "label": "Lo pruebas con la lengua para ver si amarga",
+          "failMsg": "¡Probar lejía es peligroso!"
+        },
+        {
+          "label": "Lo dejas caer en agua para ver si flota",
+          "failMsg": "Que flote no significa nada"
+        },
+        {
+          "label": "Lo presionas contra la piel y esperas",
+          "failMsg": "Presionar no es fiable"
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://i.ibb.co/example8.webp",
+      "text": "8. El jabón está formado. ¿Cómo lo secas bien?",
+      "options": [
+        {
+          "label": "Lo dejas en un sitio seco y ventilado, sin sol directo",
+          "successMsg": "Secado lento a la sombra mantiene la calidad",
+          "next": "e9"
+        },
+        {
+          "label": "Lo expones al sol fuerte para que se endurezca rápido",
+          "failMsg": "El sol lo agrieta y lo daña"
+        },
+        {
+          "label": "Lo guardas de inmediato en un recipiente cerrado",
+          "failMsg": "La humedad se encierra y genera moho"
+        },
+        {
+          "label": "Lo colocas cerca del fuego",
+          "failMsg": "El fuego derrite los bordes"
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://i.ibb.co/example9.webp",
+      "text": "9. ¿Cómo guardas el jabón para que dure?",
+      "options": [
+        {
+          "label": "Lo envuelves en hojas secas y lo colocas en alto",
+          "successMsg": "Alto y seco evita humedad y bichos",
+          "next": "final"
+        },
+        {
+          "label": "Lo entierras en tierra húmeda",
+          "failMsg": "La tierra lo reblandece"
+        },
+        {
+          "label": "Lo metes en una bolsa de piel cerca del río",
+          "failMsg": "La humedad lo disuelve con el tiempo"
+        },
+        {
+          "label": "Lo dejas en un cuenco abierto en el refugio",
+          "failMsg": "El aire libre atrae insectos y polvo"
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://i.ibb.co/soapfinal.webp",
+      "text": "\"¡Has creado jabón primitivo! Hace espuma, limpia y cuida tus herramientas y tu piel. La civilización empieza con limpieza. 🧼\"",
       "options": [
         {
           "label": "Volver a empezar",
