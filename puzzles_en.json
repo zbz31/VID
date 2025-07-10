@@ -1488,5 +1488,225 @@
         }
       ]
     }
+  },
+  "2: Soap2": {
+    "order": 2,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/0f17d4cc-c625-454b-959d-3acad9f725ba/0_0.png",
+      "text": "You are at the camp. Animal fat from a recent hunt lies nearby, and you've seen ashes left from burned wood.<br><br>Can you make soap like your ancestors did to clean skins and tools?<br><br>Use your knowledge and the right choices to craft usable natural soap.",
+      "options": [
+        {
+          "label": "Begin",
+          "successMsg": "You gather ingredients and prepare for your primitive chemistry.",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://cdn.midjourney.com/98a8f519-c450-46c0-85fc-b99b484277da/0_2.png",
+      "text": "1. What do you need to make lye?",
+      "options": [
+        {
+          "label": "Burn hardwood and collect  white ash",
+          "successMsg": "Hardwood ash contains potassium. That's the base for lye.",
+          "next": "e2"
+        },
+        {
+          "label": "Boil grass until it blackens",
+          "failMsg": "Grass doesn't yield lye. No alkali is produced."
+        },
+        {
+          "label": "Crush limestone into powder",
+          "failMsg": "Limestone won’t dissolve. Not useful for soap."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://cdn.midjourney.com/0002134d-6f81-4298-adab-f43052e2fa4e/0_3.png",
+      "text": "2. How do you extract the lye?",
+      "options": [
+        {
+          "label": "Pour hot water over the ashes and let it drip slowly",
+          "successMsg": "Slow percolation makes a strong alkaline liquid",
+          "next": "e3"
+        },
+        {
+          "label": "Mix ash with oil and heat directly",
+          "failMsg": "Heating ash with oil ruins both"
+        },
+        {
+          "label": "Dry the ash and store it in a pouch",
+          "failMsg": "Dry ash alone is useless"
+        },
+        {
+          "label": "Filter it through sand and moss",
+          "failMsg": "Sand doesn’t extract the alkali"
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://cdn.midjourney.com/50bbbd5c-f844-46de-af08-a942dc387829/0_3.png",
+      "text": "3. You now have lye. What's next?",
+      "options": [
+        {
+          "label": "Heat animal fat until fully melted",
+          "successMsg": "Melted fat allows proper saponification",
+          "next": "e4"
+        },
+        {
+          "label": "Add water to fat and stir vigorously",
+          "failMsg": "Cold chunks won’t mix"
+        },
+        {
+          "label": "Cut the fat into chunks and mix cold",
+          "failMsg": "Water dilutes the mix too early"
+        },
+        {
+          "label": "Mix lye with crushed berries",
+          "failMsg": "Berries may color it, but no soap is formed"
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://cdn.midjourney.com/c9018edd-c15e-4ae7-b2c4-05a896971cbf/0_1.png",
+      "text": "4. How do you combine the ingredients?",
+      "options": [
+        {
+          "label": "Add lye slowly while stirring the hot fat",
+          "successMsg": "Slow addition controls the reaction",
+          "next": "e5"
+        },
+        {
+          "label": "Pour lye all at once and cover it",
+          "failMsg": "Rapid addition breaks emulsion"
+        },
+        {
+          "label": "Stir both cold in a wooden bowl",
+          "failMsg": "No heat means no reaction"
+        },
+        {
+          "label": "Let them sit together overnight",
+          "failMsg": "Sitting without stirring won’t mix properly"
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://cdn.midjourney.com/75dfa3a1-4103-485f-b9b2-cb65c0fd0e47/0_3.png",
+      "text": "5. It's thickening. What now?",
+      "options": [
+        {
+          "label": "Keep stirring until it traces and thickens like honey",
+          "successMsg": "Stirring keeps it homogeneous",
+          "next": "e6"
+        },
+        {
+          "label": "Cool it quickly with river water",
+          "failMsg": "Cooling stops the process too early"
+        },
+        {
+          "label": "Add sand to speed up hardening",
+          "failMsg": "Sand makes it gritty"
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://cdn.midjourney.com/1b1a8772-ffa0-4995-bc9c-88edaec5e3ab/0_2.png",
+      "text": "6. How do you harden the mixture?",
+      "options": [
+        {
+          "label": "Pour into molds made of bark or stone",
+          "successMsg": "Natural molds let it set well",
+          "next": "e7"
+        },
+        {
+          "label": "Leave it in the bowl to dry",
+          "failMsg": "It sticks and breaks"
+        },
+        {
+          "label": "Freeze it overnight",
+          "failMsg": "Freezing ruins the soap"
+        },
+        {
+          "label": "Wrap it in leaves tightly",
+          "failMsg": "Leaf wrap keeps it moist too long"
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://cdn.midjourney.com/30a649a5-ff60-48ff-baba-0ab4a1807d5f/0_3.png",
+      "text": "7. It's ready. How do you test it?",
+      "options": [
+        {
+          "label": "Rub a small piece with water on your hand",
+          "successMsg": "Gentle foam shows success",
+          "next": "e8"
+        },
+        {
+          "label": "Taste it to check bitterness",
+          "failMsg": "Don’t taste lye! Unsafe!"
+        },
+        {
+          "label": "Drop it in water to see if it floats",
+          "failMsg": "Buoyancy means nothing here"
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_3.png",
+      "text": "8. The soap is formed. How do you dry it properly?",
+      "options": [
+        {
+          "label": "Let it rest in a dry, ventilated spot out of the sun",
+          "successMsg": "Slow drying in the shade preserves quality",
+          "next": "e9"
+        },
+        {
+          "label": "Expose it to direct sunlight to harden faster",
+          "failMsg": "Sun cracks and degrades it"
+        },
+        {
+          "label": "Store it in a sealed container right away",
+          "failMsg": "Moisture stays trapped, promotes mold"
+        },
+        {
+          "label": "Place it near the fire to speed it up",
+          "failMsg": "Fire overheats and melts edges"
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_1.png",
+      "text": "9. How do you store the finished soap for future use?",
+      "options": [
+        {
+          "label": "Wrap it in dry leaves and store on a high shelf",
+          "successMsg": "High and dry avoids pests and moisture",
+          "next": "final"
+        },
+        {
+          "label": "Keep it buried in damp earth",
+          "failMsg": "Damp soil softens and ruins it"
+        },
+        {
+          "label": "Store it in an animal skin pouch near the river",
+          "failMsg": "Humidity causes it to dissolve over time"
+        },
+        {
+          "label": "Leave it in an open bowl in the shelter",
+          "failMsg": "Open air attracts insects and dirt"
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/f68fdd23-7979-4f28-9670-33fc98c45240/0_2.png",
+      "text": "\"You've created primitive soap. It lathers, cleans, and keeps your tools and skin fresh. Civilization starts with cleanliness. 🧼\"",
+      "options": [
+        {
+          "label": "Start over",
+          "successMsg": "You can try again whenever you want.",
+          "next": "intro"
+        }
+      ]
+    }
   }
 }
