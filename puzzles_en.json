@@ -821,9 +821,8 @@
   "480: Soap": {
     "order": 480,
     "intro": {
-      "bg": "https://cdn.midjourney.com/video/soap_intro.mp4",
-      "frame": "https://cdn.midjourney.com/soap_intro.png",
-      "text": "\"You are near a stream. Animal fat from a recent hunt lies nearby, and you've seen ashes left from burned wood.Can you make soap like your ancestors did to clean skins and tools?Use your knowledge and the right choices to craft usable natural soap.\"",
+      "bg": "https://i.ibb.co/qMzrDYmc/9785fb2f83d9.webp",
+      "text": "You are at the camp. Animal fat from a recent hunt lies nearby, and you've seen ashes left from burned wood.<br><br>Can you make soap like your ancestors did to clean skins and tools?<br><br>Use your knowledge and the right choices to craft usable natural soap.",
       "options": [
         {
           "label": "Begin",
@@ -833,11 +832,11 @@
       ]
     },
     "e1": {
-      "bg": "https://i.ibb.co/example1.webp",
+      "bg": "https://i.ibb.co/PGPDgMMn/a7080d36c058.webp",
       "text": "1. What do you need to make lye?",
       "options": [
         {
-          "label": "Burn hardwood and collect the white ash",
+          "label": "Burn hardwood and collect  white ash",
           "successMsg": "Hardwood ash contains potassium. That's the base for lye.",
           "next": "e2"
         },
@@ -848,15 +847,11 @@
         {
           "label": "Crush limestone into powder",
           "failMsg": "Limestone won’t dissolve. Not useful for soap."
-        },
-        {
-          "label": "Use cold spring water only",
-          "failMsg": "Water alone doesn’t clean deeply."
         }
       ]
     },
     "e2": {
-      "bg": "https://i.ibb.co/example2.webp",
+      "bg": "https://i.ibb.co/JwsLwRxy/abc2d9fbd21b.webp",
       "text": "2. How do you extract the lye?",
       "options": [
         {
@@ -879,7 +874,7 @@
       ]
     },
     "e3": {
-      "bg": "https://i.ibb.co/example3.webp",
+      "bg": "https://i.ibb.co/TqmHbj1f/e54e750f2b52.webp",
       "text": "3. You now have lye. What's next?",
       "options": [
         {
@@ -902,7 +897,7 @@
       ]
     },
     "e4": {
-      "bg": "https://i.ibb.co/example4.webp",
+      "bg": "https://i.ibb.co/2YmKB445/10ee19fb52f3.webp",
       "text": "4. How do you combine the ingredients?",
       "options": [
         {
@@ -925,7 +920,7 @@
       ]
     },
     "e5": {
-      "bg": "https://i.ibb.co/example5.webp",
+      "bg": "https://i.ibb.co/S4Sr0R30/8ee4a8c5346b.webp",
       "text": "5. It's thickening. What now?",
       "options": [
         {
@@ -940,15 +935,11 @@
         {
           "label": "Add sand to speed up hardening",
           "failMsg": "Sand makes it gritty"
-        },
-        {
-          "label": "Sprinkle leaves to scent it immediately",
-          "failMsg": "Leaves interfere before saponification completes"
         }
       ]
     },
     "e6": {
-      "bg": "https://i.ibb.co/example6.webp",
+      "bg": "https://i.ibb.co/xKyBZCDz/e20c853f9368.webp",
       "text": "6. How do you harden the mixture?",
       "options": [
         {
@@ -971,7 +962,7 @@
       ]
     },
     "e7": {
-      "bg": "https://i.ibb.co/example7.webp",
+      "bg": "https://i.ibb.co/BH1Jm0Q7/78e9bae9b5c0.webp",
       "text": "7. It's ready. How do you test it?",
       "options": [
         {
@@ -986,15 +977,11 @@
         {
           "label": "Drop it in water to see if it floats",
           "failMsg": "Buoyancy means nothing here"
-        },
-        {
-          "label": "Press it into skin and wait",
-          "failMsg": "Pressure test is not reliable"
         }
       ]
     },
     "e8": {
-      "bg": "https://i.ibb.co/example8.webp",
+      "bg": "https://i.ibb.co/chmMhBfG/7b803c2d23c0.webp",
       "text": "8. The soap is formed. How do you dry it properly?",
       "options": [
         {
@@ -1017,7 +1004,7 @@
       ]
     },
     "e9": {
-      "bg": "https://i.ibb.co/example9.webp",
+      "bg": "https://i.ibb.co/gF3Ppps7/109783a4a3d4.webp",
       "text": "9. How do you store the finished soap for future use?",
       "options": [
         {
@@ -1040,7 +1027,7 @@
       ]
     },
     "final": {
-      "bg": "https://i.ibb.co/soapfinal.webp",
+      "bg": "https://i.ibb.co/FqkxYxtm/35bffac9bf64.webp",
       "text": "\"You've created primitive soap. It lathers, cleans, and keeps your tools and skin fresh. Civilization starts with cleanliness. 🧼\"",
       "options": [
         {
