@@ -207,8 +207,8 @@
       ]
     }
   },
-  "7: Espejo": {
-    "order": 7,
+  "6: Espejo": {
+    "order": 6,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -405,8 +405,8 @@
       ]
     }
   },
-  "5: Pinturas": {
-    "order": 5,
+  "7: Pinturas": {
+    "order": 7,
     "intro": {
       "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
       "text": "Has encontrado un buen soporte para pintar en piedra y quieres decorarlo con pigmentos naturales.<br><br>\n  Para lograr colores vistosos y duraderos, necesitas buscar y preparar bien los materiales.<br><br>\n  ¿Podrás crear un dibujo que resista el paso del tiempo?",
@@ -613,8 +613,8 @@
       ]
     }
   },
-  "6: Vasija": {
-    "order": 6,
+  "8: Vasija": {
+    "order": 8,
     "intro": {
       "bg": "https://i.ibb.co/mVyZjVhG/525f94a68e4d.webp",
       "text": "Si dominas la cerámica, podrás crear vasijas y recipientes ideales para almacenar agua y otros objetos.<br><br>Ahora que ya sabes controlar el fuego, es momento de construir un horno.<br><br>Con la arcilla que has conseguido para modelar, podrás empezar a fabricar tu propia vasija.",
@@ -1033,6 +1033,234 @@
         {
           "label": "Volver a empezar",
           "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "5: Pegamento": {
+    "order": 5,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/birch_intro.mp4",
+      "frame": "https://cdn.midjourney.com/birch_intro.png",
+      "text": "Has tallado una piedra afilada y cortado un mango de madera.<br><br>Ahora necesitas unirlos para crear una herramienta útil.Los antiguos usaban una brea negra y pegajosa.<br><br> ¿Podrás seguir sus pasos y fabricar tu propio adhesivo?",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Estás listo para comenzar tu viaje prehistórico.",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://i.ibb.co/birch1.webp",
+      "text": "1. ¿Cuál es el material base para hacer brea?",
+      "options": [
+        {
+          "label": "Corteza de abedul",
+          "successMsg": "La corteza de abedul contiene precursores de brea.",
+          "failMsg": "La resina no es brea, no es lo bastante fuerte.",
+          "next": "e2"
+        },
+        {
+          "label": "Resina de pino",
+          "failMsg": "Las nueces no producen brea."
+        },
+        {
+          "label": "Cáscaras de nuez trituradas",
+          "failMsg": "Las hojas se queman, no sirven."
+        },
+        {
+          "label": "Hojas de roble"
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://i.ibb.co/birch2.webp",
+      "text": "2. ¿Cómo recolectas correctamente la corteza?",
+      "options": [
+        {
+          "label": "La pelas en láminas grandes de árboles vivos",
+          "successMsg": "Las láminas grandes se enrollan y condensan mejor.",
+          "failMsg": "Troncos quemados están degradados.",
+          "next": "e3"
+        },
+        {
+          "label": "Raspa troncos quemados",
+          "failMsg": "El musgo no extrae nada útil."
+        },
+        {
+          "label": "Limpia la corteza con musgo",
+          "failMsg": "Remojarla la debilita demasiado."
+        },
+        {
+          "label": "Remójala en el río toda la noche"
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://i.ibb.co/birch3.webp",
+      "text": "3. ¿Qué estructura debes construir para destilar la corteza?",
+      "options": [
+        {
+          "label": "Un pozo con un recipiente sellado en el interior",
+          "successMsg": "El pozo evita el contacto con oxígeno.",
+          "failMsg": "La hoguera quema todo en vez de destilar.",
+          "next": "e4"
+        },
+        {
+          "label": "Una hoguera simple",
+          "failMsg": "La madera se quema y no sella."
+        },
+        {
+          "label": "Un cuenco de madera con tapa",
+          "failMsg": "El estante expone demasiado al fuego."
+        },
+        {
+          "label": "Un estante sobre el fuego"
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://i.ibb.co/birch4.webp",
+      "text": "4. ¿Cómo preparas el recipiente para extraer la brea?",
+      "options": [
+        {
+          "label": "Coloca la corteza dentro y séllalo con barro",
+          "successMsg": "Sellar evita que entre oxígeno.",
+          "failMsg": "La tela se quema y no aísla.",
+          "next": "e5"
+        },
+        {
+          "label": "Envuélvela en tela",
+          "failMsg": "Si está abierto, la corteza se quema."
+        },
+        {
+          "label": "Déjalo abierto por arriba",
+          "failMsg": "Las cenizas no ayudan aquí."
+        },
+        {
+          "label": "Mézclala con cenizas"
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://i.ibb.co/birch5.webp",
+      "text": "5. ¿Cómo inicias el proceso?",
+      "options": [
+        {
+          "label": "Haces fuego encima del recipiente sellado",
+          "successMsg": "El fuego calienta y libera los vapores de brea.",
+          "failMsg": "La corteza se quema sin protección.",
+          "next": "e6"
+        },
+        {
+          "label": "Tiras la corteza directo al fuego",
+          "failMsg": "El agua no ayuda en este proceso."
+        },
+        {
+          "label": "Hierves agua cerca del recipiente",
+          "failMsg": "Agitarlo rompe el sello."
+        },
+        {
+          "label": "Lo agitas mientras se calienta"
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://i.ibb.co/birch6.webp",
+      "text": "6. ¿Cuánto tiempo debes calentarla?",
+      "options": [
+        {
+          "label": "Varias horas lentamente",
+          "successMsg": "El calentamiento lento libera la brea progresivamente.",
+          "failMsg": "El vapor aparece muy pronto.",
+          "next": "e7"
+        },
+        {
+          "label": "Solo hasta que salga vapor",
+          "failMsg": "Cinco minutos no bastan."
+        },
+        {
+          "label": "Solo 5 minutos",
+          "failMsg": "El color del recipiente no es suficiente."
+        },
+        {
+          "label": "Hasta que el recipiente se ponga negro"
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://i.ibb.co/birch7.webp",
+      "text": "7. ¿Cómo sabes que la brea está lista?",
+      "options": [
+        {
+          "label": "Se acumula en el fondo del recipiente inferior",
+          "successMsg": "Si hay brea recolectada, lo lograste.",
+          "failMsg": "Corteza crujiente = está quemada.",
+          "next": "e8"
+        },
+        {
+          "label": "La corteza está seca y crujiente",
+          "failMsg": "El humo puede engañar."
+        },
+        {
+          "label": "Ya no sale humo",
+          "failMsg": "El olor no es buen indicador."
+        },
+        {
+          "label": "La corteza huele dulce"
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://i.ibb.co/bond1.webp",
+      "text": "8. ¿Cómo unes la piedra al palo?",
+      "options": [
+        {
+          "label": "Calientas la brea y la aplicas entre ambas piezas",
+          "successMsg": "La brea caliente se adhiere y une con fuerza.",
+          "next": "e9"
+        },
+        {
+          "label": "La frotas contra el palo hasta que encaje",
+          "failMsg": "Ranuras sin adhesivo no sirven."
+        },
+        {
+          "label": "Tallas ranuras en la piedra"
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://i.ibb.co/bond2.webp",
+      "text": "9. ¿Cómo aseguras que la unión se solidifique bien?",
+      "options": [
+        {
+          "label": "Dejas que enfríe lentamente y atas con tendón",
+          "successMsg": "El enfriamiento lento y el atado la hacen firme y duradera.",
+          "failMsg": "El agua arruina el pegamento",
+          "next": "final"
+        },
+        {
+          "label": "La enfrías en agua inmediatamente",
+          "failMsg": "La tierra contamina la unión"
+        },
+        {
+          "label": "La entierras en tierra para que seque",
+          "failMsg": "El sol reblandece la brea"
+        },
+        {
+          "label": "La dejas al sol todo el día"
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://i.ibb.co/birchfinal.webp",
+      "text": "\"Has creado una herramienta sólida: una piedra bien unida a un palo con brea natural y tendón. Como tus ancestros, ahora tienes una tecnología poderosa en tus manos. 🪓\"",
+      "options": [
+        {
+          "label": "Empezar de nuevo",
+          "successMsg": "Puedes intentarlo otra vez cuando quieras.",
           "next": "intro"
         }
       ]
