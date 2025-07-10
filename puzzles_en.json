@@ -207,8 +207,8 @@
       ]
     }
   },
-  "7: Mirror": {
-    "order": 7,
+  "6: Mirror": {
+    "order": 6,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -405,8 +405,8 @@
       ]
     }
   },
-  "5: Cave Art": {
-    "order": 5,
+  "7: Cave Art": {
+    "order": 7,
     "intro": {
       "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
       "text": "You've found a good surface for painting on stone and want to decorate it with natural pigments. <br><br>To achieve vibrant, long-lasting colors, you need to source and prepare the materials well. <br><br>Can you create a drawing that will stand the test of time?",
@@ -613,8 +613,8 @@
       ]
     }
   },
-  "6: Ceramic Pot": {
-    "order": 6,
+  "8: Ceramic Pot": {
+    "order": 8,
     "intro": {
       "bg": "https://i.ibb.co/mVyZjVhG/525f94a68e4d.webp",
       "text": "If you master ceramics, you will be able to create pots and containers ideal for storing water and other objects.<br><br>Now that you know how to control fire, it's time to build a kiln.<br><br>With the clay you have obtained for modeling, you can begin to make your own pot.",
@@ -1033,6 +1033,234 @@
         {
           "label": "Start over",
           "successMsg": "You can try again whenever you want.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "5: Glue": {
+    "order": 5,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/video/birch_intro.mp4",
+      "frame": "https://cdn.midjourney.com/birch_intro.png",
+      "text": "You’ve shaped a sharp stone, and cut a wooden handle. Now you need to join them to create a proper tool.<br><br>Ancient people used sticky black tar for this purpose.<br><br>Can you follow their steps to craft your own adhesive and finish the job?",
+      "options": [
+        {
+          "label": "Begin",
+          "successMsg": "You’re ready to begin your bonding journey.",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://i.ibb.co/birch1.webp",
+      "text": "1. What is the source material for tar?",
+      "options": [
+        {
+          "label": "Bark from birch trees",
+          "successMsg": "Birch bark contains tar precursors.",
+          "failMsg": "Resin isn’t tar. It’s sticky but not strong.",
+          "next": "e2"
+        },
+        {
+          "label": "Pine resin",
+          "failMsg": "Nutshells don’t produce tar."
+        },
+        {
+          "label": "Crushed nutshells",
+          "failMsg": "Oak leaves burn but give no tar."
+        },
+        {
+          "label": "Oak leaves"
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://i.ibb.co/birch2.webp",
+      "text": "2. How do you collect the bark properly?",
+      "options": [
+        {
+          "label": "Peel it in large sheets from live trees",
+          "successMsg": "Large sheets curl and condense tar better.",
+          "failMsg": "Burnt wood is too degraded.",
+          "next": "e3"
+        },
+        {
+          "label": "Scrape burnt logs",
+          "failMsg": "Moss won’t extract anything."
+        },
+        {
+          "label": "Use moss to wipe bark",
+          "failMsg": "Soaking weakens the bark too much."
+        },
+        {
+          "label": "Soak bark in river overnight"
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://i.ibb.co/birch3.webp",
+      "text": "3. What do you build to distill the bark?",
+      "options": [
+        {
+          "label": "A pit with a covered ceramic pot inside",
+          "successMsg": "Pit protects the process from air.",
+          "failMsg": "Fire alone burns the bark, no tar.",
+          "next": "e4"
+        },
+        {
+          "label": "A simple campfire",
+          "failMsg": "Wood burns; not airtight."
+        },
+        {
+          "label": "A wooden bowl and lid",
+          "failMsg": "Hanging exposes it to oxygen."
+        },
+        {
+          "label": "A hanging rack over fire"
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://i.ibb.co/birch4.webp",
+      "text": "4. How do you prepare the container?",
+      "options": [
+        {
+          "label": "Place bark inside and seal it with mud",
+          "successMsg": "Sealing prevents oxygen from entering.",
+          "failMsg": "Cloth burns away. Not airtight.",
+          "next": "e5"
+        },
+        {
+          "label": "Wrap bark in cloth",
+          "failMsg": "Open container lets everything burn."
+        },
+        {
+          "label": "Leave the container open on top",
+          "failMsg": "Ash won’t help extract tar."
+        },
+        {
+          "label": "Mix bark with ashes"
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://i.ibb.co/birch5.webp",
+      "text": "5. How do you start the process?",
+      "options": [
+        {
+          "label": "Build fire over the sealed pot",
+          "successMsg": "Fire heats and drives out tar vapors below.",
+          "failMsg": "Bark burns instead of distills.",
+          "next": "e6"
+        },
+        {
+          "label": "Throw bark directly into flames",
+          "failMsg": "Water doesn't help the tar process."
+        },
+        {
+          "label": "Boil water next to the container",
+          "failMsg": "Movement ruins sealing."
+        },
+        {
+          "label": "Shake the pot while heating"
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://i.ibb.co/birch6.webp",
+      "text": "6. How long should you heat it?",
+      "options": [
+        {
+          "label": "Several hours slowly",
+          "successMsg": "Slow heating releases tar gradually.",
+          "failMsg": "Steam appears early—too soon.",
+          "next": "e7"
+        },
+        {
+          "label": "Just until it steams",
+          "failMsg": "Five minutes is far too short."
+        },
+        {
+          "label": "Only 5 minutes",
+          "failMsg": "Black pot doesn’t guarantee success."
+        },
+        {
+          "label": "Until the pot turns black"
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://i.ibb.co/birch7.webp",
+      "text": "7. How do you know it’s done?",
+      "options": [
+        {
+          "label": "Tar collects at bottom of lower vessel",
+          "successMsg": "Collected tar means success.",
+          "failMsg": "Crisp bark means it burned.",
+          "next": "e8"
+        },
+        {
+          "label": "Bark becomes crisp and dry",
+          "failMsg": "Smoke varies—unreliable."
+        },
+        {
+          "label": "Smoke stops rising",
+          "failMsg": "Smell is misleading."
+        },
+        {
+          "label": "Bark smells sweet"
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://i.ibb.co/bond1.webp",
+      "text": "8. How do you attach the stone to the wooden handle?",
+      "options": [
+        {
+          "label": "Heat the tar and apply it between both parts",
+          "successMsg": "Warm tar grips and bonds strongly",
+          "next": "e9"
+        },
+        {
+          "label": "Rub the stone on the stick until it fits",
+          "failMsg": "Grooves alone don’t fix it in place"
+        },
+        {
+          "label": "Carve grooves into the stone"
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://i.ibb.co/bond2.webp",
+      "text": "9. How do you ensure the joint solidifies properly?",
+      "options": [
+        {
+          "label": "Let it cool slowly and bind with rope",
+          "successMsg": "Slow cooling + binding makes it strong and stable",
+          "failMsg": "Water ruins the adhesive",
+          "next": "final"
+        },
+        {
+          "label": "Cool it in water immediately",
+          "failMsg": "Dirt contaminates the joint"
+        },
+        {
+          "label": "Press it in soil until dry",
+          "failMsg": "Sunsoftened glue weakens it"
+        },
+        {
+          "label": "Leave it in the sun for a day"
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://i.ibb.co/birchfinal.webp",
+      "text": "\"You’ve crafted a strong, ancient tool — a stone firmly attached to wood with natural tar and sinew. Just like your ancestors, you now hold technology in your hands. 🪓\"",
+      "options": [
+        {
+          "label": "Start over",
+          "successMsg": "Try again to master the art of primitive construction.",
           "next": "intro"
         }
       ]
