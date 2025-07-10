@@ -207,8 +207,8 @@
       ]
     }
   },
-  "6: Mirror": {
-    "order": 6,
+  "9: Mirror": {
+    "order": 9,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -1041,7 +1041,7 @@
   "5: Glue": {
     "order": 5,
     "intro": {
-      "bg": "https://cdn.midjourney.com/video/birch_intro.mp4",
+      "bg": "https://i.ibb.co/zVm7Hmvg/c9cf091c8584.webp",
       "frame": "https://cdn.midjourney.com/birch_intro.png",
       "text": "You’ve shaped a sharp stone, and cut a wooden handle. Now you need to join them to create a proper tool.<br><br>Ancient people used sticky black tar for this purpose.<br><br>Can you follow their steps to craft your own adhesive and finish the job?",
       "options": [
@@ -1053,7 +1053,7 @@
       ]
     },
     "e1": {
-      "bg": "https://i.ibb.co/birch1.webp",
+      "bg": "https://i.ibb.co/kgtSp65z/96032997bfd5.webp",
       "text": "1. What is the source material for tar?",
       "options": [
         {
@@ -1076,7 +1076,7 @@
       ]
     },
     "e2": {
-      "bg": "https://i.ibb.co/birch2.webp",
+      "bg": "https://i.ibb.co/fYq1nwZv/788b68f75ecd.webp",
       "text": "2. How do you collect the bark properly?",
       "options": [
         {
@@ -1099,7 +1099,7 @@
       ]
     },
     "e3": {
-      "bg": "https://i.ibb.co/birch3.webp",
+      "bg": "https://i.ibb.co/jvM9v90m/cfaf65acf286.webp",
       "text": "3. What do you build to distill the bark?",
       "options": [
         {
@@ -1122,7 +1122,7 @@
       ]
     },
     "e4": {
-      "bg": "https://i.ibb.co/birch4.webp",
+      "bg": "https://i.ibb.co/VYcwKJYB/5e573c06286b.webp",
       "text": "4. How do you prepare the container?",
       "options": [
         {
@@ -1145,7 +1145,7 @@
       ]
     },
     "e5": {
-      "bg": "https://i.ibb.co/birch5.webp",
+      "bg": "https://i.ibb.co/HfFNmyZJ/171bd8aa9975.webp",
       "text": "5. How do you start the process?",
       "options": [
         {
@@ -1168,7 +1168,7 @@
       ]
     },
     "e6": {
-      "bg": "https://i.ibb.co/birch6.webp",
+      "bg": "https://i.ibb.co/mCgVbPs8/f65773c4f288.webp",
       "text": "6. How long should you heat it?",
       "options": [
         {
@@ -1191,7 +1191,7 @@
       ]
     },
     "e7": {
-      "bg": "https://i.ibb.co/birch7.webp",
+      "bg": "https://i.ibb.co/wfP4BXV/9afebd4be198.webp",
       "text": "7. How do you know it’s done?",
       "options": [
         {
@@ -1214,7 +1214,7 @@
       ]
     },
     "e8": {
-      "bg": "https://i.ibb.co/bond1.webp",
+      "bg": "https://i.ibb.co/QjcZcXcy/3894e27dd60c.webp",
       "text": "8. How do you attach the stone to the wooden handle?",
       "options": [
         {
@@ -1232,7 +1232,7 @@
       ]
     },
     "e9": {
-      "bg": "https://i.ibb.co/bond2.webp",
+      "bg": "https://i.ibb.co/KjJQynpZ/ef18ee67d288.webp",
       "text": "9. How do you ensure the joint solidifies properly?",
       "options": [
         {
@@ -1255,12 +1255,235 @@
       ]
     },
     "final": {
-      "bg": "https://i.ibb.co/birchfinal.webp",
+      "bg": "https://i.ibb.co/KjChsy76/cf4cd81d18f6.webp",
       "text": "\"You’ve crafted a strong, ancient tool — a stone firmly attached to wood with natural tar and sinew. Just like your ancestors, you now hold technology in your hands. 🪓\"",
       "options": [
         {
           "label": "Start over",
           "successMsg": "Try again to master the art of primitive construction.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "6: Juice": {
+    "order": 6,
+    "intro": {
+      "bg": "https://i.ibb.co/gMqP08vG/118fcbda0816.webp",
+      "text": "\"In prehistoric times, not all fruit was safe to eat. Many looked delicious — but were dangerous. You’re in front of several bushes and vines with ripe berries. Can you choose wisely and prepare a safe, nourishing juice?\"",
+      "options": [
+        {
+          "label": "Begin",
+          "successMsg": "You observe the forest carefully, searching for clues..."
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://i.ibb.co/ZzDfzRQt/c402bf6507e1.webp",
+      "text": "1. You see four types of berries. Which ones do you choose to test first?",
+      "options": [
+        {
+          "label": "Small red or dark-purple berries in open clusters, matte skin, no thorns",
+          "successMsg": "These physical signs match many edible berries: matte skin, clustered, not waxy.",
+          "next": "e2"
+        },
+        {
+          "label": "Bright white berries with shiny, waxy skin in tight clumps",
+          "failMsg": "White + waxy = common trait of toxic berries like mistletoe."
+        },
+        {
+          "label": "Blue-black berries with white sap when picked and sharp-edged leaves",
+          "failMsg": "White sap signals plant defense — likely toxic."
+        },
+        {
+          "label": "Orange berries on a vine with five-pointed star calyxes and curled stems",
+          "failMsg": "Star calyx shape is common in toxic Solanaceae. Avoid."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://i.ibb.co/jv66Rbkq/1a59b6b83923.webp",
+      "text": "2. What do you do before eating?",
+      "options": [
+        {
+          "label": "Rub the juice on your wrist",
+          "successMsg": "Good technique. Irritation means stop. No irritation? Proceed.",
+          "next": "e3"
+        },
+        {
+          "label": "Bite it",
+          "failMsg": "Too risky, biting first ignores caution."
+        },
+        {
+          "label": "Smell it",
+          "failMsg": "Smell is not enough to detect toxins."
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://i.ibb.co/CpkWs5V2/aa1caaff01fb.webp",
+      "text": "3. No skin reaction. What now?",
+      "options": [
+        {
+          "label": "Rub on lips, then wait",
+          "successMsg": "Lips are sensitive and give mild reactions. Safe next step.",
+          "next": "e4"
+        },
+        {
+          "label": "Eat half of a berry",
+          "failMsg": "Too much intake. Still untested."
+        },
+        {
+          "label": "Crush and mix with water immediately",
+          "failMsg": "Water won’t neutralize poison."
+        },
+        {
+          "label": "Rub into the gum under your lip",
+          "failMsg": "Gums absorb quickly. Risky."
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://i.ibb.co/VcYpvJhv/241993cbe60c.webp",
+      "text": "4. The flavor is slightly tart. What do you check next?",
+      "options": [
+        {
+          "label": "Look for birds or monkeys eating from the same bush",
+          "successMsg": "Great move. Many cultures mimic bird food habits.",
+          "next": "e5"
+        },
+        {
+          "label": "Look for bite marks from large animals",
+          "failMsg": "Large animals eat toxic stuff too. Poor indicator."
+        },
+        {
+          "label": "See if ants gather around fallen berries",
+          "failMsg": "Insects don’t detect human toxicity."
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://i.ibb.co/LzJxbWPt/5ebe64da99cb.webp",
+      "text": "5. Confident in safety. How do you crush the berries?",
+      "options": [
+        {
+          "label": "Use a stone basin and flat stone (mortar & anvil)",
+          "successMsg": "Classic tool choice. Efficient and clean.",
+          "next": "e6"
+        },
+        {
+          "label": "Squeeze in hands and use a filter",
+          "failMsg": "Bare hands = bacteria."
+        },
+        {
+          "label": "Mash them on bark near the fire",
+          "failMsg": "Wood may contain resins or fungi."
+        },
+        {
+          "label": "Bite each one and spit juice into a leaf",
+          "failMsg": "Unsafe and unsanitary."
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://i.ibb.co/39wf9mdM/c28a6b1d11a5.webp",
+      "text": "6. How do you strain the mix?",
+      "options": [
+        {
+          "label": "Use a tightly woven grass mat or net",
+          "successMsg": "Perfect. Filters solids, keeps nutrients.",
+          "next": "e7"
+        },
+        {
+          "label": "Press through chewed bark fiber",
+          "failMsg": "Bark may introduce tannins or fungi."
+        },
+        {
+          "label": "Filter through clean animal hide",
+          "failMsg": "Hide may taint taste or carry bacteria."
+        },
+        {
+          "label": "Drink unfiltered for fiber",
+          "failMsg": "Seeds may contain amygdalin. Bad idea."
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://i.ibb.co/69Js02d/885b865f9cc2.webp",
+      "text": "7. You found a few plants nearby. What do you add to your juice to improve it?",
+      "options": [
+        {
+          "label": "A few minty-smelling leaves",
+          "successMsg": "Good choice. Minty plants can improve flavor and aid digestion.",
+          "next": "e8"
+        },
+        {
+          "label": "Bark of a tree that smells like resin",
+          "failMsg": "Resinous bark can be toxic or too strong."
+        },
+        {
+          "label": "Roots with a pungent, unfamiliar aroma",
+          "failMsg": "Unknown roots may cause stomach pain."
+        },
+        {
+          "label": "Nothing. Better safe than sorry",
+          "failMsg": "You missed a chance to enhance it safely."
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://i.ibb.co/PzFn4kFL/69d5e9defb94.webp",
+      "text": "8. You notice a slight foam forming. What do you do?",
+      "options": [
+        {
+          "label": "Smell and discard if sour",
+          "successMsg": "Correct. Fermentation = potential risk.",
+          "next": "e9"
+        },
+        {
+          "label": "Sip slowly to confirm taste",
+          "failMsg": "You may drink mild alcohol or spoiled juice."
+        },
+        {
+          "label": "Add water and re-seal",
+          "failMsg": "Water dilutes, doesn’t purify."
+        },
+        {
+          "label": "Shake and drink it all fast",
+          "failMsg": "Too much risk. Might be rotten."
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://i.ibb.co/cj9xgmh/4166199d9d4c.webp",
+      "text": "9. The juice is ready, but you might not drink it all now. How long do you think it will stay fresh?",
+      "options": [
+        {
+          "label": "Just a few hours if kept cool and covered",
+          "successMsg": "Correct. Without fermentation, fruit juice turns fast.",
+          "next": "final"
+        },
+        {
+          "label": "Until tomorrow morning if it’s cold at night",
+          "failMsg": "Overnight, even cold, it may ferment."
+        },
+        {
+          "label": "Most of the day if kept in the shade",
+          "failMsg": "A few hours at most, even in shade."
+        },
+        {
+          "label": "As long as it smells fine, it’s good",
+          "failMsg": "Smell can be misleading once fermentation starts."
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://i.ibb.co/p6sG0gh4/06db052f6356.webp",
+      "text": "Success! You selected non-toxic berries using animal clues, skin tests, and ancient filtration methods. The juice is tart, safe, and hydrating. 🧃🌿",
+      "options": [
+        {
+          "label": "Start over",
+          "successMsg": "You can try again whenever you want.",
           "next": "intro"
         }
       ]
