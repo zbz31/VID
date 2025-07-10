@@ -207,8 +207,8 @@
       ]
     }
   },
-  "483: Mirror": {
-    "order": 483,
+  "7: Mirror": {
+    "order": 7,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -405,8 +405,8 @@
       ]
     }
   },
-  "482: Cave Art": {
-    "order": 482,
+  "5: Cave Art": {
+    "order": 5,
     "intro": {
       "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
       "text": "You've found a good surface for painting on stone and want to decorate it with natural pigments. <br><br>To achieve vibrant, long-lasting colors, you need to source and prepare the materials well. <br><br>Can you create a drawing that will stand the test of time?",
@@ -613,8 +613,8 @@
       ]
     }
   },
-  "481: Ceramic Pot": {
-    "order": 481,
+  "6: Ceramic Pot": {
+    "order": 6,
     "intro": {
       "bg": "https://i.ibb.co/mVyZjVhG/525f94a68e4d.webp",
       "text": "If you master ceramics, you will be able to create pots and containers ideal for storing water and other objects.<br><br>Now that you know how to control fire, it's time to build a kiln.<br><br>With the clay you have obtained for modeling, you can begin to make your own pot.",
