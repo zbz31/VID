@@ -207,8 +207,8 @@
       ]
     }
   },
-  "483: Espejo": {
-    "order": 483,
+  "7: Espejo": {
+    "order": 7,
     "intro": {
       "bg": "https://cdn.midjourney.com/video/314fd939-655d-4725-a477-8bbe31481bc0/3.mp4",
       "frame": "https://i.postimg.cc/4dkNy0nT/videoframe-5208.png",
@@ -405,8 +405,8 @@
       ]
     }
   },
-  "482: Pinturas": {
-    "order": 482,
+  "5: Pinturas": {
+    "order": 5,
     "intro": {
       "bg": "https://cdn.midjourney.com/aa0a823e-cc18-4f38-8533-ef6e20d07391/0_3.png",
       "text": "Has encontrado un buen soporte para pintar en piedra y quieres decorarlo con pigmentos naturales.<br><br>\n  Para lograr colores vistosos y duraderos, necesitas buscar y preparar bien los materiales.<br><br>\n  ¿Podrás crear un dibujo que resista el paso del tiempo?",
@@ -613,8 +613,8 @@
       ]
     }
   },
-  "481: Vasija": {
-    "order": 481,
+  "6: Vasija": {
+    "order": 6,
     "intro": {
       "bg": "https://i.ibb.co/mVyZjVhG/525f94a68e4d.webp",
       "text": "Si dominas la cerámica, podrás crear vasijas y recipientes ideales para almacenar agua y otros objetos.<br><br>Ahora que ya sabes controlar el fuego, es momento de construir un horno.<br><br>Con la arcilla que has conseguido para modelar, podrás empezar a fabricar tu propia vasija.",
