@@ -821,7 +821,7 @@
   "4: Jabón": {
     "order": 4,
     "intro": {
-      "bg": "https://i.ibb.co/qMzrDYmc/9785fb2f83d9.webp",
+      "bg": "https://cdn.midjourney.com/0f17d4cc-c625-454b-959d-3acad9f725ba/0_0.png",
       "text": "Estás en el campamento. Hay grasa animal de una caza reciente, y ves cenizas de madera quemada.<br><br>¿Podrás fabricar jabón como tus antepasados, para limpiar pieles y herramientas?<br><br>Usa tu conocimiento y elige bien para crear un jabón natural útil.",
       "options": [
         {
@@ -832,7 +832,7 @@
       ]
     },
     "e1": {
-      "bg": "https://i.ibb.co/PGPDgMMn/a7080d36c058.webp",
+      "bg": "https://cdn.midjourney.com/98a8f519-c450-46c0-85fc-b99b484277da/0_2.png",
       "text": "1. ¿Qué necesitas para hacer lejía?",
       "options": [
         {
@@ -851,7 +851,7 @@
       ]
     },
     "e2": {
-      "bg": "https://i.ibb.co/JwsLwRxy/abc2d9fbd21b.webp",
+      "bg": "https://cdn.midjourney.com/0002134d-6f81-4298-adab-f43052e2fa4e/0_3.png",
       "text": "2. ¿Cómo extraes la lejía?",
       "options": [
         {
@@ -874,7 +874,7 @@
       ]
     },
     "e3": {
-      "bg": "https://i.ibb.co/TqmHbj1f/e54e750f2b52.webp",
+      "bg": "https://cdn.midjourney.com/50bbbd5c-f844-46de-af08-a942dc387829/0_3.png",
       "text": "3. Ya tienes lejía. ¿Qué haces ahora?",
       "options": [
         {
@@ -897,7 +897,7 @@
       ]
     },
     "e4": {
-      "bg": "https://i.ibb.co/2YmKB445/10ee19fb52f3.webp",
+      "bg": "https://cdn.midjourney.com/c9018edd-c15e-4ae7-b2c4-05a896971cbf/0_1.png",
       "text": "4. ¿Cómo combinas los ingredientes?",
       "options": [
         {
@@ -920,7 +920,7 @@
       ]
     },
     "e5": {
-      "bg": "https://i.ibb.co/S4Sr0R30/8ee4a8c5346b.webp",
+      "bg": "https://cdn.midjourney.com/75dfa3a1-4103-485f-b9b2-cb65c0fd0e47/0_3.png",
       "text": "5. Se está espesando. ¿Qué haces ahora?",
       "options": [
         {
@@ -939,7 +939,7 @@
       ]
     },
     "e6": {
-      "bg": "https://i.ibb.co/xKyBZCDz/e20c853f9368.webp",
+      "bg": "https://cdn.midjourney.com/1b1a8772-ffa0-4995-bc9c-88edaec5e3ab/0_2.png",
       "text": "6. ¿Cómo lo dejas endurecer?",
       "options": [
         {
@@ -962,7 +962,7 @@
       ]
     },
     "e7": {
-      "bg": "https://i.ibb.co/BH1Jm0Q7/78e9bae9b5c0.webp",
+      "bg": "https://cdn.midjourney.com/30a649a5-ff60-48ff-baba-0ab4a1807d5f/0_3.png",
       "text": "7. Está listo. ¿Cómo lo pruebas?",
       "options": [
         {
@@ -981,7 +981,7 @@
       ]
     },
     "e8": {
-      "bg": "https://i.ibb.co/chmMhBfG/7b803c2d23c0.webp",
+      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_3.png",
       "text": "8. El jabón está formado. ¿Cómo lo secas bien?",
       "options": [
         {
@@ -1004,7 +1004,7 @@
       ]
     },
     "e9": {
-      "bg": "https://i.ibb.co/gF3Ppps7/109783a4a3d4.webp",
+      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_1.png",
       "text": "9. ¿Cómo guardas el jabón para que dure?",
       "options": [
         {
@@ -1027,7 +1027,7 @@
       ]
     },
     "final": {
-      "bg": "https://i.ibb.co/FqkxYxtm/35bffac9bf64.webp",
+      "bg": "https://cdn.midjourney.com/f68fdd23-7979-4f28-9670-33fc98c45240/0_2.png",
       "text": "\"¡Has creado jabón primitivo! Hace espuma, limpia y cuida tus herramientas y tu piel. La civilización empieza con limpieza. 🧼\"",
       "options": [
         {
