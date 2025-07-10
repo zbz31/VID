@@ -821,7 +821,7 @@
   "4: Jabón": {
     "order": 4,
     "intro": {
-      "bg": "https://cdn.midjourney.com/0f17d4cc-c625-454b-959d-3acad9f725ba/0_0.png",
+      "bg": "https://i.ibb.co/qMzrDYmc/9785fb2f83d9.webp",
       "text": "Estás en el campamento. Hay grasa animal de una caza reciente, y ves cenizas de madera quemada.<br><br>¿Podrás fabricar jabón como tus antepasados, para limpiar pieles y herramientas?<br><br>Usa tu conocimiento y elige bien para crear un jabón natural útil.",
       "options": [
         {
@@ -832,7 +832,7 @@
       ]
     },
     "e1": {
-      "bg": "https://cdn.midjourney.com/98a8f519-c450-46c0-85fc-b99b484277da/0_2.png",
+      "bg": "https://i.ibb.co/PGPDgMMn/a7080d36c058.webp",
       "text": "1. ¿Qué necesitas para hacer lejía?",
       "options": [
         {
@@ -851,7 +851,7 @@
       ]
     },
     "e2": {
-      "bg": "https://cdn.midjourney.com/0002134d-6f81-4298-adab-f43052e2fa4e/0_3.png",
+      "bg": "https://i.ibb.co/JwsLwRxy/abc2d9fbd21b.webp",
       "text": "2. ¿Cómo extraes la lejía?",
       "options": [
         {
@@ -874,7 +874,7 @@
       ]
     },
     "e3": {
-      "bg": "https://cdn.midjourney.com/50bbbd5c-f844-46de-af08-a942dc387829/0_3.png",
+      "bg": "https://i.ibb.co/TqmHbj1f/e54e750f2b52.webp",
       "text": "3. Ya tienes lejía. ¿Qué haces ahora?",
       "options": [
         {
@@ -897,7 +897,7 @@
       ]
     },
     "e4": {
-      "bg": "https://cdn.midjourney.com/c9018edd-c15e-4ae7-b2c4-05a896971cbf/0_1.png",
+      "bg": "https://i.ibb.co/2YmKB445/10ee19fb52f3.webp",
       "text": "4. ¿Cómo combinas los ingredientes?",
       "options": [
         {
@@ -920,7 +920,7 @@
       ]
     },
     "e5": {
-      "bg": "https://cdn.midjourney.com/75dfa3a1-4103-485f-b9b2-cb65c0fd0e47/0_3.png",
+      "bg": "https://i.ibb.co/S4Sr0R30/8ee4a8c5346b.webp",
       "text": "5. Se está espesando. ¿Qué haces ahora?",
       "options": [
         {
@@ -939,7 +939,7 @@
       ]
     },
     "e6": {
-      "bg": "https://cdn.midjourney.com/1b1a8772-ffa0-4995-bc9c-88edaec5e3ab/0_2.png",
+      "bg": "https://i.ibb.co/xKyBZCDz/e20c853f9368.webp",
       "text": "6. ¿Cómo lo dejas endurecer?",
       "options": [
         {
@@ -962,7 +962,7 @@
       ]
     },
     "e7": {
-      "bg": "https://cdn.midjourney.com/30a649a5-ff60-48ff-baba-0ab4a1807d5f/0_3.png",
+      "bg": "https://i.ibb.co/BH1Jm0Q7/78e9bae9b5c0.webp",
       "text": "7. Está listo. ¿Cómo lo pruebas?",
       "options": [
         {
@@ -981,7 +981,7 @@
       ]
     },
     "e8": {
-      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_3.png",
+      "bg": "https://i.ibb.co/chmMhBfG/7b803c2d23c0.webp",
       "text": "8. El jabón está formado. ¿Cómo lo secas bien?",
       "options": [
         {
@@ -1004,7 +1004,7 @@
       ]
     },
     "e9": {
-      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_1.png",
+      "bg": "https://i.ibb.co/gF3Ppps7/109783a4a3d4.webp",
       "text": "9. ¿Cómo guardas el jabón para que dure?",
       "options": [
         {
@@ -1027,7 +1027,7 @@
       ]
     },
     "final": {
-      "bg": "https://cdn.midjourney.com/f68fdd23-7979-4f28-9670-33fc98c45240/0_2.png",
+      "bg": "https://i.ibb.co/FqkxYxtm/35bffac9bf64.webp",
       "text": "\"¡Has creado jabón primitivo! Hace espuma, limpia y cuida tus herramientas y tu piel. La civilización empieza con limpieza. 🧼\"",
       "options": [
         {
@@ -1489,6 +1489,226 @@
         {
           "label": "Reintentar",
           "successMsg": "Puedes volver a intentarlo cuando quieras.",
+          "next": "intro"
+        }
+      ]
+    }
+  },
+  "2: Jabón2": {
+    "order": 2,
+    "intro": {
+      "bg": "https://cdn.midjourney.com/0f17d4cc-c625-454b-959d-3acad9f725ba/0_0.png",
+      "text": "Estás en el campamento. Hay grasa animal de una caza reciente, y ves cenizas de madera quemada.<br><br>¿Podrás fabricar jabón como tus antepasados, para limpiar pieles y herramientas?<br><br>Usa tu conocimiento y elige bien para crear un jabón natural útil.",
+      "options": [
+        {
+          "label": "Empezar",
+          "successMsg": "Reúnes los ingredientes y te preparas para tu alquimia primitiva.",
+          "next": "e1"
+        }
+      ]
+    },
+    "e1": {
+      "bg": "https://cdn.midjourney.com/98a8f519-c450-46c0-85fc-b99b484277da/0_2.png",
+      "text": "1. ¿Qué necesitas para hacer lejía?",
+      "options": [
+        {
+          "label": "Quemar madera y recoger  ceniza blanca",
+          "successMsg": "La ceniza de madera dura contiene potasio. Es la base de la lejía.",
+          "next": "e2"
+        },
+        {
+          "label": "Hervir hierba hasta que se ennegrezca",
+          "failMsg": "La hierba no genera lejía. No hay alcalinidad."
+        },
+        {
+          "label": "Triturar piedra caliza",
+          "failMsg": "La caliza no se disuelve. No sirve para jabón."
+        }
+      ]
+    },
+    "e2": {
+      "bg": "https://cdn.midjourney.com/0002134d-6f81-4298-adab-f43052e2fa4e/0_3.png",
+      "text": "2. ¿Cómo extraes la lejía?",
+      "options": [
+        {
+          "label": "Echas agua caliente sobre las cenizas y la dejas gotear lentamente",
+          "successMsg": "La percolación lenta genera un líquido alcalino fuerte",
+          "next": "e3"
+        },
+        {
+          "label": "Mezclas ceniza con grasa y calientas todo",
+          "failMsg": "Calentar la grasa con ceniza arruina ambos"
+        },
+        {
+          "label": "Secas la ceniza y la guardas",
+          "failMsg": "Ceniza seca no sirve sola"
+        },
+        {
+          "label": "La filtras con arena y musgo",
+          "failMsg": "La arena no extrae alcalinidad"
+        }
+      ]
+    },
+    "e3": {
+      "bg": "https://cdn.midjourney.com/50bbbd5c-f844-46de-af08-a942dc387829/0_3.png",
+      "text": "3. Ya tienes lejía. ¿Qué haces ahora?",
+      "options": [
+        {
+          "label": "Calientas la grasa animal hasta que se derrita por completo",
+          "successMsg": "La grasa fundida permite la saponificación",
+          "next": "e4"
+        },
+        {
+          "label": "Añades agua a la grasa y revuelves fuerte",
+          "failMsg": "Trozos fríos no se mezclan"
+        },
+        {
+          "label": "Cortas la grasa en trozos y la mezclas en frío",
+          "failMsg": "El agua diluye demasiado pronto"
+        },
+        {
+          "label": "Mezclas la lejía con bayas trituradas",
+          "failMsg": "Las bayas pueden colorear, pero no hay jabón"
+        }
+      ]
+    },
+    "e4": {
+      "bg": "https://cdn.midjourney.com/c9018edd-c15e-4ae7-b2c4-05a896971cbf/0_1.png",
+      "text": "4. ¿Cómo combinas los ingredientes?",
+      "options": [
+        {
+          "label": "Agregas la lejía poco a poco mientras revuelves la grasa caliente",
+          "successMsg": "Añadir poco a poco controla la reacción",
+          "next": "e5"
+        },
+        {
+          "label": "Viertes toda la lejía de golpe y tapas",
+          "failMsg": "Echar todo de golpe rompe la mezcla"
+        },
+        {
+          "label": "Mezclas todo en frío en un cuenco de madera",
+          "failMsg": "Sin calor no hay reacción"
+        },
+        {
+          "label": "Los dejas reposar sin mover",
+          "failMsg": "Reposar sin mezclar no sirve"
+        }
+      ]
+    },
+    "e5": {
+      "bg": "https://cdn.midjourney.com/75dfa3a1-4103-485f-b9b2-cb65c0fd0e47/0_3.png",
+      "text": "5. Se está espesando. ¿Qué haces ahora?",
+      "options": [
+        {
+          "label": "Sigues removiendo hasta que espese como miel",
+          "successMsg": "Remover mantiene todo homogéneo",
+          "next": "e6"
+        },
+        {
+          "label": "Lo enfrías rápidamente con agua del río",
+          "failMsg": "Enfriar corta el proceso"
+        },
+        {
+          "label": "Añades arena para que endurezca",
+          "failMsg": "La arena lo deja áspero"
+        }
+      ]
+    },
+    "e6": {
+      "bg": "https://cdn.midjourney.com/1b1a8772-ffa0-4995-bc9c-88edaec5e3ab/0_2.png",
+      "text": "6. ¿Cómo lo dejas endurecer?",
+      "options": [
+        {
+          "label": "Lo viertes en moldes de corteza o piedra",
+          "successMsg": "Moldes naturales lo dejan endurecer bien",
+          "next": "e7"
+        },
+        {
+          "label": "Lo dejas secar en el cuenco",
+          "failMsg": "Se pega y se rompe"
+        },
+        {
+          "label": "Lo congelas durante la noche",
+          "failMsg": "Congelar arruina el jabón"
+        },
+        {
+          "label": "Lo envuelves fuertemente en hojas",
+          "failMsg": "Las hojas lo mantienen húmedo"
+        }
+      ]
+    },
+    "e7": {
+      "bg": "https://cdn.midjourney.com/30a649a5-ff60-48ff-baba-0ab4a1807d5f/0_3.png",
+      "text": "7. Está listo. ¿Cómo lo pruebas?",
+      "options": [
+        {
+          "label": "Frotas un pedazo con agua en la mano",
+          "successMsg": "Si hace espuma suave, ¡funciona!",
+          "next": "e8"
+        },
+        {
+          "label": "Lo pruebas con la lengua para ver si amarga",
+          "failMsg": "¡Probar lejía es peligroso!"
+        },
+        {
+          "label": "Lo dejas caer en agua para ver si flota",
+          "failMsg": "Que flote no significa nada"
+        }
+      ]
+    },
+    "e8": {
+      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_3.png",
+      "text": "8. El jabón está formado. ¿Cómo lo secas bien?",
+      "options": [
+        {
+          "label": "Lo dejas en un sitio seco y ventilado, sin sol directo",
+          "successMsg": "Secado lento a la sombra mantiene la calidad",
+          "next": "e9"
+        },
+        {
+          "label": "Lo expones al sol fuerte para que se endurezca rápido",
+          "failMsg": "El sol lo agrieta y lo daña"
+        },
+        {
+          "label": "Lo guardas de inmediato en un recipiente cerrado",
+          "failMsg": "La humedad se encierra y genera moho"
+        },
+        {
+          "label": "Lo colocas cerca del fuego",
+          "failMsg": "El fuego derrite los bordes"
+        }
+      ]
+    },
+    "e9": {
+      "bg": "https://cdn.midjourney.com/50df989d-ab2a-4252-adc6-0c714d491215/0_1.png",
+      "text": "9. ¿Cómo guardas el jabón para que dure?",
+      "options": [
+        {
+          "label": "Lo envuelves en hojas secas y lo colocas en alto",
+          "successMsg": "Alto y seco evita humedad y bichos",
+          "next": "final"
+        },
+        {
+          "label": "Lo entierras en tierra húmeda",
+          "failMsg": "La tierra lo reblandece"
+        },
+        {
+          "label": "Lo metes en una bolsa de piel cerca del río",
+          "failMsg": "La humedad lo disuelve con el tiempo"
+        },
+        {
+          "label": "Lo dejas en un cuenco abierto en el refugio",
+          "failMsg": "El aire libre atrae insectos y polvo"
+        }
+      ]
+    },
+    "final": {
+      "bg": "https://cdn.midjourney.com/f68fdd23-7979-4f28-9670-33fc98c45240/0_2.png",
+      "text": "\"¡Has creado jabón primitivo! Hace espuma, limpia y cuida tus herramientas y tu piel. La civilización empieza con limpieza. 🧼\"",
+      "options": [
+        {
+          "label": "Volver a empezar",
+          "successMsg": "Puedes intentarlo de nuevo cuando quieras.",
           "next": "intro"
         }
       ]
